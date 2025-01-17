@@ -4,9 +4,9 @@ title: "Lab 0: Tutorial and Skills Review"
 
 Team size: 4
 
-Submission Sheet: Submit your Matlab on-ramp assignment on the E80 Canvas page
+Submission Sheet: Submit your [E72+E80 MATLAB Tutorial](./matlab-startup.qmd) on the E80 Canvas page
 
-Prelab Help Sheet: No prelab required this week
+Pre-lab Help Sheet: No pre-lab required this week
 
 Writing: No writing this week, just the kickoff lecture
 
@@ -28,8 +28,8 @@ By the end of this lab you should have:
 
 Ask your instructor for any guidance including where to find tools. Don't forget to clean up afterwards. 
 
-This lab is a little different than most E80 labs because we want each team member to individially practice most of the skills. 
-In future labs,  it will be **imperative** to get into the habit of distributing work across team members and **working in parallel.** Deciding how to break up that work is a great pre-lab exercise, and you'll be hearing more about prelab soon.
+This lab is a little different than most E80 labs because we want each team member to individually practice most of the skills. 
+In future labs,  it will be **imperative** to get into the habit of distributing work across team members and **working in parallel.** Deciding how to break up that work is a great pre-lab exercise, and you'll be hearing more about pre-lab soon.
 
 Every member of the team should complete the following sections: 
 
@@ -60,7 +60,7 @@ Compose a proverb one word at a time by following these instructions:
 1. Everyone in the team stands in a circle.
 2. Someone begins a proverb by saying one word.
 3. The person next to them continues the proverb with another word.
-4. Keep moving around the cirle until the proverb feels complete.
+4. Keep moving around the circle until the proverb feels complete.
 5. Celebrate the proverb by having everyone in the circle tap their fingers together saying "yesyesyesyes..."
 6. Repeat 1-2 more times.
 
@@ -209,7 +209,7 @@ Failing to follow this may result in accidentally pulling the USB connector off 
 :::
 
 :::{.callout-note}
-You will not have a Teensy for pre-labs, but downloading the necessary software and trying to modify and compile your lab code in the IDE is great Prelab practice.
+You will not have a Teensy for pre-labs, but downloading the necessary software and trying to modify and compile your lab code in the IDE is great pre-lab practice.
 :::
 
 Then try these tutorials if you have time.

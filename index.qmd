@@ -22,20 +22,22 @@ The primary purpose of the course is to teach
 
 Put these crucial lab and project dates on your calendar!
 
-- Friday {{<var dates.kickoff>}}, 1:15PM-3:15PM: Kickoff lecture in {{<var rooms.kickoff>}}
-- Friday {{<var dates.project_kickoff>}}, 1:15PM-3:15PM:  Project kickoff lecture in {{<var rooms.project_kickoff>}}
-- **Saturday** {{<var dates.dana>}}, 6:30AM-5:30PM:   Robot deployment *on Saturday*  at Dana Point. <br> **ALL STUDENTS ARE EXPECTED TO ATTEND THE SATURDAY LAUNCH**
-- Wednesday {{<var dates.present>}}, time TBD:   Project presentations for all groups during presentation days.
+- Kickoff lecture in {{<var rooms.kickoff>}}: Friday {{<var dates.kickoff>}}, 1:15 p.m. - 3:15 p.m.
+- Project kickoff lecture in {{<var rooms.project_kickoff>}}: Friday {{<var dates.project_kickoff>}}, 1:15 p.m. - 3:15 p.m.
+- Robot deployment *on Saturday*  at Dana Point: **Saturday** {{<var dates.dana>}}, 6:30 a.m. - 5:30 p.m
+
+::: {.callout-note title="Dana Point Launch Attendance"}
+**ALL STUDENTS ARE EXPECTED TO ATTEND THE SATURDAY LAUNCH**
+:::
+<!-- - Wednesday {{<var dates.present>}}, time TBD:   Project presentations for all groups during presentation days. -->
 
 
 ## Faculty and Office Hours
 | Name                | Day                    | Hours                                          | Location                     |
 |---------------------|------------------------|------------------------------------------------|------------------------------|
-| Matthew Spencer     | Monday                 | 9:30 am to 11:00 am and<br>1:00 pm to 4:00 pm  | Parsons 2358                 |
-| Ethan Ritz          | Monday/Wednesday       | 4:00 pm to 5:00 pm                             | Middle tent in Strauss plaza |
-| Qimin Yang          | Tuesday                | 9:00 am to 11:00 am                            | Parsons 2365  		           |
-| Josh Brake          | Tuesday                | 1:00 pm to 3:00 pm                             | Tent outside Parsons  		   |
-| Dre Helmns          | Wednesday              | 1:00 pm to 3:00 pm                             | Parsons 1292C  		           |
+| Dre Helmns          | Monday<br>Tuesday	   | 9:00 am to 10:00 am<br>10:00 am to 11:00 am	| 3rd Floor, Sprague 		                   |
+| Josh Brake		  | Monday                 | 9:30 am to 11:00 am and<br>3:00 pm to 4:00 pm  | 3rd Floor, Sprague                          |
+| Qimin Yang          |	Monday<br>Tuesday	   | 2:30 pm to 3:30 pm<br>9:00 am to 10:00 am	    | 3rd Floor, Sprague  		                   |
 
 You may attend any office hours, not just your section professor's.
 
@@ -53,24 +55,23 @@ You may attend any office hours, not just your section professor's.
 
 - Writing and Reflection for all sections - Friday 1:15 p.m. - 3:15 p.m 
   - Section 1 - {{<var rooms.writing1>}}
-  - Section 2 - {{<var rooms.writing1>}}
-  - Section 3 - {{<var rooms.writing1>}}
+  - Section 2 - {{<var rooms.writing2>}}
+  - Section 3 - {{<var rooms.writing3>}}
 
 After spring break: There will be open lab hours in Parsons B171 & B181 during the normally scheduled lab times.
 
 Students may only work in the E80 labs when a professor, staff or a proctor opens the lab.  Any team may use the equipment in the labs during a lab section, but teams that are scheduled for the section have top priority for the equipment. 
 
-## Mask Policy
-Masks will be required for all E80 activities until further notice.
-
 ## Digital Communication
-- [Github]({{<var github-url>}}) This is our Github repository, which lets you use Git to access E80 software. Git is a distributed version control system that allows you to copy source code and track changes to the code. [Lab 0](/labs/lab0) will walk you through the steps to configure Git on your computer.
-- [Discord]({{<var urls.discord_invite>}}) This is an invite to our Discord server.  All digital communication and asynchronous help requests will go through Discord, so default to messaging there instead of emailing us.
-- [Canvas]({{<var urls.canvas_root>}}) This is our Canvas site. We will use Canvas to collect your assignments, receive your quiz responses and record your grades.
+
+- [Github]({{<var github-url>}}): This is our Github repository, which lets you use Git to access E80 software. Git is a distributed version control system that allows you to copy source code and track changes to the code. [Lab 0](/labs/lab0) will walk you through the steps to configure Git on your computer.
+- [Discord]({{<var urls.discord_invite>}}): This is an invite to our Discord server.  All digital communication and asynchronous help requests will go through Discord, so default to messaging there instead of emailing us.
+- [Canvas]({{<var urls.canvas_root>}}): This is our Canvas site. We will use Canvas to collect your assignments, receive your quiz responses and record your grades.
 - All other information for the course is distributed on this website.
 
 
-## Course kit fee
+## Course Kit Fee
+
 - There is a $65 kit fee per student. This fee can be waived in cases of financial hardship. Course instructors will not know about waiver requests.
 - Kit payment can be made [here]({{<var urls.kit_payment_form>}}).
 - Kit waiver request can be made [here]({{<var urls.kit_waiver_request>}}).
@@ -100,13 +101,13 @@ Team assignments can be found on the [People tab on Canvas]({{<var urls.canvas_r
 | Item                                                              | Weight |            | 
 |-------------------------------------------------------------------|:------:|------------| 
 | [Lecture Quizzes](#lecture-quizzes)                               |   7%   | Individual |
-| [Surveys and Team Check-Ins](#surveys-and-team-check-ins)         |   6%   | Individual |
+| [Surveys and Team Check-Ins](#surveys-and-team-check-ins)         |   6.5%   | Individual |
 | [Laboratory Submission Sheets](#laboratory-submission-sheets)     |   32%  | Team       |
 | [Laboratory Writing Assignments](#laboratory-writing-assignments) |   15%  | Individual |
 | [Technical Memorandum](#technical-memorandum)                     |   10%  | Individual |
-| [Final Presentation](#final-presentation)                         |   10%  | Team       |
-| [Final Report](#final-report)                                     |   15%  | Team       |
-| [Participation](#participation)                                   |   5%   | Individual |
+| [Final Poster](#final-poster)                         |   10%  | Team       |
+| [Final Report](#final-report)                                     |   15%  | Individual       |
+| [Participation](#participation)                                   |   4.5%   | Individual |
 :::
 
 ### Turn-In on Canvas
@@ -129,69 +130,88 @@ If the initial version of a submitted assignment does not meet specs, it may be 
 
 #### Lecture Quizzes
 
-- There are seven video lecture sets that you are expected to watch. Each of these video sets has an associated online quiz. You must take each of these quizzes individually.  
+There are seven video lecture sets that you are expected to watch. Each of these video sets has an associated online quiz. You must take each of these quizzes individually.  
 
-- You may not talk to other people in order to take the quiz, but they are open book, notes and internet.  The one exception to the 'no people' rule is that you may speak with a professor to clarify ideas before you open the quiz associated with the lecture set. 
+You may not talk to other people in order to take the quiz, but they are open book, notes and internet.  The one exception to the 'no people' rule is that you may speak with a professor to clarify ideas before you open the quiz associated with the lecture set. 
 
 #### Surveys and Team Check-Ins
 
-- You will be called upon to complete surveys at the beginning, middle and end of the class, and each week, you will be asked to complete a team check-in (a quick peer evaluation) for the lab done that week. Completing each of the check-ins is worth 0.5% of your grade, and completing each of the longer surveys is worth 1% of your grade.
-
-- There are a total of 6 weekly check-ins (from weeks 2 through 7) and they are due each Friday at 3:30 pm.
-
-- These are individual assignments
+You will be called upon to complete surveys at the beginning and end of the class, and each week, you will be asked to complete a team check-in (a quick peer evaluation) for the lab done that week. Completing each of the check-ins is worth 0.375% of your grade, and completing each of the longer surveys is worth 1% of your grade.
+There are a total of 12 weekly check-ins (from weeks 2 - 8 and 10-14) and they are due each Friday at 3:30 pm.
+These are individual assignments
 
 #### Laboratory Submission Sheets
 
-- There are a total of 8 labs in the class: Lab0 through Lab7. You must submit a submission sheet for each of the labs that contains data you collected during the lab. (Though note that in lab0 the Matlab on-ramp deliverable is the submission sheet.) This submission sheet will be evaluated for correctness: it's a way of assessing whether your experimental procedure was correct during the lab. Each submission sheet you provide will be worth 4% of your final grade.
+There are a total of 8 labs in the class: Lab 0 through Lab 7.
+You must submit a submission sheet for each of the labs that contains data you collected during the lab. 
+(Though note that in Lab 0 the Matlab on-ramp deliverable is the submission sheet.)
+This submission sheet will be evaluated for correctness: it's a way of assessing whether your experimental procedure was correct during the lab. 
+Each submission sheet you provide will be worth 4% of your final grade.
 
-- These are group assignments, so there will be only one submission per team.  The Matlab onramp for lab 0 is an exception: it is an individual assignment.
+These are group assignments, so there will be only one submission per team.
+The Matlab onramp for Lab 0 is an exception: it is an individual assignment.
 
 #### Laboratory Writing Assignments
 
-- You will be required to complete a writing assignment after labs 1-5. The purpose of the writing assignments is to train you in specific aspects of scientific writing: making figures, using tables, equations, etc. These assignments are completed entirely on Friday in the Writing and Reflection section. Each writing assignment will be worth 3% of your final grade, and you submit five assignments for a total of 15%.
+You will be required to complete a writing assignment after Labs 1-6.
+The purpose of the writing assignments is to train you in specific aspects of scientific writing: making figures, using tables, equations, etc. 
+These assignments are completed entirely on Friday in the Writing and Reflection section. 
+Each writing assignment will be worth 2.5% of your final grade, and you submit six assignments for a total of 15%.
 
-- These are individual assignments.  The team contract exercise in week 0 is an exception, there should be one team contract submission per team.
+These are individual assignments.
+The team contract exercise in week 0 is an exception, there should be one team contract submission per team.
 
 #### Technical Memorandum
 
-- Each student will write an individual technical memorandum on material covered in Lab 6. See the [Lab 6](labs/lab6) page for more information.  
+Each student will write an individual technical memorandum on material covered in Lab 6. See the [Lab 6](labs/lab6) page for more information.  
 
-- You must submit a tech memo to pass the class.
+::: {.callout-warning}
+You must submit a tech memo to pass the class.
+:::
 
-#### Final Presentation
+#### Final Poster
 
-- Each team will make a final presentation during Presentation Days, on Wednesday, May 1st, 2024. A detailed schedule will be posted ASAP. The presentation is 15-minutes long followed by a 10-minute Q&A session. The Final Presentation guidelines and rubric are found on the [Final Project Report and Presentation page](/labs/project/report).
+Each team will prepare a poster to be presented during the E80 poster session during Presentation days on {{<var dates.present>}}. Guidelines for the poster along with a rubric will be posted later in the semester on the [Final Project Report and Poster page](/project/project/).
 
 #### Final Report
 
-- A final technical report will be submitted by each team on the results of the final AUV deployments. The report will be graded for both technical content and proper use of [technical English](https://www.mit.edu/course/21/21.guide/). A rough draft of your final report is due at 11:59 PM on 4/26/24. The final draft is due at 11:59 PM on 5/1/2024. The Final Report guidelines are found on the Final Project page.
+A final technical report will be submitted by each student on the results of the final AUV deployments.
+The report will be graded for both technical content and proper use of [technical English](https://www.mit.edu/course/21/21.guide/).
+A rough draft of your final report is due at noon on 4/29/25. The final draft is due at 11:59 PM on 5/6/2025.
+The Final Report guidelines are found on the [Final Project Report and Poster page](/project/project/).
 
 #### Participation
 
-- The instructors will assign you a participation grade which is determined by their in-lab observations, your peer evaluations, and your regular progress through the project checkoffs.
+The instructors will assign you a participation grade which is determined by their in-lab observations, your peer evaluations, and your regular progress through the project checkoffs.
 
 ## End-of-Semester Grades
+
 Grades will be awarded on a standard grading scale (93.3% is an A, 90% A-, 86.6% is a B+, etc ...) based on your total individual score.
 The professors reserve the right to award grades more leniently than this grading standard.  
 
 ## Course Calendar
 
-A Google Sheet with the key dates and assignments in E80 can be found [here](https://docs.google.com/spreadsheets/d/1qR7HhVNWtqK8va9gGP6NGhX_NoIblt1x9VRRuFam1ng/edit?usp=sharing).
+A Google Sheet with the key dates and assignments in E80 can be found [here]({{<var urls.course_calendar_gsheet>}}).
 
 You can also review the [Modules tab on Canvas]({{<var urls.canvas_root>}}/modules) for a week-by-week breakdown of what's due with links to reference material and where to turn stuff in.
 
-## Attendance and Tardiness
-Students sometimes have to miss E80 labs for an assortment of reasons.  The instructors don't record attendance because we assume that groups will work to equitably account for absences or tardiness. For example, if your group has a member with a planned absence for a particular lab, then you and your teammates should discuss how to shift more prelab work to the person who will be absent. If you don't feel like everyone is pulling their fair share, talk to your group and talk to an instructor so we can help you navigate the situation.
+## Course Policies
 
-## Late Work Policy
+### Attendance and Tardiness
+
+Students sometimes have to miss E80 labs for an assortment of reasons.  The instructors don't record attendance because we assume that groups will work to equitably account for absences or tardiness. For example, if your group has a member with a planned absence for a particular lab, then you and your teammates should discuss how to shift more pre-lab work to the person who will be absent. If you don't feel like everyone is pulling their fair share, talk to your group and talk to an instructor so we can help you navigate the situation.
+
+### Late Work Policy
+
 No late work is accepted. You will receive no points for work submitted after deadlines. 
 This is in keeping with good professional practice.  Some assignments may allow for multiple attempts and resubmission, but the first attempt always needs to be submitted by the appropriate deadline.
 
-## Incomplete Grade Policy
+### Incomplete Grade Policy
+
 Incomplete grades will be granted only in rare circumstances and require the approval of the instructor.
 
-## Pre- and Post-Lab Work Policy
+### Pre- and Post-Lab Work Policy
+
 The amount of time that you are free to work in lab is restricted. We enforce these restrictions for three main reasons: 
 
 (1) to simulate demands that can arise in real-world engineering, 
@@ -210,23 +230,49 @@ This includes, but is not limited to, writing MATLAB code for processing and vis
 
 When in doubt about whether an activity is acceptable outside of lab, ask.
 
-## Resubmission Policy
+### Resubmission Policy
 
-Lab submission sheets and writing assignments in E80 are able to be resubmitted without penalty if they do not meet completion specs on the initial attempt.
-To be clear, this means that resubmitted assignments are worth the same amount as initial submission and full credit can be earned even if the initial submission does not fully meet the specifications.
+Lab submission sheets and writing assignments in E80 are able to be resubmitted without penalty if they do not meet completion specs on the initial attempt under the limitations described below.
 
-The resubmission policy is subject to the stipulations listed below:
+- Resubmitted assignments are worth the same amount as initial submission and full credit can be earned even if the initial submission does not fully meet the specifications.
+- Up to **two** lab submission sheets may be resubmitted:
+  - One from a full-team lab (Labs 1, 5, or 6) that must be resubmitted by the entire team. The updated grade for this lab will be applied to all the team members.
+  - One from a sub-team lab (Labs 2, 3, or 4) that will be completed as an individual. The updated grade will be applied **only** to the individual who resubmitted it (i.e., not to the other team member).
 
-1.  You must submit **something** by the assignment deadline.
-    - Don't phone this in because there is limited time for resubmission.
-2.  After you receive feedback, you can revise your submissions until spring break.
-    -   Most of specs can be done outside of lab with data.
-    -   However, if you weren't able to get good data, there is one week before spring break where you can go back to collect more.
-3.  Resubmissions are checked off by an instructor during office hours.
+
+::: {.callout-note}
+For example, if Alice, Bob, Charlie, and Donna are team members they may select one lab as a team to resubmit.
+All three will get the updated grade.
+Alice, Bob, Charlie, and Donna may all select whatever sub-team lab they would like to resubmit.
+For the sub-team labs, supposed the team assignments were as follows:
+  - Lab 2: Alice/Bob and Charlie/Donna
+  - Lab 3: Alice/Charlie and Bob/Donna
+  - Lab 4: Alice/Donna and Bob/Charlie.
+
+Each team member may individually select what lab they want to resubmit.
+For example, if they choose the following options then they will each get their grade updated for the labs they chose.
+  - Alice: Lab 2
+  - Bob: Lab 3
+  - Charlie: Lab 4
+  - Donna: Lab 2
+
+Each individual would have their grade updated, but the other team member's grade would remain unchanged.
+For example, if Alice upgraded her Lab 2 to excellence, Bob's Lab 2 submission would remain at the original assessed grade.
+:::
+
+The resubmission policy is also subject to the additional stipulations listed below:
+
+1.  You must submit **something** by the assignment deadline. Don't phone in the initial submissions since the number of assignments you can resubmit is limited.
+2.  All resubmissions must be submitted by spring break.
+    -   Most of specs can be fulfilled outside of lab with data.
+    -   If you weren't able to get good data, there is one week before spring break where you can go back to collect more.
+    -   However, you will be limited to recollecting data for a maximum of one full-team lab and one sub-team lab which you will need to indicate before the resubmit week.
+3.  Resubmissions are checked off by an instructor during resubmit week.
 4.  For all submissions, you will need to self-assess **before** you submit. Every assignment you submit should be accompanied along with a checklist of specs that you believe the assignment meets or does not meet.
 5.  All resubmissions must be completed by spring break.
 
-## Cooperation Between Teams
+### Cooperation Between Teams
+
 Cooperation between teams is limited.
 The rules for each period of the week (pre-lab, during lab, post-lab and writing and reflection) are below.
 In this section, the word group will refer to a full team of students during a normal week or a sub-team of students during weeks where teams are split into sub-teams.
@@ -235,17 +281,19 @@ In this section, the word group will refer to a full team of students during a n
 
 2. During Lab: Groups cannot work together, discuss concepts or understanding, share data, share code, or share writing.  Groups may arrange to swap hardware to debug and test defective parts of an experiment or device, but they should strongly consider elevating their concerns to an instructor if part swaps are necessary or if parts are being destroyed.
 
-3. Post-Lab: Groups may work with other groups in the same way as the prelab: they may discuss concepts and understanding (including talking about the scale of measured results from lab).
+3. Post-Lab: Groups may work with other groups in the same way as the pre-lab: they may discuss concepts and understanding (including talking about the scale of measured results from lab).
 
 4. Writing and Reflection: Each student should be producing an individual work product and may not exchange code or writing with other students.  Data may be shared among a group, but not between groups. 
 
-These work restrictions are relaxed during the final project (after spring break): Groups may work on their robot at any time and may discuss any aspect of their robots with one another (as if the prelab policy always applies).  
+These work restrictions are relaxed during the final project (after spring break): Groups may work on their robot at any time and may discuss any aspect of their robots with one another (as if the pre-lab policy always applies).  
 
-## Sharing Rubrics
+### Sharing Rubrics
+
 We will be returning/releasing graded lab report rubrics throughout the semester.
 It is an HONOR CODE VIOLATION to share these rubrics with other teams or with students enrolled in future versions of E80.
 
-## Access to Lab During the Final Project
+### Access to Lab During the Final Project
+
 - Students may work in the labs any time that it is open.
 - Students may only work in the E80 lab when a professor, staff member or proctor opens the lab.
 - Any team may use the equipment in the E80 and electronics labs during a lab section, but teams which are scheduled for a section have top priority for the equipment. 

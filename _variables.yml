@@ -4,25 +4,27 @@
 # 3. Update the table of office hours in web/index.qmd
 # 4. Verify that the table in the web/labs/overview/index.qmd has correct Friday info
 
-github-url: https://github.com/HMC-E80/E80-SP2024
+github-url: https://github.com/HMC-E80/E80
 
 dates:
-  kickoff: 2024-01-19
-  project_kickoff: 2024-02-23
-  phake1: 2024-04-09
-  phake2: 2024-04-10
-  phake3: 2024-04-11
-  dana: 2024-04-20
-  present: 2024-05-01
+  kickoff: 2025-01-24
+  project_kickoff: 2025-02-28
+  phake1: 2025-04-15
+  phake2: 2025-04-16
+  phake3: 2025-04-17
+  dana: 2025-04-26
+  present: 2025-05-07
+  final_draft: 2025-05-02
+  final_final: 2025-05-06
 
 people:
   purchasing: Prof. Brake
   dana_point_food: Lynn Kim
   section1: Prof. Helmns
   section2: Prof. Yang
-  section3: Prof. Ritz
-  dev1: Prof. Spencer
-  dev2: Prof. Brake
+  section3: Prof. Helmns
+  dev1: Prof. Brake
+  dev2: 
 
 rooms:
   kickoff: Shan 1430
@@ -32,9 +34,9 @@ rooms:
   writing3: Shan 2454
 
 urls:
-  final_presentation_schedule: https://docs.google.com/document/d/1ltmOAPcsXo1oMD4QBFbGct2N6RvV70-YT7UooeG7Ylw/edit
-  canvas_root: https://harveymuddcollege.instructure.com/courses/1097
-  discord_invite: https://discord.gg/Eu7gFZKgcj
-  kit_payment_form: https://docs.google.com/forms/d/e/1FAIpQLSfLGyW_zk6jB89jHjIme0mkHV_LVAtXeJSDNIf7njMEDN1t1w/viewform
-  kit_waiver_request: https://docs.google.com/forms/d/e/1FAIpQLScM-5lYfwQAE_5v6WAz357C1cftwr4sNQRPj4dC_GaPD-ihvw/viewform
-
+  final_presentation_schedule: 
+  canvas_root: https://harveymuddcollege.instructure.com/courses/2237
+  discord_invite: https://discord.gg/aUAEvN4zaD
+  kit_payment_form: https://docs.google.com/forms/d/e/1FAIpQLSfvv5hv1MgA3dtqpN5Jcj_RVcCJeqGzUUsM7q-XdCrRbWUUPA/viewform
+  kit_waiver_request: https://docs.google.com/forms/d/e/1FAIpQLSeUrlL34Co46oOuCqvBE8raIYIUWgpKgcfq5IsncQM-i7hOzA/viewform
+  course_calendar_gsheet: https://docs.google.com/spreadsheets/d/1Bb88_hHcKQATjJjF_wOn32IOzpAc4KP7kxuLZwmDm-M/edit?usp=drive_link 
