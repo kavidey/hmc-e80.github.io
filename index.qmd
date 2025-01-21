@@ -175,10 +175,10 @@ Each team will prepare a poster to be presented during the E80 poster session du
 
 #### Final Report
 
-A final technical report will be submitted by each student on the results of the final AUV deployments.
+A final technical report detailing the results of the final AUV deployment will be submitted by each individual student.
 The report will be graded for both technical content and proper use of [technical English](https://www.mit.edu/course/21/21.guide/).
-A rough draft of your final report is due at noon on 4/29/25. The final draft is due at 11:59 PM on 5/6/2025.
-The Final Report guidelines are found on the [Final Project Report and Poster page](/project/project/).
+A rough draft of your final report is due at 11:59 PM on {{<var dates.final_draft>}}. The final draft is due at 11:59 PM on {{<var dates.final_final>}}. 
+The Final Report guidelines are found on the Final Project page.
 
 #### Participation
 

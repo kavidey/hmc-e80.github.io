@@ -40,6 +40,7 @@ Every member of the team should complete the following sections:
 - Arduino Practice
 - SD Card Reading
 - MATLAB Access
+- Binary File Reading
 - MATLAB On-ramp
 
 The remaining sections can be broken into parallel tasks
@@ -111,8 +112,8 @@ Modified E79 ROV for use in E80.
 
 ## Battery
 
-Your AUV will need power, and we provide that with a battery pack. The battery pack used in E80 is a 3000 mAh to 3500 mAh, 30 C, 11.1 V LiPo battery pack. 
-To charge the batteries, we will use a [HiTec x1 Mini charger](https://hitecrcd.com//images/products/pdf/419_X1mini_Manual_BAS-V2-Web.pdf) or a [UP60AC multi charger](http://www.hrpdealer.com/pdf/manuals/UPTUP60AC%20Manual.pdf). Here are some helpful [images](https://drive.google.com/open?id=1K1DSOdeqAjU_JU-sTOdiBUnwMmpwUTPP) showing a correct charging setup. 
+Your AUV will need power, and we provide that with a battery pack. The battery pack used in E80 is a 3000 mAh to 3500 mAh, 40 C, 11.1 V LiPo battery pack. 
+To charge the batteries, we will use a [HiTec x1 Mini charger](https://drive.google.com/file/d/1q7Cchnw4c7wzFiuOYf5PHiICkSoq8qX5/view?usp=drive_link) or a [UP60AC multi charger](https://drive.google.com/file/d/1T9ghDlmI2UUg3yBbOCQxVdA6DsFghrLr/view?usp=drive_link). Here are some helpful [images](https://drive.google.com/open?id=1K1DSOdeqAjU_JU-sTOdiBUnwMmpwUTPP) showing a correct charging setup. 
 
 1. Read the manual on how to use the chargers. 
 2. Determine how many cells are in the battery pack, and the maximum, minimum and nominal voltage outputs of these battery packs. 
@@ -190,7 +191,7 @@ After completing these instructions you should have a folder on your computer wi
 
 Once you have the Arduino IDE installed, Github Desktop set up, and pins soldered on your Teensy, share the Teensy among your teammates to run through a few more Arduino tutorials:
 
-Test your connection to the Teensy by compiling and uploading the RGB LED example in the Arduino IDE.  Then ensure you can compile and uplaod the E80 code.
+Test your connection to the Teensy by compiling and uploading the RGB LED example in the Arduino IDE.  Then ensure you can compile and upload the E80 code.
 
 1. Plug your Teensy into your laptop
 2. Open the RGB LED example by navigating to `File -> Examples -> 0.1 Basics -> Blink`. 
@@ -214,7 +215,7 @@ You will not have a Teensy for pre-labs, but downloading the necessary software 
 
 Then try these tutorials if you have time.
 
-1. [Blinking lights on the Arduino board](https://www.pjrc.com/teensy/tutorial.html):  
+1. [Blinking lights on the Arduino board](https://www.pjrc.com/teensy/tutorial.html)
 2. [Hooking up an external LED](https://www.pjrc.com/teensy/tutorial2.html) 
 
 ## SD Card Reading
@@ -234,6 +235,43 @@ Then, do the following to install MATLAB on your computer:
 
 It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com), but we discourage doing so in this course.
 
+## Binary File Reading
+
+In future labs, you will use MATLAB to read binary data saved on an SD card by the Teensy.
+The data is stored in two separate files:
+
+1. An `inf` file (`.txt` extension) which lists the variable names and types
+2. A `log` file (`.bin` extension) which contains the raw binary data. 
+
+::: {.callout-warning}
+Both the `inf` and `log` files are needed to import your data.
+:::
+
+Here is an example of the two files that would be found on an SD card after a run:
+
+- [inf004.txt](./assets/INF004.TXT)
+- [log004.bin](./assets/LOG004.BIN)
+
+Use the provided MATLAB script, [logreader.m]({{< var github-url >}}/blob/main/MATLAB/logreader.m) (found under the `MATLAB` directory of the E80 repo you should have cloned), to read the data from the sample files.
+
+::: {.callout-note}
+The best practice is to use the file that is in the Git repository that you cloned instead of using another downloaded copy.
+This way, if we update the file in the future you can easily pull down the newest version and see the changes you've made compared to the original file.
+:::
+
+
+1. Open `logreader.m` with MATLAB
+2. Move both files into your Current Folder (see @fig-current-folder for a screenshot).
+3. Change the `filenum` variable to match the number of the files. For the sample files, this would be `004`.
+4. Plot one of the variables to check that data was read correctly (e.g., `plot(accelX)`)
+
+::: {#fig-current-folder}
+![](img/matlab_lab0.png)
+
+Screenshot showing how to place files in Matlab current folder.
+:::
+
 ## MATLAB On-ramp
 
 If you have extra time during Lab 0 you may work on the MATLAB on-ramp tutorial.  You can find the assignment [here](./matlab-startup.qmd).
+

@@ -1,7 +1,14 @@
 ---
 title: E72+E80 MATLAB Tutorial
 format:
-  html: default
+  html:
+    other-links:
+    - text: Matlab Plotting Tutorial
+      href: https://vimeo.com/57954461
+      icon: play-btn
+    - text: Matlab Debugging Tutorial
+      href: https://vimeo.com/501103844
+      icon: play-btn
 ---
 
 Welcome to the E72+E80 MATLAB Tutorial! 
@@ -60,13 +67,15 @@ Once you've finished the modules in the list above, take a screenshot of the Cou
 
 ### 3. MATLAB Plotting Video {#matlab-plotting-video}
 
-Watch this 17-minute video [https://vimeo.com/57954461](https://vimeo.com/57954461){target="_blank"} to learn how to create various 2-D and 3-D graphs in MATLAB.
+Watch [this 17-minute video](https://vimeo.com/57954461){target="_blank"} to learn how to create various 2-D and 3-D graphs in MATLAB.
 
-We strongly recommend that you don't watch the videos passively. Instead, pause frequently while watching the video so that you can try things out on your own in MATLAB.
+We strongly recommend that you don't watch the videos passively.
+Instead, pause frequently while watching the video so that you can try things out on your own in MATLAB.
 
 ### 4. MATLAB Debugging Tips
 
-Watch this 17-minute video [https://vimeo.com/501103844](https://vimeo.com/501103844){target="_blank"} to learn how to find and fix errors in your MATLAB code. This skill will *greatly* aid you in all classes that require the use of MATLAB.
+Watch [this second 17-minute video](https://vimeo.com/501103844){target="_blank"} to learn how to find and fix errors in your MATLAB code.
+This skill will *greatly* aid you in all classes that require the use of MATLAB.
 
 If you want to try using the debugger yourself with this piece of code, download [debugpractice.m](https://github.com/HMC-E80/E80/tree/main/MATLAB/debugpractice.m).
 
