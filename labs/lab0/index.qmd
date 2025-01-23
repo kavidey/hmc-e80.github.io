@@ -105,7 +105,7 @@ Modified E79 ROV for use in E80.
 :::
 
 1. Obtain two additional 6.5'' PVC pieces to replace the 4.5'' ones. 
-2. Drill the mounting holes for your vertical motor. You will be mounting your AUV's motors in the same manner as the three motor assembly in [Practicum 1A Section 4.7](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a).
+2. Drill the mounting holes for your vertical motor. You will be mounting your AUV's motors in the same manner as the three motor assembly in [Practicum 1A Section 4.7](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a). Take into account the 2'' difference in length when positioning holes.
 3. Construct at least one additional motor from scratch. Reference [Practicum 1A Section 4.2](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a) for assembly instructions.  Each team will be provided with 2 used motors, but needs to make a third, and may make more to have backups.
 4. Test that all three of your motors pull less than 500 mA. To do this, supply 6 V to the motor using a power supply.
 5. Mount the motors on the new frame.
@@ -157,8 +157,7 @@ You will need to solder printed circuit boards and wire connections in E80, so i
 
 1. Review a helpful video on how to solder, found [here](https://www.youtube.com/watch?v=Qps9woUGkvI){target="_blank"}.
 2. Find a practice solder board and solder a few joints.
-3. One team member should check out a Teensy from an instructor. Note that **Teensys are in limited supply**, so practice soldering before checking this out.
-4. One team member should solder header pins to the Teensy.  Use the reference images below as a guide, and make sure your pins are oriented as indicated in the references before you solder. 
+3. One team member should solder header pins to the Teensy. **Teensys are in limited supply**, so practice soldering. Use the reference images below as a guide, and make sure your pins are oriented as indicated in the references before you solder. 
 
 Remember to: 
 
@@ -218,9 +217,6 @@ Then try these tutorials if you have time.
 1. [Blinking lights on the Arduino board](https://www.pjrc.com/teensy/tutorial.html)
 2. [Hooking up an external LED](https://www.pjrc.com/teensy/tutorial2.html) 
 
-## SD Card Reading
-
-Find a micro-SD card.  Make sure your computer can read it.
 
 ## MATLAB Access
 
