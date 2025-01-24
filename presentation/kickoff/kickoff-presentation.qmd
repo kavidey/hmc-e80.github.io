@@ -3,25 +3,15 @@ title: E80 Kickoff Presentation
 format:
   revealjs:
     slide-number: true
+    theme: [slides.scss]
+filters: 
+  - timer
 ---
 
-## Teaching Team
+## What is experimental engineering?
 
-::: {layout="[[1,1,1,1], [1,1,1]]"}
-![Prof. Josh Brake](images/brake.png){fig-align="left" width="150px"}
-
-![Prof. Dre Helmns](images/helmns.png){fig-align="left" width="150px"}
-
-![Prof. Ethan Ritz](images/ritz.png){fig-align="left" width="150px"}
-
-![Prof. Matt Spencer](images/spencer.png){fig-align="left" width="150px"}
-
-![Prof. Qimin Yang](images/yang.png){fig-align="left" width="150px"}
-
-![Lynn Kim](images/kim.png){fig-align="left" width="150px"}
-
-![Xavier Walter](images/walter.png){fig-align="left" width="150px"}
-:::
+- Turn to the person next to you and discuss for 60 seconds.
+- Come up with a word or phrase to share out that describes an aspect of what you think engineering is.
 
 ## E80 is about forming your engineering identity and learning how to do experiments {.smaller}
 
@@ -70,26 +60,35 @@ Growth requires **good stress** and **progressive overload**.
 :::
 :::
 
-## Course Overview {.smaller}
+## Teaching Team
+
+::: {layout="[[1,1,1], [1,1]]"}
+
+
+![Prof. Josh Brake](images/brake.png){text-align=" width="150px"}
+
+![Prof. Dre Helmns](images/helmns.png){width="150px"}
+
+![Prof. Qimin Yang](images/yang.png){width="150px"}
+
+![Lynn Kim](images/kim.png){width="150px"}
+
+![Xavier Walter](images/walter.png){width="150px"}
+:::
+
+## Course Overview
 
 Key places for course information:
 
--   Course website: <https://hmc-e80.github.io/E80/>
--   Discord
--   Canvas
-
-### **Lots of new stuff this year!**
-
--   Shiny new website!
--   Redesigned labs!
--   New writing assignment format!
--   Resubmissions!
+::: {.incremental}
+-   **Course website:** Source of truth for all course-related information. Contains all assignment instructions, templates, submission sheets, etc.
+-   **Discord:** Platform for getting help from the teaching team.
+-   **Canvas:** The place to submit everything.
+:::
 
 ## Course Overview: Labs & Project Phases {.smaller}
 
-E80 has two main phases: lab and project.
-
-### Labs
+#### Labs
 
 ::: fragment
 Each lab has an experiment and a writing component.
@@ -98,7 +97,7 @@ Each lab has an experiment and a writing component.
 -   Writing is done in the Friday Writing & Reflection period.
 :::
 
-### Project
+#### Project
 
 ::: fragment
 The project is the chance for you to design and perform your own experiment using the skills you've developed in the labs.
@@ -114,36 +113,11 @@ You propose an experiment and design a robot with the appropriate sensors to mak
 [Bloom's Taxonomy, Vanderbilt University Center for Teaching](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/).
 :::
 
-::: {.fragment .callout-tip title="Learning Outcome Categorization"}
-Look at the learning outcomes both for the overall E80 course, and Lab 1, and the Lab 1 writing assignment and categorize them using Bloom's Taxonomy.
-:::
-
 ## Learning Outcome Categorization
 
-#### E80 General
-
+::::: {.columns}
+::: {.column}
 ::: {.r-fit-text}
-
-::: columns
-::: column
--   Design instrumentation
--   Gather, interpret, and present data
--   Learn domain-specific skills (e.g., using op-amps and the wind tunnel)
-:::
-
-::: column
--   Deal with failure and learn from it.
--   Professionally present your experiments.
--   Know what good results look like.
--   Work effectively on technical problems as a team under pressure.
-:::
-:::
-:::
-
-## Learning Outcome Categorization
-
-::: {.r-fit-text}
-#### Lab 1
 
 - Modify an E79 robot to build an E80 robot.
 - Program your robot to traverse basic trajectories.
@@ -152,11 +126,21 @@ Look at the learning outcomes both for the overall E80 course, and Lab 1, and th
 - Explain the limitations and challenges of open loop control.
 - Relate your robot's behavior to governing equations from E79.
 
-#### Lab 1 Writing
-
--   Learn how to design a clear figure
--   Understand what information should be in the figure, figure caption, and text referencing the figure.
 :::
+:::
+::: {.column}
+![](images/blooms-taxonomy-crop.png)
+:::
+:::::
+
+::: {.fragment .callout-tip title="Learning Outcome Categorization"}
+Categorize the learning outcomes above using Bloom's Taxonomy.
+Do it individually, then discuss with your neighbor.
+:::
+
+
+
+# Schedule
 
 ## Scheduling & Details {.smaller}
 
@@ -185,18 +169,18 @@ Bring deliverables from lab each week. Write a small section of a technical memo
 #### 4. Weekly Team Check In
 
 ::: fragment
-Fill out a survey to help you assess how your team is doing and if there are any issues developing. [Due Friday at 3:30 pm.]{style="color:red"}
+Fill out a survey to help you assess how your team is doing and if there are any issues developing. [We will give you time to complete this at the beginning of the Writing & Reflection Section on Friday. Due Friday at 3:30 pm.]{style="color:red"}
 :::
 
 ## Weekly Schedule {.smaller font-size="12"}
 
-| Day       | Lecture Quiz              | Submission Sheet     | Write Up     | Weekly Check In Peer Evaluation |
+| Day       | Lecture Quiz              | Submission Sheet     | Write Up     | Weekly Check In |
 |---------------|---------------|---------------|---------------|---------------|
-| Monday    | Quiz Due \@ Noon (Canvas) |                      |              |                                 |
-| Tuesday   |                           | Due \@ 5:15p (E80-1) |              |                                 |
-| Wednesday |                           | Due \@ 5:15p (E80-2) |              |                                 |
-| Thursday  |                           | Due \@ 5:15p (E80-3) |              |                                 |
-| Friday    |                           |                      | Due \@ 3:15p | Due \@ 3:30p                    |
+| Monday    | Noon (Canvas) |                      |              |                                 |
+| Tuesday   |                           | 5:15p (E80-1) |              |                                 |
+| Wednesday |                           | 5:15p (E80-2) |              |                                 |
+| Thursday  |                           | 5:15p (E80-3) |              |                                 |
+| Friday    |                           |                      | 3:15p | 3:30p                    |
 
 ## Scheduling Activity
 
@@ -210,16 +194,39 @@ Every week you need to have the following time carved out.
 | Take Lecture Quiz            | 30 minutes              |
 | Pre-lab Work & Team Meetings | 4.5 hours               |
 
-## Team Administrivia
+## Team Startup
 
-1.  Schedule a time for you to meet as a team of 4 each week.
+::::: {.columns}
+::: {.column width=70%}
+1. Schedule a time for you to meet as a team of 4 each week.
 2.  Create a shared file storage location (e.g., a shared Google Drive folder or Shared Drive).
 3.  Decide how you want to communicate this semester (e.g., email, text thread, Discord, Slack, etc.).
 4.  Block out time for all the activities on the previous slide on your calendar!
+:::
+::: {.column width=30%}
+![Status Tracker Spreadsheet](images/qr-code-to-tracker-spreadsheet.png)
+:::
+:::::
 
-## Specifications: Effort and Completion {.smaller}
 
-The grading in E80 this semester for submission sheets and writing assignments will be based on whether or not your deliverables meet two different levels of specifications: **effort** and **complete**. The overall grade on an assignment will be determined by how many of the sections meet either effort or completion.
+# Important Policies
+
+## Pre-lab vs. Post-lab
+
+E80 has strict limits on what you can and cannot do during pre-lab.
+**Learning how to prepare well in pre-lab is one of the most important aspects for maximizing your learning in E80.**
+
+During the pre-lab period you...
+
+::: {.incremental}
+- [**can**]{style="color:green"}: perform calculations, read datasheets, ask how equipment works, write software, calculate expected results, talk to professors.
+- [**may not**]{style="color:red"}: collect data, test hardware, populate breadboards, use laboratory equipment.
+- When in doubt, ask a professor.
+:::
+
+## Specifications: Effort and Completion
+
+The grading in E80 this semester for submission sheets and writing assignments is based on whether or not your deliverables meet two different levels of specifications: **effort** and **complete**.
 
 ::: fragment
 -   Effort specs describe **good-faith effort**.
@@ -237,22 +244,35 @@ In most situations, completing effort specs is equivalent to a passing grade on 
 
 ![Sample Effort and Completion Specifications](images/sample-specs.png)
 
-## Resubmissions Policy {.smaller}
+## Resubmission Policy {.smaller}
 
 Learning is about iterative feedback.
 
-This year we are introducing some new policies to allow you to revise your work if you don't meet all the specifications for an assignment on the first try.
+We allow you a limited number of opportunities to revise your work if you don't meet all the specifications for an assignment on the first try.
 
 ::: incremental
-1.  You must submit **something** by the deadline.
-    - Don't phone this in because there is limited time for resubmission.
-2.  After you receive feedback, you can revise your submissions until spring break.
-    -   Most of specs can be done outside of lab with data.
-    -   However, if you weren't able to get good data, there is one week before spring break where you can go back to collect more.
-3.  Resubmissions are checked off by an instructor during office hours.
-4.  For all submissions, you will need to self-assess **before** you submit. Every assignment you submit should be accompanied along with a checklist of specs that you believe the assignment meets or does not meet.
-5.  All resubmissions must be completed by spring break.
+- You must submit **something** by the deadline.
+- You can revise and resubmit up to two submission sheets during the week before spring break.
+- Resubmissions are checked off in an in-person meeting with an instructor.
+- For all submissions, you will need to self-assess **before** you submit. Every assignment you submit should be accompanied along with a checklist of specs that you believe the assignment meets or does not meet.
+- All resubmissions must be completed by spring break.
 :::
+
+## Resubmission Policy Continued {.smaller}
+
+The resubmission policy limitations are described in detail on the syllabus.
+**Please read it carefully!**
+
+::: {.incremental}
+
+- Resubmitted assignments are worth full credit (i.e., no penalty for resubmitted work).
+- All writing assignments may be revised and resubmitted during resubmit week.
+- Up to **two** lab submission sheets may be resubmitted:
+  - One from a full-team lab (Labs 1, 5, or 6). It must be resubmitted by the **entire team**. The updated grade for this lab will be applied to all the team members.
+  - One from a sub-team lab (Labs 2, 3, or 4) that will be completed **as an individual**. The updated grade will be applied only to the individual who resubmitted it (i.e., not to the other team member).
+:::
+
+# Team Formation
 
 ## Google Project Aristotle describes the attributes of a high-functioning team
 
@@ -277,12 +297,20 @@ This year we are introducing some new policies to allow you to revise your work 
 
 "I’m giving you these comments because I have very high expectations and I’m confident you can reach them." - advice on feedback from Adam Grant
 
-## Team Contract Activity
+## Team Contract Activity {.smaller}
 
-1.  Go to the website and download the team contract form (found on the lectures page).
+::::: {.columns}
+::: {.column width=70%}
+1.  Go to the course website and download the team contract form (found on the lectures page).
 2.  Discuss with your team and fill out the missing sections.
-3.  When you think you are finished, fill out the checklist of effort and completion specs and put up your green flag.
-4.  After an instructor has come by and given you feedback, make the suggested revisions and submit a PDF of your the team contract and PDF of the completed checklist with any notes to Canvas.
+3.  When you think you are finished, fill out the checklist of effort and completion specs and change your status on the tracker spreadsheet.
+4.  After you get feedback, make the suggested revisions and submit a PDF of your the team contract and PDF of the completed checklist with any notes to Canvas.
+:::
+
+::: {.column width=30%}
+![Status Tracker Spreadsheet](images/qr-code-to-tracker-spreadsheet.png)
+:::
+:::::
 
 ## You are going to build cool stuff!
 
@@ -298,10 +326,51 @@ This year we are introducing some new policies to allow you to revise your work 
 
 Your E80 board has a GPS, IMU, Tiny Computer, 5 amp Motor Driver, and you'll use the full robot in Lab 1.
 
-## 
+# A Launch Day Preview
 
-{{< video https://youtu.be/14uH2u6HeTw width="100%" height="100%" >}}
+##
+::: {.center-x}
+![](images/3CD0A690-5DB8-4839-B11C-142E11C6FE45_1_105_c.jpeg){width=800px}
+:::
+
+##
+
+::: {.center-x}
+![](images/FB14A544-5BEB-4936-ADA4-6DCAB4FDC823_1_105_c.jpeg){width=800px}
+:::
+
+##
+
+::: {.center-x}
+![](images/4A926127-D832-49B0-B7C4-92990D1E2806_1_105_c.jpeg){width=800px}
+:::
+
+##
+
+::: {.center-x}
+![](images/E9A6F7E2-4FFD-4A6B-914E-1A20A96E4367_1_105_c.jpeg){width=800px}
+:::
+
+##
+
+::: {.center-x}
+![](images/20348E39-E531-4E30-928B-AE9EA3AEFF7C_1_105_c.jpeg){width=800px}
+:::
+
+##
+
+::: {.center-x}
+![](images/10B76783-D939-4B11-98E2-F4E71277490F_1_105_c.jpeg){width=800px}
+:::
+## Engineering Department Climate Survey
+
+Open your email and search for an email you received from Prof. Lape on Wednesday 1/22 with the subject line "Engineering Department Climate Survey".
+
+<div style="float: left; margin-top: 0.25em">
+::: {.timer #Timer3 seconds=600 starton=interaction}
+:::
+</div>
 
 ## Snacks
 
-Join us for snacks outside in the tents near Parsons!
+Join us for a social in the Hixon Courtyard by the Koi pond with snacks and mingle with your peers, the E80 teaching team, and some engineering juniors and seniors.
