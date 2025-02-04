@@ -1,5 +1,10 @@
 project:
   type: website
+  preview:
+    port: 4201
+  resources:
+    - "*.pdf"
+
 
 website:
   title: "HMC E80"

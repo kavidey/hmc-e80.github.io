@@ -1,6 +1,24 @@
 ---
 title: 'Lab 2: Basic Electrical Measurements'
 number-sections: true
+format:
+  html:
+    other-links:
+      - href: ./doc/greenlee-multimeter-datasheet.pdf
+        text: Greenlee DM-210A Digital Multimeter
+        icon: file-pdf
+      - href: https://github.com/HMC-E80/E80/blob/main/design_files/motherboard/MTB_Schematic_3.0.2021.pdf
+        text: E80 Motherboard Schematic
+        icon: file-pdf
+      - href: ./doc/33120A-Function_Arbitrary-Waveform Generator.pdf
+        text: Function Generator Datasheet
+        icon: file-pdf
+      - href: ./doc/InfiniiVision-2000-X-Series-Oscilloscopes.pdf
+        text: Oscilloscope Datasheet
+        icon: file-pdf
+      - href: ./doc/IMXRT1060CEC_rev4.pdf
+        text: Teensy 4.0 Electrical Specifications Datasheet
+        icon: file-pdf
 ---
 
 Team size: 2
@@ -113,11 +131,11 @@ A voltage divider
 
 You will be asked to measure the output Voltage with the devices in the "Measure With" column, but some of the devices in the "Measure With" column may be unfamiliar to you.  The devices are described below, and datasheet links are provided for each of them.  To finish this section, you will need to read these datasheets to find the input impedance and the measurement uncertainty of each device.
 
-- "Multimeter" refers to the multimeter chained to your desk. Our multimeters are the [Greenlee DM-210A Digital Multimeter](https://cdn.greenlee.com/resources/media?key=7fe82ac7-208f-4c14-910c-a522a2949b3c&languageCode=en&type=document). Since the $V_{out}$ node will very with time, you should be sure to measure it with your multimeter set to AC mode.  The uncertainty listings for multimeters can use unusual units (e.g.: dgt and rdg), so don't forget about [this document on multimeter specifications](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/) that we also link on the lectures page.
-- "1x scope probe" refers to using a BNC cable with hooks directly connected to an oscilloscope input.  BNC cables don't have datasheets worth reading for this lab because they're just wires, so they have a low series impedance.  However, the oscilloscope itself (an [Agilent 2024A](http://literature.cdn.keysight.com/litweb/pdf/75015-97045.pdf), which has this [datasheet](http://literature.cdn.keysight.com/litweb/pdf/5990-6618EN.pdf)) has an input impedance and accuracy that you will need to look up. You can also create a 1x probe by using an oscilloscope probe with a switch set to 1x mode, and it will behave the same way as a BNC cable.  When you are using a 1x probe, you must change the channel setting of the oscilloscope to be 1x. Note that some scopes call the channel setting 1:1 instead of 1x.
-- "10x scope probe" refers to connecting a standard oscilloscope probe (set to 10x mode if there's a switch) to an oscilloscope input.  The gray scope probes in the lab are [Keysight N2842A](https://assets.testequity.com/te1/Documents/pdf/keysight/N28xxA-ds.pdf) probes, and the black scope probes in 10x mode have a similar input impedance.  Note that the input impedance of a scope probe is added _in series_ with that of the oscilloscope itself, so the datasheet may report a total "terminated impedance" that includes the input impedance of the oscilloscope. When you are using a 10x probe, you must change the channel setting of the oscilloscope to be 10x.  Note that some scopes call the channel setting 10:1 instead of 10x.
-- "Teensy" refers to making an analog measurement with your Teensy. You made similar to the measurements in @sec-teensy-analog.  You made some calculations of the uncertainty of the Teensy, which arises from the size of the Teensy unit, in @sec-teensy-analog, and you can find information about Teensy input impedance in the videos.
-- Though this is not in the "Measure With" column, you will also need to find the output impedance and amplitude uncertainty of your signal generator.  If you are using the scope-integrated WaveGen output, then you can infer the output impedance and find the uncertainty in the oscilloscope manual.  If you are, unusually, using a stand-alone function generators (an [HP33120A](https://www.keysight.com/us/en/assets/7018-06809/data-sheets/5968-0125.pdf)), you can find these values in the datasheet.
+- "Multimeter" refers to the multimeter chained to your desk. Our multimeters are the [Greenlee DM-210A Digital Multimeter](./doc/greenlee-multimeter-datasheet.pdf). Since the $V_{out}$ node will very with time, you should be sure to measure it with your multimeter set to AC mode.  The uncertainty listings for multimeters can use unusual units (e.g.: dgt and rdg), so don't forget about [this document on multimeter specifications](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/) that we also link on the lectures page.
+- "1x scope probe" refers to using a BNC cable with hooks directly connected to an oscilloscope input.  BNC cables don't have datasheets worth reading for this lab because they're just wires, so they have a low series impedance.  However, the oscilloscope itself (an [Agilent 2024A](./doc/InfiniiVision-2000-X-Series-Oscilloscopes.pdf)) has an input impedance and accuracy that you will need to look up. You can also create a 1x probe by using an oscilloscope probe with a switch set to 1x mode, and it will behave the same way as a BNC cable.  When you are using a 1x probe, you must change the channel setting of the oscilloscope to be 1x. Note that some scopes call the channel setting 1:1 instead of 1x.
+- "10x scope probe" refers to connecting a standard oscilloscope probe (set to 10x mode if there's a switch) to an oscilloscope input.  The gray scope probes in the lab are [Keysight N2842A](./doc/oscilloscope-passive-probes-N28xxA-ds.pdf) probes, and the black scope probes in 10x mode have a similar input impedance.  Note that the input impedance of a scope probe is added _in series_ with that of the oscilloscope itself, so the datasheet may report a total "terminated impedance" that includes the input impedance of the oscilloscope. When you are using a 10x probe, you must change the channel setting of the oscilloscope to be 10x.  Note that some scopes call the channel setting 10:1 instead of 10x.
+- "Teensy" refers to making an analog measurement with your Teensy. You made similar to the measurements in @sec-teensy-analog.  You made some calculations of the uncertainty of the Teensy, which arises from the size of the Teensy unit, in @sec-teensy-analog, and you can find information about Teensy input impedance in the videos. This information is also included in Section 4.8.2 of the [datasheet for the microcontroller on the Teensy board](./doc/IMXRT1060CEC_rev4.pdf).
+- Though this is not in the "Measure With" column, you will also need to find the output impedance and amplitude uncertainty of your signal generator.  If you are using the scope-integrated WaveGen output, then you can infer the output impedance and find the uncertainty in the oscilloscope manual.  If you are, unusually, using a stand-alone function generators (an [HP33120A](./doc/33120A-Function_Arbitrary-Waveform%20Generator.pdf)), you can find these values in the datasheet.
 
 Do the following
 
@@ -125,7 +143,7 @@ Do the following
 2. Build several copies of the circuit in @fig-divider, one for each pair of Z1/Z2 values in @tbl-experiment.  These can all be built simultaneously on the same breadboard if you lay it out carefully.  Please trim your resistor leads so that they lie flat on the breadboard.
 3. Measure and record the value of each component used in your construction, then recalculate the output voltages using your measured component values. 
 4. Drive the circuits using a signal generator and measure the output voltage with each of the instruments in the table. 
-6. Check whether or not the measured voltages lie within the predicted confidence intervals. Recall that you have two sets of predicted voltages, one based on nominal component values and one based on measured component values, so there are two sets of confidence intervals to check against.  Also look at the percent error between the predictions and the measurements.
+5. Check whether or not the measured voltages lie within the predicted confidence intervals. Recall that you have two sets of predicted voltages, one based on nominal component values and one based on measured component values, so there are two sets of confidence intervals to check against.  Also look at the percent error between the predictions and the measurements.
 
 :::{.callout-note}
 If you are having difficulty with the 10 M$\Omega$ / 20 M$\Omega$ experiments, try pulling the resistors out of the breadboard and twisting them together in the air.  Leakage currents in the breadboard can cause issues with that measurement.
