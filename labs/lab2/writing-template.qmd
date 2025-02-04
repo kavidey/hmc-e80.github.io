@@ -12,6 +12,7 @@ Name:
 
 ::: {#fig-measurement-schematic}
 ![](./img/voltagedividerwsiggen.png)
+:::
 
 Insert the schematic used to make your measurements here.
 Note that your schematic should include any additional components needed to represent any output impedances of sources or input impedances of measurement devices.
