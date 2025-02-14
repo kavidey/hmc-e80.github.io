@@ -49,19 +49,18 @@ Complete:
 - [ ] Equations are combined into an overall equation relating depth and op-amp output Voltage.
 - [ ] Provides a table of results that matches the form below with at least five data points.  Note the following: 
   - VOP is predicted output Voltage
-  - $\lambda$V is uncertainty in predicted output Voltage
   - VOM is measured output Voltage 
-  - $\lambda$M is uncertainty in measured output Voltage
   - ERR is error between prediction and measurement
 - [ ] A graph of a calibration curve between pressure and depth is provided.  The data points match the points in the table below.  Appropriate regressions and measures of uncertainty are plotted.
-- [ ] Predicted and measured Voltages match to within uncertainty and are consistent with equations.
-- [ ] Predicted and measured Voltage at 0 m depth is close to 0.3 V or 3.0 V.
-- [ ] Predicted and measured Voltage at 40 cm depth is close to 0.3 V or 3.0 V (whichever is farthest from the 0 m measurement)
+- [ ] Predicted and measured Voltages are consistent with equations.
+- [ ] Predicted and measured Voltage at 0 m depth is close to 1.1 V or 2.2 V.
+- [ ] Predicted and measured Voltage at 40 cm depth is close to 1.1 V or 2.2 V (whichever is farthest from the 0 m measurement)
+- [ ] 2-3 sentences on possible sources of uncertainty
 
-| Depth (cm) | VOP (V) | $\lambda$V (V) | VOM (V) | $\lambda$M (V) | ERR (%) | 
-| -----------|---------|----------------|---------|----------------|---------|
-|   0        |         |                |         |                |         |
-|   ...      |         |                |         |                |         |
+| Depth (cm) | VOP (V) | VOM (V) | ERR (%) | 
+| -----------|---------|---------|---------|
+|   0        |         |         |         |
+|   ...      |         |         |         |
 
 {{< pagebreak >}}
 ## Report on the Design and Characterization of a Thermistor Interface Circuit
@@ -75,72 +74,72 @@ Effort:
 Complete:
 
 - [ ] Equation relating op-amp input to op-amp output is correct.
-- [ ] Predicted and measured resistance values are reported with uncertainty for 0 °C and 20 °C temperatures.
-- [ ] Predicted and measured output voltages are reported with uncertainty for 0 °C and 20 °C temperatures.
-- [ ] Predicted Voltages and measured voltages match to within uncertainty and are consistent with equations.
+- [ ] Predicted and measured resistance values are reported for 0 °C and 20 °C temperatures.
+- [ ] Predicted and measured output voltages are reported for 0 °C and 20 °C temperatures.
+- [ ] Predicted Voltages and measured voltages are consistent with equations.
 - [ ] Predicted and measured Voltage at 0 °C is close to 0.3 V or 3.0 V.
 - [ ] Predicted and measured Voltage at 20 °C is close to 0.3V or 3.0 V (whichever is farthest from the 0 °C measurement).
+- [ ] 2-3 sentences on possible sources of uncertainty
+
+| Temp (C)   |  RP ($\Omega$) | VOP (V) | VOM (V) | ERR (%) | 
+| -----------|---------|---------|---------|---------|
+|   0        |         |         |         |         |
+|   ...      |         |         |         |         |
 
 {{< pagebreak >}}
 ## Report on Steinhart-Hart Fitting of Thermistor
 
 Provide a table of results that matches the form below.  Note the following: 
 - T is the temperature measured by the digital thermometer
-- $\lambda$T is uncertainty in T.
 - R is the resistance measured by the multimeter.
-- $\lambda$R is uncertainty in R.
 
-Also provide extracted Steinhart-Hart coefficients with uncertainty and two graphs.  One graph overlays R-T data, the Steinhart-Hart fit and the fit from the datasheet.  The other provides residuals from the Steinhart-Hart fit.
+Also provide extracted Steinhart-Hart coefficients with uncertainty and two graphs.  One graph overlays R-T data and the Non-linear Steinhart-Hart fit.  The other provides residuals from the Steinhart-Hart fit.
 
 Effort:
 
-- [ ] At least four of table rows are filled in.  May omit uncertainty columns.
-- [ ] Provides graph of 1/T vs. R data.
+- [ ] At least four of table rows are filled in.
+- [ ] Provides graph of T vs. R data.
+- [ ] 2-3 sentences on possible sources of uncertainty
 
 Complete: 
 
 - [ ] All table rows are filled in.
-- [ ] All uncertainties are included and correct.
 - [ ] Includes code showing how to calculate Steinhart-Hart coefficients.
-- [ ] Includes a plot of 1/T vs. R that shows measured points with uncertainty, fit based on datasheet equation, and fit based on extracted Steinhart-Hart coefficients.
+- [ ] Includes a plot of T vs. R that shows measured points with uncertainty and fit based on extracted Steinhart-Hart coefficients.
 - [ ] Include plot of residuals from Steinhart-Hart fit.
 
-| T (°C) | $\lambda$T (°C) | R (k$\Omega$) | $\lambda$R (k$\Omega$) |
-|--------|-----------------|---------------|------------------------|
-|        |                 |               |                        |
-|        |                 |               |                        |
-|        |                 |               |                        |
+| T (°C) | R (k$\Omega$) |
+|--------|---------------|
+|        |               |
+|        |               |
+|        |               |
 
 {{< pagebreak >}}
 ## Report on Measurements of Thermocouple
 
 Provide a table of results that matches the form below.  Note the following: 
 - TT is the temperature measured by the digital thermometer
-- $\lambda$T is uncertainty in TT.
 - TK is the temperature measured by the type-K thermocouple when the multimeter was in temperature mode.
-- $\lambda$K is uncertainty in TK.
 - V is the thermocouple Voltage when the multimeter was in Voltage mode.
-- $\lambda$V is the uncertainty in V.
 - CJC is the cold junction compensation Voltage.
 - TD is the temperature decoded from the Voltage in Thermocouple mode. 
-- $\lambda$D is the uncertainty in TD.
 
 Effort:
 
-- [ ] At least two of table rows are filled in.  May omit uncertainty columns.
+- [ ] At least two of table rows are filled in.
 - [ ] CJC column has at least a reasonable guess.
+- [ ] 2-3 sentences on possible sources of uncertainty
 
 Complete: 
 
 - [ ] All table rows are filled in.
-- [ ] All uncertainties are included and correct.
 - [ ] CJC column and decoded temperature are correct for measured Voltages.
 
-| TT (°C) | $\lambda$T (°C) | TK (°C) | $\lambda$K (°C) | V (mV) | $\lambda$V (mV) | CJC (mV) | TD (°C) | $\lambda$D (°C) |
-|---------|-----------------|---------|-----------------|--------|-----------------|----------|---------|-----------------|
-|         |                 |         |                 |        |                 |          |         |                 |
-|         |                 |         |                 |        |                 |          |         |                 |
-|         |                 |         |                 |        |                 |          |         |                 |
+| TT (°C) | TK (°C) | V (mV) | CJC (mV) | TD (°C) |
+|---------|---------|--------|----------|---------|
+|         |         |        |          |         |
+|         |         |        |          |         |
+|         |         |        |          |         |
 
 {{< pagebreak >}}
 ## Report on Settling Times of Temperature Sensors
