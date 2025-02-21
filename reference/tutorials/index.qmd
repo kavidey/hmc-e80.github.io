@@ -1,0 +1,9 @@
+---
+title: Tutorials
+---
+
+## [Designing an Offset Amplifier](./designing-an-offset-amplifier/)
+
+![](./designing-an-offset-amplifier/images/generic-offset-amplifier-schematic.png)
+
+This tutorial describes how to design, build, and simulate an offset amplifier.
