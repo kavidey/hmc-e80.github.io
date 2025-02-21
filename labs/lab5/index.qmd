@@ -42,19 +42,16 @@ Do the following:
 3. Drive signal 1 into the oscilloscope
 4. Set the time scale of the oscilloscope so that 50 cycles of the signal fit on the screen. 
 5. Use the math function of the oscilloscope to display the FFT of the signal. Set the span of the FFT to 100 kHz, the center to 50 kHz, and the window to rectangular. 
-6. Capture an oscilloscope trace for the current signal, and for each of the signals below. 
-    1. Signal 2 
-    2. Signal 3 
-    3. Signal 3 with the the "window" setting changed from rectangular to Hanning.
-    4. Signal 3 with the time scale changed to shrink the horizontal time axis.
+6. Capture an oscilloscope trace for each of the signals below. 
+    1. Signal 1, which is found by following steps 1 - 5
+    2. Signal 2 
+    3. Signal 3 
+    4. Signal 3 with the the "window" setting changed from rectangular to Hanning.
 7. Capture some oscilloscope data and take an FFT of it using Matlab, then compare that FFT to the scope FFTs.  Do so by following these steps.
     1. Turn off the FFT function on the scope 
-    2. Drive signal 3 into the oscilloscope and make sure that you are using the original x-axis scaling, not the shrink described in instruction 6.4.
+    2. Drive signal 3 into the oscilloscope
     3. Ensure the "max length" setting is selected on the "save" menu and save the waveform 
-    5. Take the FFT of that data in Matlab with a rectangular window 
-    6. Take the FFT of that data in Matlab with a Hanning window   
-    7. Contrast the Matlab FFT against the scope FFT from instructions 6.2 and 6.3.
-
+    4. Take the FFT of that data in Matlab with a Hanning window   
 
 ## Circuit Interfaces to Microphones {#sec-interface}
 

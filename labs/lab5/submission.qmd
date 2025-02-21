@@ -34,27 +34,28 @@ All pictures of circuits in this report should adhere to the following specifica
 {{< pagebreak >}}
 ## Report on the FFT of Signals Directly Applied to the Scope
 
-The manual for this section requests five oscilloscope traces, which will be referred to here as traces 1-5 based on the list below. Traces should follow the instructions in the manual (50 cycles on screen, FFT span is 100 kHz, FFT center is 50 kHz). Further, the input signal should be on channel 1 and the math mode should be scaled to be clearly visible:
+The manual for this section requests four oscilloscope traces, which will be referred to here as traces 1-4 based on the list below. Traces should follow the instructions in the manual (50 cycles on screen, FFT span is 100 kHz, FFT center is 50 kHz). Further, the input signal should be on channel 1 and the math mode should be scaled to be clearly visible:
 
-1. Signal 1
-2. Signal 2
-3. Signal 3 with rectangular window
-4. Signal 3 with Hanning window
-5. Signal 3 with rectangular window and changed x-axis
+Trace 1
+: Signal 1
 
-The manual also requests two Matlab plots
+Trace 2
+: Signal 2
 
-1. Matlab plot of FFT magnitude for signal 3 with rectangular window
-2. Matlab plot of FFT magnitude for signal 3 with Hanning window
+Trace 3
+: Signal 3 with rectangular window
+
+Trace 4
+: Signal 3 with Hanning window
+
+The manual also requests one Matlab plot of FFT magnitude for signal 3 with Hanning window
 
 These traces and plots should be included in this section with a specific organization.  They should be displayed as five side-by-side pairs of figures, each with ~1 sentence commenting on the differences between the left and the right figure.  The commentary should specifically relate the changes to FFT theory.  The pairs are:
 
 - [ ] Trace 1 vs. Trace 2
 - [ ] Trace 1 vs. Trace 3
 - [ ] Trace 3 vs. Trace 4
-- [ ] Trace 4 vs. Trace 5
-- [ ] Trace 3 vs. Matlab Plot 1
-- [ ] Trace 4 vs. Matlab plot 2
+- [ ] Trace 4 vs. Matlab plot
 
 Effort:
 
@@ -94,7 +95,7 @@ Effort:
 
 Complete:
 
-- [ ] Includes calculations suggesting how frequently multipath patterns will repeat in data and how close to space x-axis samples to capture those patterns.
+- [ ] Includes 2-3 sentences suggesting how frequently multipath patterns will repeat in data and how close to space x-axis samples to capture those patterns.
 - [ ] Plots show multipath effects overlaid onto typical magnitude decay behavior.
 - [ ] Analytical model for received Voltage magnitude is overlaid onto the plots.
 
