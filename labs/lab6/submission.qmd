@@ -18,11 +18,9 @@ Team Member Names:
 Effort:
 
 - [ ] Present
-- [ ] Includes zero speed calibration measurements
 
 Complete:
 
-- [ ] Discusses what to do with zero speed measurements. That transform is reflected in final calibration curve.
 - [ ] Calibration curve shows correct numbers.
 - [ ] Calibration curve shows correct regression line and uncertainty bounds.
 
