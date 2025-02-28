@@ -3,6 +3,9 @@ title: E80 Project Kickoff Presentation
 format:
   revealjs:
     slide-number: true
+    width: 1050
+    height: 700
+    theme: [slides.scss]
 ---
 
 ## Agenda for Today
@@ -17,12 +20,12 @@ format:
 
 ![](img/e80-class-dana-point.jpeg){fig-align="center"}
 
-## E80 is about forming your engineering identity and learning how to do experiments {.smaller}
+## E80 is about forming your engineering identity and learning how to do experiments
 
 In this course you will learn how to...
 
-::: columns
-::: column
+::::::: columns
+:::: column
 **Do Experiments**
 
 ::: fragment
@@ -30,9 +33,9 @@ In this course you will learn how to...
 -   Gather, interpret, and present data
 -   Learn domain-specific skills (e.g., using op-amps and the wind tunnel)
 :::
-:::
+::::
 
-::: column
+:::: column
 **Be an Engineer**
 
 ::: fragment
@@ -41,35 +44,44 @@ In this course you will learn how to...
 -   Know what good results look like.
 -   Work effectively on technical problems as a team under pressure.
 :::
-:::
-:::
+::::
+:::::::
 
-## Remaining Course Schedule {.smaller}
+## Remaining Course Schedule Before Spring Break
 
-+---------------+------------------------------------------------------+
-| Week          | Activity                                             |
-+===============+======================================================+
-| 2/26          | -   Lab 5/6 Rotation.                                |
-|               | -   No writing section on 3/1. Office hours instead. |
-+---------------+------------------------------------------------------+
-| 3/4           | -   Open Lab for Resubmits.                          |
-|               | -   No writing section on 3/8. Office hours instead. |
-+---------------+------------------------------------------------------+
-| 3/11          | Spring Break                                         |
-+---------------+------------------------------------------------------+
++---------------+---------------------------------------------------------+
+| Week          | Activity                                                |
++===============+=========================================================+
+| Monday 2/24   | -   Week 1 of Lab 5/6 Rotation                          |
+|               | -   Project kickoff presentation today!                 |
++---------------+---------------------------------------------------------+
+| Monday 3/3    | -   Week 2 of Lab 5/6 Rotation                          |
+|               | -   Writing section focused on rough draft of tech memo |
++---------------+---------------------------------------------------------+
+| Monday 3/10   | -   Project proposal                                    |
+|               | -   Tech memo due                                       |
+|               | -   Resubmits                                           |
++---------------+---------------------------------------------------------+
+| Monday 3/17   | Spring Break                                            |
++---------------+---------------------------------------------------------+
 
-## Remaining Lab Deliverables {.smaller}
+## Deliverables for the Next Few Weeks
 
-| Deliverable                      | Due Date | Notes      |
-|----------------------------------|----------|------------|
-| Lab 6 Technical Memorandum       | 3/8      | Individual |
-| Project Proposal                 | 3/8      | Team       |
-| Lab Resubmits                    | 3/8      | Team       |
-| Lab Writing Assignment Resubmits | 3/22     | Individual |
++----------------------------------+------------------------------------+-----------------------+
+| Deliverable                      | Due Date                           | Notes                 |
++==================================+====================================+=======================+
+| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
++----------------------------------+------------------------------------+-----------------------+
+| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
++----------------------------------+------------------------------------+-----------------------+
+| Project Proposal                 | 3/14                               | Team                  |
++----------------------------------+------------------------------------+-----------------------+
+| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
++----------------------------------+------------------------------------+-----------------------+
 
-## Activity: Think, Pair, Share Reflection {.smaller}
+## Activity: Think, Pair, Share Reflection
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   What is the most important thing you've learned in E80 **labs**?
 -   What is the most important thing you've learned in E80 **writing assignments**?
@@ -82,9 +94,9 @@ In this course you will learn how to...
 
 <https://tally.so/r/n06DPj>
 :::
-:::
+:::::
 
-## Project Jump Start {.smaller}
+## Project Jump Start
 
 Projects give you the space and freedom to design a robot of your own choosing, but there are a few elements that are common across almost all E80 robots:
 
@@ -96,23 +108,44 @@ To get you up to speed up on these common elements, we'll have a more structured
 ## Project Timeline and Deliverables
 
 ::: r-fit-text
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| Week      | Activity                      | Deliverable                                                                                                    |
-+===========+===============================+================================================================================================================+
-| 1         | Project Jump Start            | A graded Submission Sheet due at the end of your section.                                                      |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 2         | Breadboard Demo               | Demo of breadboarded circuits to a professor. (Highly recommended, but not required).                          |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 3         | Soldered Protoboard Demo      | Demo of soldered circuits to a professor. (Highly recommended, but not required).                              |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 4         | Integrated Robot Deployment   | None, though deployment during your section at Phake Lake is the first chance to get data for your report.     |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 5         | Rebuild and Final Deployment  | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report. |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 6         | Analyze Data                  | Rough draft of report due on Friday.                                                                           |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
-| 7         | Final Presentation and Report | Upload presentation slides and report to Canvas by 11:59 pm the night before.                                  |
-+-----------+-------------------------------+----------------------------------------------------------------------------------------------------------------+
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| Week      | Activity                                | Deliverable                                                                                                           |
++===========+=========================================+=======================================================================================================================+
+| 1         | Project Jump Start                      | A graded Submission Sheet due at the end of your section.                                                             |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 2         | Breadboard Demo                         | Demo of breadboarded circuits to a professor. (Highly recommended, but not required).                                 |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 3         | Soldered Protoboard Demo                | Demo of soldered circuits to a professor. (Highly recommended, but not required).                                     |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 4         | Integrated Robot Deployment             | None, though deployment during your section at Phake Lake is the first chance to get data for your report.            |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 5         | Rebuild and Final Deployment            | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report.        |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 6         | Analyze Data & Final Report Conferences | Rough draft of report due on Tuesday at noon. Individual conferences with professors.                                 |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+| 7         | Individual Final Report & Team Poster   | -   Poster due by noon (12 pm) on Friday, May 2. Poster session on Wednesday, May 7 during Presentation Days at 4 pm. |
+|           |                                         | -   Final report due Tuesday May 6 at 11:59 pm                                                                        |
++-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
+:::
+
+## Final Report and Poster
+
+::: fragment
+**Poster:**
+
+- Team deliverable.
+-   Given during presentation days.
+-   Aimed at a technically-knowledgeable audience to communicate the main results of your project.
+-   Will be presented during poster session. Your whole team is required to be there.
+-   You will answer questions about your poster and also interact with your peers.
+:::
+
+::: fragment
+**Report:**
+
+- Individual deliverable.
+- Individual conference with professor during analysis week.
+-   Presents the results of your team's experiments, instrumentation, and results.
 :::
 
 ## Deployments
@@ -134,7 +167,7 @@ You must collect data from your deployments for your final report.
 
 # Project Launch
 
-## Project Requirements {.smaller}
+## Project Requirements
 
 -   Autonomous deployment for at least one minute with active position control.
 -   The deployment must end at a place where the robot can be recovered.
@@ -195,16 +228,16 @@ Kayaks are also available to accompany your robot out into the center of the har
 
 ## Resources: Our Waterproof Boxes
 
-- Can fit about 6 wires in a penetrator bolt.
-- Drill on flat faces of box: need flat rubber washers on box surface.
+-   Can fit about 6 wires in a penetrator bolt.
+-   Drill on flat faces of box: need flat rubber washers on box surface.
 
 +:----------------------------:+:---------------------------:+:----------------------------:+
 | ![](img/penetrator-bolt.png) | ![](img/waterproof-box.png) | ![](img/step-drill-bits.png) |
 +------------------------------+-----------------------------+------------------------------+
 
-## Resources: Our Main PCB {.smaller}
+## Resources: Our Main PCB
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 -   GPS / Teensy / IMU
 -   H-Bridges + resettable fuses
@@ -220,13 +253,13 @@ Kayaks are also available to accompany your robot out into the center of the har
 ::: {.column width="50%"}
 ![](img/e80-main-pcb.png)
 :::
-:::
+:::::
 
 ## Resources: Our Protoboard
 
 Protoboard connects to the motherboard with a right angle header and mounts above the main PCB.
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](img/e80-protoboard.png)
 :::
@@ -234,9 +267,9 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 ::: {.column width="50%"}
 ![](img/e80-teensy-backside.png){width="120"}
 :::
-:::
+:::::
 
-## Considerations when Picking Sensors {.smaller}
+## Considerations when Picking Sensors
 
 **Package type** – thru hole vs. surface mount w/ adapter board
 
@@ -258,9 +291,9 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 
 ## Design Elements to Consider
 
-+-----------------------+---------------------------------------+
-| ![](img/robot-1.png)  | ![](img/robot-2.png){width="162"}     |
-+-----------------------+---------------------------------------+
++----------------------+--------------------------------------+
+| ![](img/robot-1.png) | ![](img/robot-2.png){width="162"}    |
++----------------------+--------------------------------------+
 
 -   **Electronics:** Audio, Digital interfaces, Communication, Telemetry
 -   **Software:** Time of flight, Advanced navigation, Diving
@@ -310,14 +343,14 @@ Recall the steps of the Engineering Design Process.
 
 ## Think about the axes of your measurements
 
--   What is the **dependent** variable?
 -   What is the **independent** variable?
+-   What is the **dependent** variable?
 
-+-------------------------------+---------------------------------------+
-| ![](img/example-axes.png)     |![](img/example-plot.png){width="540"} |
-+-------------------------------+---------------------------------------+
++------------------------------+----------------------------------------+
+| ![](img/example-axes.png)    | ![](img/example-plot.png){width="540"} |
++------------------------------+----------------------------------------+
 
-## Round 3: How do you want to measure it? {.smaller}
+## Round 3: How do you want to measure it?
 
 -   What are your...
     -   Independent variable(s): e.g., $t$, $x$, $y$
@@ -334,21 +367,16 @@ For each desired quantity, list out any ways that you can think of to measure th
 -   What is the transduction method (e.g., electrical, mechanical, chemical, combination, etc.)
 -   What types of sensors might you use? Think about what you’ve used or seen in E80 so far for inspiration.
 
-## Final Presentation and Report {.smaller}
+## Wrap Up
 
-::: fragment
-**Presentation:**
-
--   Given during presentation days.
--   Fifteen-minute, in-person presentation followed by ten minutes of questions and answers.
--   Aimed at a technically-knowledgeable audience to communicate the main results of your project.
-:::
-
-::: fragment
-**Report:**
-
--   Presents the results of each team's experiments, instrumentation, and results.
--   Maximum length of ten pages including figures and appendices.
-:::
-
-# Join us for snacks!
++----------------------------------+------------------------------------+-----------------------+
+| Deliverable                      | Due Date                           | Notes                 |
++==================================+====================================+=======================+
+| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
++----------------------------------+------------------------------------+-----------------------+
+| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
++----------------------------------+------------------------------------+-----------------------+
+| Project Proposal                 | 3/14                               | Team                  |
++----------------------------------+------------------------------------+-----------------------+
+| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
++----------------------------------+------------------------------------+-----------------------+
