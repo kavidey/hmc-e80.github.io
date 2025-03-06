@@ -7,9 +7,11 @@ Team size: 4
 
 Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
 
+Prelab Help Sheet: None for this lab, but you've got this!  Review previous ones for ideas.
+
 Writing Assignment: [html](./writing.qmd)
 
-Prelab Help Sheet: None for this lab, but you've got this!  Review previous ones for ideas.
+Writing Template: [html](./writing-template.qmd) [docx](./writing-template.docx)
 
 
 ## Introduction

@@ -1,0 +1,185 @@
+---
+title: "Lab 6 Writing Template"
+subtitle: Introductions
+format:
+  html: default
+  docx: default
+---
+
+## Statement of Work
+
+This writing template is designed to help you plan your Tech Memo for Lab 6.
+
+At the completion of this worksheet you should have:
+
+- [ ] An outline of the sections you plan to include
+- [ ] A topic sentence for each paragraph of your memo
+- [ ] Sketches or preliminary drafts of each figure
+- [ ] Formatted versions of each equation you plan to include
+
+Before you leave writing section today you need to check in with a professor or proctor to demonstrate that you have completed this checklist.
+You will also submit a rough draft of your working document with the information above.
+
+## Outline
+
+There are a variety of ways that you can organize your tech memo.
+The list of sections below is a suggested place to start, but you should feel free to modify it to best fit your rhetorical purpose.
+Consult with a professor or proctor if you have any questions.
+
+1. Abstract
+2. Introduction
+3. Methods
+4. Results
+5. Conclusion
+6. References
+
+## Technical Tune-up
+
+In this section we'll talk about how to do two more things you'll need to do in your tech memo and we haven't yet covered in detail: topic sentences and equations.
+
+### Topic Sentences
+
+Clear topic sentences are a critical part of making your technical writing accessible and easy to understand.
+Each paragraph should start with a clear topic sentence that states the main point of the paragraph.
+Then, the rest of the paragraph will provide supporting evidence.
+Once you finish that idea, you should start a new paragraph with a new topic sentence.
+
+The general temptation for budding engineers is to put too much in a single paragraph.
+Make sure you limit yourself to only one big idea per paragraph.
+Once you've finished discussing that point, end that paragraph and start a new one.
+
+In today's section, you'll use topic sentences as a way to outline your memo.
+
+A topic sentence should provide:
+
+- A clear and concise description of the main idea of the paragraph that follows.
+- A transition (if necessary) from previous discussion.
+
+For example, consider the following topics sentences for an introduction to the temperature sensing lab.
+
+> Each temperature sensor that will be tested has a varying response time based on its thermal mass.
+
+This sentence might be followed with a specific discussion of the response times.
+
+> In addition to varying response times, the range of temperatures that can be measured with each sensor should also be considered when selecting a sensor for a particular application.
+
+Note that this sentence provides a transition from previous discussion (response times) and then gives a clear statement of what will be discussed in the paragraph below.
+
+### Equations
+
+Equations are an important part of technical writing as describing a concept with a mathematical description in an equation is often much clearer and more concise than trying to explain it in text.
+Whenever you prepare an equation in text, you should make sure they follow the following rules:
+
+- Format equation with an equation editor (e.g., MS Word's equation editor or LaTeX).
+- Use italicized math font (e.g., Cambria Math in MS Work) and Greek characters where appropriate.
+- Subscripts and superscripts should be used instead of carets ($^$) or underscores ($_$).
+- Every equation should be referenced in the main text.
+- Every variable should be defined.
+- Every equation should be numbered.
+
+For example, consider the example below.
+
+$$
+y = m\cdot x+b
+$$ {#eq-example}
+
+@eq-example describes a line $y$, where $m$ is the slope and $b$ is the y-intercept.
+
+{{< pagebreak >}}
+
+## Template
+
+The sections below include template text to help you begin outlining your tech memo.
+
+### List of Figures
+
+#### Figure 1
+
+::: {#fig-1}
+![](./img/plate_wing_2.png)
+
+Insert image above and replace this text with your caption.
+:::
+
+Replace image above and replace this text with your caption.
+
+- What are the key features of your figure/plot?
+- What should the reader take away?
+
+#### Figure 2
+
+::: {#fig-2}
+![](./img/plate_wing_2.png)
+
+Insert image above and replace this text with your caption.
+:::
+
+Replace this text with supporting text for your paragraph.
+
+- What are the key features of your figure/plot?
+- What should the reader take away?
+
+#### Figure 3
+
+::: {#fig-3}
+![](./img/plate_wing_2.png)
+
+Replace image above and replace this text with your caption.
+:::
+
+Replace image above and replace this text with your caption.
+
+- What are the key features of your figure/plot?
+- What should the reader take away?
+
+### Key Equations
+
+$$
+Replace with Equation
+$$
+
+Text to explain equation.
+
+
+$$
+Replace with Equation
+$$
+
+Text to explain equation.
+
+### Outline
+
+#### Abstract
+
+- Replace with paragraph 1 topic sentence
+- Replace with paragraph 2 topic sentence
+- Replace with paragraph 3 topic sentence
+- ...
+
+#### Introduction
+
+- Replace with paragraph 1 topic sentence
+- Replace with paragraph 2 topic sentence
+- Replace with paragraph 3 topic sentence
+- ...
+
+#### Methods
+
+- Replace with paragraph 1 topic sentence
+- Replace with paragraph 2 topic sentence
+- Replace with paragraph 3 topic sentence
+- ...
+
+#### Results
+
+- Replace with paragraph 1 topic sentence
+- Replace with paragraph 2 topic sentence
+- Replace with paragraph 3 topic sentence
+- ...
+
+#### Conclusion
+
+- Replace with paragraph 1 topic sentence
+- Replace with paragraph 2 topic sentence
+- Replace with paragraph 3 topic sentence
+- ...
