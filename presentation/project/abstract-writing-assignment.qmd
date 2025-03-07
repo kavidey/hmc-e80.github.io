@@ -43,4 +43,5 @@ By the end of this writing assignment you will...
 - [ ]	Arranges the sentences in the order the sections are presented in the lab report.
 - [ ]	Is self-sufficient and does not rely on results presented only in the body of the report.
 - [ ]	Uses past tense to report what was done.
+- [ ] Includes most significant quantitative result(s) (e.g., measured response times of temperature sensors)
 - [ ]	Stays within the maximum words allowed (usually 100-200 words).
