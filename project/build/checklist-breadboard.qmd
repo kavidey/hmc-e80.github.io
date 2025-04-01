@@ -1,0 +1,34 @@
+---
+title: Breadboard Demonstration Checklist
+---
+
+## Project Breadboard Demonstration
+
+At the end of the second week of the project you must demonstrate a prototype of your sensors in communication with the Teensy on the motherboard (MTB).
+Attach the sensors to your MTB (possibly using a breadboard), write software to measure them and design a set of experiments which will allow a professor to observe your sensor's outputs for known values.
+Be mindful of your construction techniques: if you do a good job building your circuits this week then you will be ready for your deployments.
+If you do a bad job then you will need to do confusing rebuilds. The more sensors you get working this week, the smoother next week will go.
+
+During your checkoff you will be expected to show your professor (preferably) a live demonstration or (if necessary) a set of slides which show your measured data.
+
+## Checklist
+
+- [ ] Demonstrate a prototype of the sensors  
+  - [ ] Live demonstration  
+    - [ ] Power from 12 V from the supply. Current should be reasonably low (a few hundred mA at most)  
+    - [ ] Set Scope to display 0 V to 5 V on vertical scale  
+    - [ ] Set Scope to display roughly 100 Hz to 200 Hz signals  
+    - [ ] Connect probe and have students show response to input, (e.g., fingers on thermistor or dip in cold water, cover light sensor, solution for turbidity, dip tube or gentle pressure for pressure sensor.)
+    - [ ] If signal uses most of the range but stays between 0 V and 3.3 V it passes.  
+    - [ ] Power from 12 V from the supply. Current should be reasonably low (a few hundred mA at most)  
+  - [ ] If necessary, slides which show measured data and physical breadboard  
+- [ ] Sensor(s) are in communication with the Teensy on the MTB  
+- [ ] Everything but voltage regulators fit on one protoboard   
+- [ ] Appropriate software written  
+- [ ] Experimental design adequately shows Professor sensor outputs in expected range  
+- [ ] Have plans to have data on all 3 sensors ASAP if not all 3 were demonstrated
+
+## Reminders
+
+- Experimental design and measured data in the final evaluation of the projects.  
+- Next week you should be soldered and integrated. The week after that, you are deploying at BFS.

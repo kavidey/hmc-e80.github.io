@@ -1,0 +1,36 @@
+---
+title: Integration and BFS Deployment Checklist
+---
+
+This week you need to demonstrate that your AUV is watertight and capable of autonomous operation by measuring field data with it.
+Because GPS reception in the tank room is poor we'll accept faked control loops or open loop control during tank room deployments.
+You are expected to test and (hopefully) launch your AUV at the pHake Lake at the Bernard Field Station during your regular section time.
+The main goal of these tests is to ensure that your sensors work in the field.
+The secondary goal is to evaluate your experimental data so you can make changes to ensure that you will be able to meet your experimental goals.
+Do not forget that seawater and lake water have very different salinities, conductivities, and densities.
+A neutrally buoyant AUV in pHake Lake will bob like a cork in the ocean.
+
+## Checklist
+
+- [ ] Have a deployment checklist  
+- [ ] Have an experimental plan. Plan should include:  
+  - [ ] Number of deployments planned  
+  - [ ] Target times for deployment  
+  - [ ] Target locations for deployment  
+  - [ ] Expected range of signal  
+  - [ ] Planned trajectory for each deployment  
+  - [ ] Plans for robot retrieval (hook, boat, programmed return, etc.)
+- [ ] Demonstrate that the AUV is watertight.  
+- [ ] Demonstrate robot is capable of autonomous operation.  
+- [ ] Demonstrate measured field data.  
+- [ ] Save all data for the final report  
+- [ ] Show MATLAB or slides showing analyzed data.  
+  - [ ] Data from multiple runs are overlaid with analytical model.
+
+
+## Reminders
+
+- Next week you can rebuild, retest, and modify design using what you learned from BFS to get more meaningful data at Dana Point.
+- Dana Point deployment is on a Saturday.
+- You are responsible for having the robot and team-specific supplies in order to board bus.
+- You MUST be on the bus BEFORE 6:30 am for a 6:30 am departure.

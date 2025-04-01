@@ -1,0 +1,28 @@
+---
+title: Solder & Test Demonstration Checklist
+---
+
+During your checkoff, you will be expected to explain to your professor how everything is intended to work, and (preferably) give your professor a live demonstration of data collection and display or (if necessary) display a set of slides which shows your measured data.
+The difference from last week is that everything should be mounted, and not just breadboarded.
+You should be able to mount your electronics assembly in your box, power it from battery power, mount the box in your robot and demonstrate the ability to log data when it is in this configuration.
+Any mechanical modifications to the robot should be complete before the checkoff so that the instructors are verifying that your electronics assembly can be mounted inside of the final version of your robot.
+
+## Checklist
+
+### Demonstration:
+
+- [ ] Demonstrate that the sensors are working as intended.  
+  - [ ] Sensor(s) are in communication with the Teensy and the microSD on the MTB.  
+  - [ ] Appropriate (Teensy & MATLAB) software written and functioning.  
+  - [ ] Everything is mounted on a Protoboard.  
+    - [ ] Electronics fit in box.  
+    - [ ] Electronics can be powered by battery.  
+    - [ ] Data can be logged with electronics and battery in box.  
+  - [ ] Mechanical modifications to robot should be complete.  
+    - [ ] Verify electronic assembly can be mounted inside the final version of robot.  
+  - [ ] If necessary, slides which show measured data and physical protoboard
+
+### Administrative/Overall:
+
+- [ ] Remind that it MUST be waterproofed by next week.  
+- [ ] Have reminded team of checkoff schedule for next two weeks \-- week 4: deployment at BFS  (only M thru W) and week 5: rebuild, retest and modify design for more meaningful data

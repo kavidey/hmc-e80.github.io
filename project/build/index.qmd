@@ -1,8 +1,27 @@
 ---
 title: "E80 Project Build, Test and Integration"
+format:
+  html:
+    other-links:
+      - text: Breadboard Checklist
+        href: ./checklist-breadboard.html
+        icon: card-checklist
+      - text: Soldered PCB Checklist
+        href: ./checklist-soldered-pcb.html
+        icon: card-checklist
+      - text: Mechanical Integration Checklist
+        href: ./checklist-integrate.html
+        icon: card-checklist
 ---
 
-After the proposal and jump start, your job is to build your robot. There are three major steps in a robot build: making a breadboard prototype, making a soldered PCB, and mechanically integrating your PCB and sensors into your robot frame.  You should aim to check in with a professor after each of these steps.
+After the proposal and jump start, your job is to build your robot. There are three major steps in a robot build:
+
+1. Making a breadboard prototype ([checklist](./checklist-breadboard.qmd))
+2. Making a soldered PCB ([checklist](./checklist-soldered-pcb.qmd))
+3. Mechanically integrating your PCB and sensors into your robot frame. ([checklist](./checklist-integrate.qmd))
+ 
+You should aim to check in with a professor after each of these steps.
+Checklists are provided for each step so that you can self assess your progress.
 
 ## Breadboard Prototype
 
