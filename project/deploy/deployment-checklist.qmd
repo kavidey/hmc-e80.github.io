@@ -1,0 +1,33 @@
+---
+title: Sample Deployment Checklist
+format:
+  html: default
+  pdf: default
+---
+
+## At home base:
+
+- [ ] Wipe SD Card
+- [ ] Check battery voltage and current with multimeter or charger
+- [ ] Make sure sensors are showing up on serial monitor: test salinity, turbidity, pressure
+- [ ] Test waterproofing in freshwater bucket (w/o electronics!)
+
+## At site
+
+- [ ] Plug in battery
+- [ ] Seal lid
+- [ ] Make sure sensors are showing up on serial monitor: test salinity, turbidity, pressure
+- [ ] Place in water so that all three sensors are submerged
+- [ ] Record phone GPS location using GPS app
+- [ ] Move measurement to multiple target depths and sites
+- [ ] Repeat every three hours
+
+## Recovery
+
+- [ ] Remove sensors from water -- CAREFUL not to disturb pressure port
+- [ ] Drain water from frame
+- [ ] Towel off excess water
+- [ ] Open payload
+- [ ] Press user switch to stop logging
+- [ ] Remove SD card
+- [ ] Quick check of data with verify.m
