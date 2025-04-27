@@ -1,0 +1,110 @@
+---
+title: "Final Report Template"
+format:
+  html: default
+  docx: default
+---
+
+## Statement of Work
+
+This writing template is designed to help you plan your Final Report.
+
+At the completion of this worksheet you should have:
+
+- [ ] An outline of the sections you plan to include
+- [ ] Sketches or preliminary drafts of each figure
+
+## Outline
+
+There are a variety of ways that you can organize your tech memo.
+The list of sections below is a suggested place to start, but you should feel free to modify it to best fit your rhetorical purpose.
+Consult with a professor or proctor if you have any questions.
+
+1. Abstract
+2. Introduction
+3. Sensor Design
+4. Robot Design
+5. Deployment Details
+6. Conclusion
+
+See the [tech memo writing template](/labs/lab6/writing-template.qmd) for a refresher on good topics sentences and equations.
+
+## Template
+
+### Abstract
+
+#### What is the main gist of your project?
+
+#### What is the significant quantitative result(s) of your project?
+
+### Introduction
+
+#### List the key concepts that you need to introduce
+
+- Concept 1
+- Concept 2
+
+#### What references are needed to support the concepts you want to introduce?
+
+### Sensor Design
+
+For for each sensor, include information about its design.
+
+#### What sensors does your robot include?
+
+#### Sensor 1: 
+
+##### What is the expect range of input values?
+
+##### What sensor did you select to make the measurement? Why?
+
+##### Describe the circuit you designed. Include schematics and calculations.
+
+##### What if any software modifications were made?
+
+##### How did you validate/calibrate your sensor? Include plots.
+
+#### Sensor 2: 
+
+##### What is the expect range of input values?
+
+##### What sensor did you select to make the measurement? Why?
+
+##### Describe the circuit you designed. Include schematics and calculations.
+
+##### What if any software modifications were made?
+
+##### How did you validate/calibrate your sensor? Include plots.
+
+#### Sensor 3: 
+
+##### What is the expect range of input values?
+
+##### What sensor did you select to make the measurement? Why?
+
+##### Describe the circuit you designed. Include schematics and calculations.
+
+##### What if any software modifications were made?
+
+##### How did you validate/calibrate your sensor? Include plots.
+
+### Robot Design
+
+Include information and calculations for the mechanical design and integration.
+
+### Deployment Details
+
+Include relevant data for your deployment (e.g., relevant plots of data collected, photos/diagrams)
+
+### Results
+
+Include the plots you'll use to present the key results from your deployments.
+Plots should include comparisons to theory and ground truth measurements.
+
+### Conclusion
+
+#### Write a succinct (3-4 sentence) summary of your project and results.
+
+#### What were the big-picture takeaways from your work?
+
+#### What are your recommendations for future work? If you were deploying again next week, what would you change/improve?

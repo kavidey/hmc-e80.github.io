@@ -4,11 +4,15 @@ title: "E80 Project Final Deliverables"
 
 <!-- Final Presentation Rubric [html](presentation_rubric.qmd) [docx](presentation_rubric.docx) -->
 
+Final Report Worksheet [html](report-worksheet.qmd) [docx](report-worksheet.docx)
+
 Final Report Rubric [html](report_rubric.qmd) [docx](report_rubric.docx)
 
 Peer Review Feedback Instructions [html](peer-review-instructions.qmd)
 
-Peer Review Worksheet [html](peer-review-worksheet.qmd) [docx](peer-review-worksheet.docx)
+Peer Review Worksheet [html](peer-review-worksheet.qmd) [docx](peer-review-worksheet.docx) 
+
+Poster Session Timeline [html](poster-session.qmd)
 
 <!-- Final Presentation Schedule [gdoc]({{<var urls.final_presentation_schedule>}}) -->
 
@@ -67,27 +71,42 @@ Successful reports and poster usually include discussions of:
 
 This content is typically organized as follows (note that the report will also need an abstract even though it is not listed here):
 
-1. **Introduction** - Describe your scientific or engineering goals.
-2. **Sensor Design** - for each sensor
-    a. Theory of Input Quantity - What are the expected sensor input sizes (e.g., temperature swings)  from theory or historical data?
+1. **Abstract:** Briefly describe the contents of the report. Make sure to include the key *quantitative* takeaway/result.
+2. **Introduction:** Describe your scientific or engineering goals.
+3. **Sensor Design:** for each sensor
+    a. Theory of Input Quantity - What are the expected sensor input sizes (e.g., temperature swings) from theory or historical data?
     b. Sensor Selection - What sensors did you select? Why? Do they match expected behavior.
     c. Circuit Design - Show full schematics, calculations used to select components, and calculations showing that signals will be in range for the Teensy.
     d. Software Considerations - Is the 10 Hz `default_robot.ino` sampling rate fast enough? Did you write any additional code for the sensor?
     e. Sensor Validation/Calibration - Show the sensor working in controlled conditions.
-3. **Robot Design** - Show mechanical calculations, sensor mounting designs, unusual details of waterproofing, and schematics for other circuits that haven't been discussed yet (e.g., regulators).
-4. **Deployment Details** - What steps were taken to prepare your robot for deployment? Where were the deployments (and what were the trajectories)? How did you account for safety in your deployments?
-5. **Results** - Include comparisons to theoretical models and ground truth measurements.
-6. **Conclusion** - Provide a recap, recommendations for future work, interpretation of results, and a main takeaway for the audience.
+4. **Robot Design:** Show mechanical calculations, sensor mounting designs, unusual details of waterproofing, and schematics for other circuits that haven't been discussed yet (e.g., regulators).
+5. **Deployment Details:** What steps were taken to prepare your robot for deployment? Where were the deployments (and what were the trajectories)? How did you account for safety in your deployments?
+6. **Results:** Include comparisons to theoretical models and ground truth measurements.
+7. **Conclusion:** Provide a recap, recommendations for future work, interpretation of results, and a main takeaway for the audience.
 
 It is possible to deviate from this outline if doing so would tell your robot's story better, but this works well for almost all E80 deployments. Feel free to discuss such changes to the outline with instructors.
 
 ## Final Poster
 
+Each team will create a poster, to be delivered during Presentation Days on {{<var dates.poster_session >}}. 
+Each team poster should be completed and uploaded by {{<var dates.poster_draft >}} at noon.
 
+Each poster should include the following sections:
+
+- **Introduction:** Briefly describe your final project, what you set out to measure, and the hypothesis you planned to test.
+- **Methods:** Describe the sensors you built and how they were used to measure the quantities of interest.
+- **Results:** Present plots of data captured from your deployment at pHake Lake and/or Dana Point along with captions.
+- **Discussion:** Discuss what the results mean and opportunities for future work.
+
+Instructions for the poster session can be found [here](poster-session.qmd).
+
+A PowerPoint Template for your poster is provided [here](examples/E80_PosterTemplate.pptx).
 
 ## Final Report
 
 Each *individual* is responsible for submitting a report on their deployments in IEEE format. We strongly recommend that you download and use the MS Word template [here](https://www.ieee.org/conferences/publishing/templates.html). You should list your entire team by name in an acknowledgements section.
+
+During analysis week, you will complete this [template](./final-report-template.qmd) to help you as you in the writing process.
 
 There is no minimum page length for the report, but most reports will be at least 7-8 pages, with approximately one page per section (with each individual sensor getting a full page of text). Your report must not exceed ten pages, including all figures, references, and appendices. Fonts and heading sizes follow the sizes specified in the IEEE template. You may consider the following target lengths for the sections of your report:
 
