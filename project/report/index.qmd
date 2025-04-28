@@ -80,7 +80,7 @@ This content is typically organized as follows (note that the report will also n
     d. Software Considerations - Is the 10 Hz `default_robot.ino` sampling rate fast enough? Did you write any additional code for the sensor?
     e. Sensor Validation/Calibration - Show the sensor working in controlled conditions.
 4. **Robot Design:** Show mechanical calculations, sensor mounting designs, unusual details of waterproofing, and schematics for other circuits that haven't been discussed yet (e.g., regulators).
-5. **Deployment Details:** What steps were taken to prepare your robot for deployment? Where were the deployments (and what were the trajectories)? How did you account for safety in your deployments?
+5. **Results & Deployment Details:** What steps were taken to prepare your robot for deployment? Where were the deployments (and what were the trajectories)? How did you account for safety in your deployments?
 6. **Results:** Include comparisons to theoretical models and ground truth measurements.
 7. **Conclusion:** Provide a recap, recommendations for future work, interpretation of results, and a main takeaway for the audience.
 

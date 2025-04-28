@@ -24,7 +24,7 @@ Consult with a professor or proctor if you have any questions.
 2. Introduction
 3. Sensor Design
 4. Robot Design
-5. Deployment Details
+5. Results & Deployment Details
 6. Conclusion
 
 See the [tech memo writing template](/labs/lab6/writing-template.qmd) for a refresher on good topics sentences and equations.
