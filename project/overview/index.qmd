@@ -5,7 +5,7 @@ title: "E80 Project: Field Deployment of an Autonomous Robot"
 Put these crucial project dates on your calendar!
 
 - **Saturday {{<var dates.dana>}}**  Robot deployment *on Saturday*  at Dana Point. <br> **ALL STUDENTS ARE EXPECTED TO ATTEND THE SATURDAY LAUNCH**
-- **Wednesday {{<var dates.present>}}**  Project presentations for all groups during presentation days.
+- **Wednesday {{<var dates.poster_session>}}**  Project presentations for all groups during presentation days.
 
 The final project for this class is deploying your AUV in open water in order to complete an experiment of your design.  This project offers many opportunities for creativity: there are a wide variety of interesting things in the ocean that can be measured. For example, environmental or scientific quantities (e.g., water quality, distribution of temperature, salinity, turbidity) and observation of marine life are good options, as are engineering properties such as sensor accuracy, battery life, sensor or craft mechanical durability, velocity vs. power, controller accuracy, or measuring the structural strains that large motors apply to the robots.  Get creative! We look forward to seeing what you come up with.
 
