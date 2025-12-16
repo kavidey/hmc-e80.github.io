@@ -171,7 +171,7 @@ You must submit a tech memo to pass the class.
 
 #### Final Poster
 
-Each team will prepare a poster to be presented during the E80 poster session during Presentation days on {{<var dates.present>}}. Guidelines for the poster along with a rubric will be posted later in the semester on the [Final Project Report and Poster page](/project/project/).
+Each team will prepare a poster to be presented during the E80 poster session during Presentation days on {{<var dates.poster_session>}}. Guidelines for the poster along with a rubric will be posted later in the semester on the [Final Project Report and Poster page](/project/project/).
 
 #### Final Report
 
