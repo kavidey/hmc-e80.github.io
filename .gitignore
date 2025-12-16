@@ -3,3 +3,5 @@ desktop.ini
 /.quarto/
 _site
 .vscode/*
+
+**/*.quarto_ipynb
