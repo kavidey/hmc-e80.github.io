@@ -244,7 +244,7 @@ Lab submission sheets and writing assignments in E80 are able to be resubmitted 
 For example, if Alice, Bob, Charlie, and Donna are team members they may select one lab as a team to resubmit.
 All three will get the updated grade.
 Alice, Bob, Charlie, and Donna may all select whatever sub-team lab they would like to resubmit.
-For the sub-team labs, supposed the team assignments were as follows:
+For the sub-team labs, suppose the team assignments were as follows:
   - Lab 2: Alice/Bob and Charlie/Donna
   - Lab 3: Alice/Charlie and Bob/Donna
   - Lab 4: Alice/Donna and Bob/Charlie.
@@ -296,7 +296,7 @@ It is an HONOR CODE VIOLATION to share these rubrics with other teams or with st
 
 - Students may work in the labs any time that it is open.
 - Students may only work in the E80 lab when a professor, staff member or proctor opens the lab.
-- Any team may use the equipment in the E80 and electronics labs during a lab section, but teams which are scheduled for a section have top priority for the equipment. 
+- Any team may use the equipment in the E80 and electronics labs during a lab section, but teams that are scheduled for a section have top priority for the equipment. 
 
 ## Accessibility and Accommodations
 
