@@ -48,7 +48,7 @@ This lab will be completed in sub-teams of two students.  Before the lab you mus
 
 ## Logging Analog Data with the Teensy {#sec-teensy-analog}
 
-The Teensy contains an analog to digital converter which can measure analog signals on many of its pins. In this section you will take your first analog measurement with the Teensy. You will use two different pieces of software to log data from the Teensy in this section: A program on your Teensy (written in Arduino code) will sample data, and a MATLAB program will interpret serial data sent by your Teensy. These programs sample the voltage on input A0, which is identified on the silk screen on the back of your motherboard. 
+The Teensy contains an analog to digital converter, which can measure analog signals on many of its pins. In this section you will take your first analog measurement with the Teensy. You will use two different pieces of software to log data from the Teensy in this section: A program on your Teensy (written in Arduino code) will sample data, and a MATLAB program will interpret serial data sent by your Teensy. These programs sample the voltage on input A0, which is identified on the silk screen on the back of your motherboard. 
 
 :::{.callout-warning}
 Always connect to your Teensy pins through the E80 motherboard, which has protection circuits designed to prevent damage to the Teensy.
@@ -67,7 +67,7 @@ Measure a first set of data
 :::{.callout-note collapse="true"}
 ## Serial communication debugging
 
-- You may need to modify the `matlablogging.m` so that it points at the COM port which is correct for your Teensy. 
+- You may need to modify the `matlablogging.m` so that it points at the COM port that is correct for your Teensy. 
 - `matlablogging.m` can't access your COM port if the Arduino serial monitor is open, so be sure that it is closed. 
 - Sometimes COM ports get stuck in unusual states and MATLAB can't access them. Closing all of your programs will usually fix this problem. 
 :::
@@ -131,7 +131,7 @@ A voltage divider
 
 You will be asked to measure the output Voltage with the devices in the "Measure With" column, but some of the devices in the "Measure With" column may be unfamiliar to you.  The devices are described below, and datasheet links are provided for each of them.  To finish this section, you will need to read these datasheets to find the input impedance and the measurement uncertainty of each device.
 
-- "Multimeter" refers to the multimeter chained to your desk. Our multimeters are the [Greenlee DM-210A Digital Multimeter](./doc/greenlee-multimeter-datasheet.pdf). Since the $V_{out}$ node will very with time, you should be sure to measure it with your multimeter set to AC mode.  The uncertainty listings for multimeters can use unusual units (e.g.: dgt and rdg), so don't forget about [this document on multimeter specifications](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/) that we also link on the lectures page.
+- "Multimeter" refers to the multimeter chained to your desk. Our multimeters are the [Greenlee DM-210A Digital Multimeter](./doc/greenlee-multimeter-datasheet.pdf). Since the $V_{out}$ node will vary with time, you should be sure to measure it with your multimeter set to AC mode.  The uncertainty listings for multimeters can use unusual units (e.g.: dgt and rdg), so don't forget about [this document on multimeter specifications](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/) that we also link on the lectures page.
 - "1x scope probe" refers to using a BNC cable with hooks directly connected to an oscilloscope input.  BNC cables don't have datasheets worth reading for this lab because they're just wires, so they have a low series impedance.  However, the oscilloscope itself (an [Agilent 2024A](./doc/InfiniiVision-2000-X-Series-Oscilloscopes.pdf)) has an input impedance and accuracy that you will need to look up. You can also create a 1x probe by using an oscilloscope probe with a switch set to 1x mode, and it will behave the same way as a BNC cable.  When you are using a 1x probe, you must change the channel setting of the oscilloscope to be 1x. Note that some scopes call the channel setting 1:1 instead of 1x.
 - "10x scope probe" refers to connecting a standard oscilloscope probe (set to 10x mode if there's a switch) to an oscilloscope input.  The gray scope probes in the lab are [Keysight N2842A](./doc/oscilloscope-passive-probes-N28xxA-ds.pdf) probes, and the black scope probes in 10x mode have a similar input impedance.  Note that the input impedance of a scope probe is added _in series_ with that of the oscilloscope itself, so the datasheet may report a total "terminated impedance" that includes the input impedance of the oscilloscope. When you are using a 10x probe, you must change the channel setting of the oscilloscope to be 10x.  Note that some scopes call the channel setting 10:1 instead of 10x.
 - "Teensy" refers to making an analog measurement with your Teensy. You made similar to the measurements in @sec-teensy-analog.  You made some calculations of the uncertainty of the Teensy, which arises from the size of the Teensy unit, in @sec-teensy-analog, and you can find information about Teensy input impedance in the videos. This information is also included in Section 4.8.2 of the [datasheet for the microcontroller on the Teensy board](./doc/IMXRT1060CEC_rev4.pdf).
@@ -203,7 +203,7 @@ You may have noticed that the circuit has many capacitors connected to its power
 
 Standard practice recommends both a 10 µF electrolytic capacitor and a 0.1 µF standard capacitor. For E80 you can get away with just the 0.1 µF standard capacitor. If you use electrolytic capacitors, remember that they are polar and if you put them in backwards they won't work and may explode. 
 
-For dual supplies the capacitors run between V+ and ground, and V– and ground. For single-sided supplies, they run between V+ and ground. The circuit below shows a unity-gain buffer amp with dual power supplies and bypass capacitors.
+For dual supplies the capacitors run between V+ and ground, and V– and ground. For single-sided supplies, they run between V+ and ground. The circuit above shows a unity-gain buffer amp with dual power supplies and bypass capacitors.
 :::
 
 

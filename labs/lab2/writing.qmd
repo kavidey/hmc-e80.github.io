@@ -19,7 +19,7 @@ Your figure should include 150-250 word section of text describing the schematic
 
 The **results** section should present the data you collected.
 For this lab, the results section will be tables presenting the measured and predicted output voltage values.
-You should present one table which demonstrates the impact of measuring different resistance values with the same instrument (e.g., the multimeter).
+You should present one table that demonstrates the impact of measuring different resistance values with the same instrument (e.g., the multimeter).
 Another table should contains data to demonstrate the influence of different measurement devices used on the same circuit (e.g., comparing data from a set value of Z1 and Z2 across the multimeter, both oscilloscope probes, and Teensy)
 The predicted values should be calculated using the appropriate model for the electrical measurement tools you used and the appropriate error bounds (i.e., your model should include the internal resistance of any measurement tool and the resultant loading effects.)
 A 100-150 word section of text should be included beneath each table describing the results and what they mean, along with noting any particular notable features or discrepancies (e.g., if the measured value is outside of the 95% confidence interval).
@@ -35,7 +35,7 @@ By the end of this writing assignment you will...
 - Learn how to create a high quality table which presents collected data
 - Understand the information that should be included in a methods section
 - Write equations in methods section to explain the data collection procedure
-- Created clear circuit schematics for the methods section
+- Create clear circuit schematics for the methods section
 - Write text to describe how the data presented in the table was collected
 - Write text to explain what the data presented in the table means
 

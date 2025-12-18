@@ -29,6 +29,7 @@ Complete Specification:
 - [ ] Calculations are correct and yield the proper Teensy unit value.  
 
 {{< pagebreak >}}
+
 ## What is the sample rate of the Teensy running matlablogging.ino? 
 
 Effort Specification:
@@ -43,6 +44,7 @@ Complete Specification:
 - [ ] Results are used to explain measurement errors that are present in the 175 kHz measurement that are not present in the 200 Hz measurement.
 
 {{< pagebreak >}}
+
 ## Fill in this table of properties for voltage dividers
 
 Fill in only one of the "Measured Output Voltage" columns for each measurement, whichever is appropriate to the instrument that you are using to measure.  If you are using the "Measured Output Voltage (Vpp)" column, then also convert that measured voltage to an RMS value in the "Converted Output Voltage (Vrms)" column.
@@ -88,6 +90,7 @@ Complete Specification:
 - [ ] All theoretical calculations (including the example calculation) correctly include loading effects and match measurements well. (i.e.: Predicted Output Voltage (Vrms) are within predicted error bounds of each another.)
 
 {{< pagebreak >}}
+
 ## Fill in this table of properties for voltage dividers with op-amp buffers
 
 This table uses the same column abbreviation as the previous section.
