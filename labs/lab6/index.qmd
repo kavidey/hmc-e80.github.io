@@ -5,13 +5,13 @@ number-sections: true
 
 Team size: 4
 
-Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
+Submission Sheet: [html](./submission.qmd){target="_blank"} [docx](./submission.docx)
 
 Prelab Help Sheet: None for this lab, but you've got this!  Review previous ones for ideas.
 
-Writing Assignment: [html](./writing.qmd)
+Writing Assignment: [html](./writing.qmd){target="_blank"}
 
-Writing Template: [html](./writing-template.qmd) [docx](./writing-template.docx)
+Writing Template: [html](./writing-template.qmd){target="_blank"} [docx](./writing-template.docx)
 
 
 ## Introduction
@@ -37,7 +37,7 @@ You will be using COMSOL Multiphysics software in this lab. COMSOL is complicate
 
 Each team will have exactly 60 minutes to use the wind tunnel to run experiments and collect data.  The order that teams are sent to the wind tunnel is random and determined at the start of the section, so be ready to go first! 
 
-This is a rotation lab, so not all teams will be working on this lab in the same week.  Even numbered teams (12, 24, 36, etc.) will do this lab in week 6, while Odd numbered teams (12, 24, 36, etc.) work on [Lab 5](/labs/lab5/index.qmd).  Odd numbered teams will do this lab in week 7, while Even numbered teams work on lab 5.  Be sure to watch the correct videos, do the correct quiz, and put in prelab effort for the correct lab!
+This is a rotation lab, so not all teams will be working on this lab in the same week.  Even numbered teams (12, 24, 36, etc.) will do this lab in week 6, while Odd numbered teams (12, 24, 36, etc.) work on [Lab 5](/labs/lab5/index.qmd){target="_blank"}.  Odd numbered teams will do this lab in week 7, while Even numbered teams work on lab 5.  Be sure to watch the correct videos, do the correct quiz, and put in prelab effort for the correct lab!
 
 :::{.callout-warning}
 Safety Tips for the Wind Tunnel
@@ -53,18 +53,18 @@ Safety Tips for the Wind Tunnel
 :::{.callout-note collapse="true"}
 ## Prelab resources on fluids, aerodynamics, and COMSOL
 
-* NASA Beginner's Guide to Aerodynamics (click [here](https://www.grc.nasa.gov/www/k-12/airplane/short.html))
-* E80 fluid measurements lecture notes (click [here](https://drive.google.com/file/d/1R1AHWD5GR1xRkoNJdMfdgkJvw1xmn8XO/view?usp=sharing))
-* Airfoil database (click [here](http://www.airfoiltools.com/search/index?m%5Bgrp%5D=naca4d&m%5Bsort%5D=1))
-* Airfoil and angle of attack definitions (click [here](http://www.esru.strath.ac.uk/EandE/Web_sites/11-12/MORE/hydrofoil/img/1.jpg))
-* NASA Wing geometry definitions (click [here](https://www.grc.nasa.gov/www/k-12/airplane/geom.html)) 
-* NASA Reynolds Number guide (click [here](https://www.grc.nasa.gov/www/BGH/reynolds.html))
-* Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (105 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing)). Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
-* Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing)) Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
-* COMSOL video tutorials for beginners (click [here](https://www.comsol.com/video/how-set-up-run-simulation-comsol-multiphysics))
-* How to use COMSOL 3D geometry tools (click [here](https://www.youtube.com/watch?v=1AggdrJzHyg))
-* How to form unions in COMSOL (click [here](https://www.youtube.com/watch?v=Q7fOawr58H0))
-* Computing lift and drag forces in COMSOL (click [here](https://www.comsol.com/blogs/how-do-i-compute-lift-and-drag/))
+* NASA Beginner's Guide to Aerodynamics (click [here](https://www.grc.nasa.gov/www/k-12/airplane/short.html){target="_blank"})
+* E80 fluid measurements lecture notes (click [here](https://drive.google.com/file/d/1R1AHWD5GR1xRkoNJdMfdgkJvw1xmn8XO/view?usp=sharing){target="_blank"})
+* Airfoil database (click [here](http://www.airfoiltools.com/search/index?m%5Bgrp%5D=naca4d&m%5Bsort%5D=1){target="_blank"})
+* Airfoil and angle of attack definitions (click [here](http://www.esru.strath.ac.uk/EandE/Web_sites/11-12/MORE/hydrofoil/img/1.jpg){target="_blank"})
+* NASA Wing geometry definitions (click [here](https://www.grc.nasa.gov/www/k-12/airplane/geom.html){target="_blank"}) 
+* NASA Reynolds Number guide (click [here](https://www.grc.nasa.gov/www/BGH/reynolds.html){target="_blank"})
+* Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (105 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing){target="_blank"}). Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
+* Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing){target="_blank"}) Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
+* COMSOL video tutorials for beginners (click [here](https://www.comsol.com/video/how-set-up-run-simulation-comsol-multiphysics){target="_blank"})
+* How to use COMSOL 3D geometry tools (click [here](https://www.youtube.com/watch?v=1AggdrJzHyg){target="_blank"})
+* How to form unions in COMSOL (click [here](https://www.youtube.com/watch?v=Q7fOawr58H0){target="_blank"})
+* Computing lift and drag forces in COMSOL (click [here](https://www.comsol.com/blogs/how-do-i-compute-lift-and-drag/){target="_blank"})
 :::
 
 
@@ -79,8 +79,8 @@ In this sub-section, you will familiarize yourself with the wind tunnel.  Do the
 1. Locate the important pieces of wind tunnel control and measurement technology items shown in @fig-controls.
 2. Ensure that the LVDT box is turned on.  If it is not, the switch is on the right side of the box in the rear.  DO NOT TOUCH THE KNOBS ON THE FRONT OF THIS BOX.  
 3. Safely open the test chamber: Ensure that the fan is not running in the wind tunnel by pushing the "STOP" button on the RPM controller, then Open the wind tunnel test chamber by removing the four clamps and gently removing the window.
-5. Verify that there is nothing but a Pitot tube (which looks like [this](https://dwyer-inst.com/series-160-stainless-steel-pitot-tube.html)) and the force measurement stand in the wind tunnel. If there are other objects in the wind tunnel, remove them.
-6. Observe the mounting of the Pitot tube in the wind tunnel. Ensure that the end of the tube is properly oriented directly facing the incoming airflow. Ensure that the pitot probe is connected to the [digital manometer](http://www.dwyer-inst.com/Product/Pressure/Manometers/Digital/Series475).
+5. Verify that there is nothing but a Pitot tube (which looks like [this](https://dwyer-inst.com/series-160-stainless-steel-pitot-tube.html){target="_blank"}) and the force measurement stand in the wind tunnel. If there are other objects in the wind tunnel, remove them.
+6. Observe the mounting of the Pitot tube in the wind tunnel. Ensure that the end of the tube is properly oriented directly facing the incoming airflow. Ensure that the pitot probe is connected to the [digital manometer](http://www.dwyer-inst.com/Product/Pressure/Manometers/Digital/Series475){target="_blank"}.
 7. Turn on the digital manometer. Zero it. 
 8. Test the LVDT by doing the following while observing lift and drag force readouts:
     1. GENTLY push on the left side of the force measurement stand with one finger.
@@ -118,9 +118,9 @@ To increase the accuracy of your wind speed measurements, allow time at each mea
 :::{.callout-tip}
 To calculate air velocity, you can use 
 
-* this Excel spreadsheet [PitotVelocityCalculator](https://docs.google.com/spreadsheets/d/1JXKPa2uhD6FO39ZgqziKAnF7XNatieHe/edit?usp=share_link&ouid=105511935419108795487&rtpof=true&sd=true)
-* this [Google Sheet](https://docs.google.com/spreadsheets/d/1m22gxiGKOKdak-1UFEZurIgK5epST0CCiMBFQLzDiQM/copy?usp=sharing),  
-* the [Dwyer Air Velocity Calculator](https://dwyer-inst.com/en/flowcalc) 
+* this Excel spreadsheet [PitotVelocityCalculator](https://docs.google.com/spreadsheets/d/1JXKPa2uhD6FO39ZgqziKAnF7XNatieHe/edit?usp=share_link&ouid=105511935419108795487&rtpof=true&sd=true){target="_blank"}
+* this [Google Sheet](https://docs.google.com/spreadsheets/d/1m22gxiGKOKdak-1UFEZurIgK5epST0CCiMBFQLzDiQM/copy?usp=sharing){target="_blank"},  
+* the [Dwyer Air Velocity Calculator](https://dwyer-inst.com/en/flowcalc){target="_blank"} 
 * the Dwyer Air Velocity Calculation Card that has been placed next to the wind tunnel. 
 
 Using these tools or the card requires that you know:
@@ -172,7 +172,7 @@ Mounting the scaled model of the robot in the test chamber.
 
 In this section we will perform fluid dynamics simulations of the same objects that are tested in the wind tunnel. This will offer us a chance to compare simulation and reality. We will also use similitude to compare our wind tunnel results against a simulation of a full-sized robot traveling in water.
 
-Make sure to download and watch Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (106 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1e_maE5dcjPOEUGKOjZue8UUbkSufHgzy/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true)).  Each slide on the PowerPoint contains a video. Make sure that you press play on each video.  The guide has specific instructions for creating some of the trickier plots below: the velocity profile and the filled pressure contour plot.
+Make sure to download and watch Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (106 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1e_maE5dcjPOEUGKOjZue8UUbkSufHgzy/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true){target="_blank"}).  Each slide on the PowerPoint contains a video. Make sure that you press play on each video.  The guide has specific instructions for creating some of the trickier plots below: the velocity profile and the filled pressure contour plot.
 
 First, carry out simulations for each of the nose cones used in the wind tunnel. 
 
@@ -192,7 +192,7 @@ First, carry out simulations for each of the nose cones used in the wind tunnel.
 Nose cone assembly dimensions
 :::
 
-Second, simulate a full-scale model of your robot (found [here](https://drive.google.com/file/d/1S4ma0dsIwoG4uevQlVbE5IhP2XK05xuQ/view?usp=sharing)) in water at various velocities such that the Reynolds number is comparable to the Reynolds number of the small-scale model of the robot in the wind tunnel.  
+Second, simulate a full-scale model of your robot (found [here](https://drive.google.com/file/d/1S4ma0dsIwoG4uevQlVbE5IhP2XK05xuQ/view?usp=sharing){target="_blank"}) in water at various velocities such that the Reynolds number is comparable to the Reynolds number of the small-scale model of the robot in the wind tunnel.  
 
 1. Unlike the nose cones, you will import an already existing model of the robot:
     * Select Model Wizard -> 3D -> Laminar Flow -> Stationary. Set units under the Geometry tab in the left hand column. 
@@ -212,7 +212,7 @@ Import settings for importing robot model to COMSOL
 
 In this section you will use CFD to simulate wings so that you can explore the effect of wing shape and angle of attack on lift and drag.
 
-For parts 2 and 3 of this section, please make sure to watch  Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1KFulcloNJmJO0Bwzbz9RL0ppA24EBcsr/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true)). Each slide on the PowerPoint contains a video. Make sure that you press play on each video.
+For parts 2 and 3 of this section, please make sure to watch  Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1KFulcloNJmJO0Bwzbz9RL0ppA24EBcsr/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true){target="_blank"}). Each slide on the PowerPoint contains a video. Make sure that you press play on each video.
 
 1. Construct two wings in COMSOL. 
    1. a "Flat Plate Wing" that COULD be tested in the wind tunnel using the dimensions in @fig-plate-wing. Note that the wind tunnel test section is 1 ft x 1 ft x 2 ft. 

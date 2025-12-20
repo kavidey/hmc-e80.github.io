@@ -77,7 +77,7 @@ Instead, pause frequently while watching the video so that you can try things ou
 Watch [this second 17-minute video](https://vimeo.com/501103844){target="_blank"} to learn how to find and fix errors in your MATLAB code.
 This skill will *greatly* aid you in all classes that require the use of MATLAB.
 
-If you want to try using the debugger yourself with this piece of code, download [debugpractice.m](https://github.com/HMC-E80/E80/tree/main/MATLAB/debugpractice.m).
+If you want to try using the debugger yourself with this piece of code, download [debugpractice.m](https://github.com/HMC-E80/E80/tree/main/MATLAB/debugpractice.m){target="_blank"}.
 
 To download the file, you can click the little downward pointing arrow in the toolbar at the top right of the code.
 
@@ -89,7 +89,7 @@ Button to download individual file from the GitHub repository.
 
 ### 5. Practice Debugging in MATLAB {#practice-debugging-in-matlab}
 
-Practice your MATLAB debugging skills on this script [debugme.m](https://github.com/HMC-E80/E80/tree/main/MATLAB/debugme.m), which is supposed to create a matrix like the one below.
+Practice your MATLAB debugging skills on this script [debugme.m](https://github.com/HMC-E80/E80/tree/main/MATLAB/debugme.m){target="_blank"}, which is supposed to create a matrix like the one below.
 
 The code should be able to produce a matrix with a user-specified number of columns. In the diagram below, we show what the output matrix should look like if it has 10 columns. The number of rows in this case would need to be 32, since the matrix has three 10x10 blocks in the middle, sandwiched by the row of ones at the top and row of ones at the bottom.
 

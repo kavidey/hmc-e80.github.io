@@ -2,12 +2,12 @@
 title: "E80 Project Field Deployments"
 ---
 
-You test your assembled robot by performing field deployments to gather live data from your sensors.  The data you gather during these deployments is essential for your [final report and presentation](/project/report).  There are two deployments, one at pHake Lake during your normal lab section during the week of {{<var dates.phake1>}}, and the second at Dana Point on Saturday {{<var dates.dana>}}.  This document describes the deployments, the build time between deployments, and additional details about best practices during a deployment.
+You test your assembled robot by performing field deployments to gather live data from your sensors.  The data you gather during these deployments is essential for your [final report and presentation](/project/report){target="_blank"}.  There are two deployments, one at pHake Lake during your normal lab section during the week of {{<var dates.phake1>}}, and the second at Dana Point on Saturday {{<var dates.dana>}}.  This document describes the deployments, the build time between deployments, and additional details about best practices during a deployment.
 
 
 ## pHake Lake
 
-You are expected to test your AUV at the pHake Lake at the Bernard Field Station during your regular section time in the first deployment week (the week of {{<var dates.phake1>}}). You must be at the [side gate](https://drive.google.com/file/d/1wdGyp2_50KINmBhqCJby9zoKUE3Mr1cf/view?usp=sharing) of Bernard Field Station by 1:15 pm on the day of your deployment. An instructor will meet the group at the gate at the start of your section.  The main E80 Lab (Parsons B171) will be open from 12:30 pm - 1:00 pm this week so that you may retrieve your equipment.
+You are expected to test your AUV at the pHake Lake at the Bernard Field Station during your regular section time in the first deployment week (the week of {{<var dates.phake1>}}). You must be at the [side gate](https://drive.google.com/file/d/1wdGyp2_50KINmBhqCJby9zoKUE3Mr1cf/view?usp=sharing){target="_blank"} of Bernard Field Station by 1:15 pm on the day of your deployment. An instructor will meet the group at the gate at the start of your section.  The main E80 Lab (Parsons B171) will be open from 12:30 pm - 1:00 pm this week so that you may retrieve your equipment.
 
 The goals of this test are: 
 
@@ -23,7 +23,7 @@ Safety information:
 
 Resources information:
 
-- The [mobile lab facility](/reference/equipment) will be available at BFS.
+- The [mobile lab facility](/reference/equipment){target="_blank"} will be available at BFS.
 - The teaching team will be out at BFS during deployments. 
 
 ## Rebuild Week 
@@ -51,7 +51,7 @@ Food information and Dietary Restrictions:
 
 Resources information:
 
-- The [mobile lab facility](/reference/equipment) will be available. 
+- The [mobile lab facility](/reference/equipment){target="_blank"} will be available. 
 - In addition, we will provide freshwater buckets and rice for recovering flooded robots.
 
 You are not allowed to do any deployments after launch day, so use this deployment well!
@@ -93,7 +93,7 @@ Most of the advice in this section is gives you more work to do before you launc
 It's very easy to forget a step and launch in a way that corrupts your data.
 The surest proof against such a mistake is writing a deployment checklist that spells out all the steps you should do before a launch.
 Use the checklist during a launch by having one team member read steps off of it while another works on the robot and verifies that steps are complete.
-Here is an [example deployment checklist](./deployment-checklist.qmd).
+Here is an [example deployment checklist](./deployment-checklist.qmd){target="_blank"}.
 
 There are some additional practices that will help when you prepare specifically for deploying at Dana Point:
 

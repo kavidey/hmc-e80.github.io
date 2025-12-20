@@ -24,7 +24,7 @@ All schematics in this report should adhere the following specification:
 - [ ] Generally keep signal flow left-to-right
 - [ ] Generally keep high voltages at the top of the diagram and low voltages at the bottom.
 - [ ] Space out components well enough and zoom in close enough that annotations are easy to read.
-- [ ] Minimize unnecessary crossings, corners and jogs in the wires.  Use connect-by-name to reduce congestion among wires.  This [tutorial](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/reading-schematics) has more information.
+- [ ] Minimize unnecessary crossings, corners and jogs in the wires.  Use connect-by-name to reduce congestion among wires.  This [tutorial](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/reading-schematics){target="_blank"} has more information.
 
 All pictures of circuits in this report should adhere to the following specification:
 
@@ -32,6 +32,7 @@ All pictures of circuits in this report should adhere to the following specifica
 - [ ] The circuit is neatly laid out so that readers can trace connections in the circuit.
 
 {{< pagebreak >}}
+
 ## Report on the FFT of Signals Directly Applied to the Scope
 
 The manual for this section requests four oscilloscope traces, which will be referred to here as traces 1-4 based on the list below. Traces should follow the instructions in the manual (50 cycles on screen, FFT span is 100 kHz, FFT center is 50 kHz). Further, the input signal should be on channel 1 and the math mode should be scaled to be clearly visible:
@@ -70,6 +71,7 @@ Complete:
 - [ ] Includes a further 2-3 sentences discussion of windowing functions explaining how they work (by appealing to Fourier analysis) and what the tradeoffs are in choosing one over another.
 
 {{< pagebreak >}}
+
 ## Report on Design and Characterization of Microphone Interface Circuit
 
 Effort:
@@ -86,6 +88,7 @@ Complete:
 - [ ] Brief discussion of what frequencies are present in the hand clap and how those frequencies compare to the range of human audible frequencies and to the range of typical human speech.
 
 {{< pagebreak >}}
+
 ## Graphs of Microphone Voltage vs. Position for Beacon-Based Localization
 
 Effort:
@@ -100,6 +103,7 @@ Complete:
 - [ ] Analytical model for received Voltage magnitude is overlaid onto the plots.
 
 {{< pagebreak >}}
+
 ## Graphs of Microphone Voltage Sampled at Different Frequencies with Teensy Rig
 
 Effort:

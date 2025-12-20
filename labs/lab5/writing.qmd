@@ -99,6 +99,6 @@ By the end of this writing assignment you will...
 
 ## Resources
 
--   This document is a great place to start: “[How to Use Mathematical Equations in Your Thesis](https://gradstudents.carleton.ca/2014/use-mathematical-equations-thesis/)”, by Rozita Rashtchi.
+-   This document is a great place to start: “[How to Use Mathematical Equations in Your Thesis](https://gradstudents.carleton.ca/2014/use-mathematical-equations-thesis/){target="_blank"}”, by Rozita Rashtchi.
 -   Make sure you refer to equations as “Equation 1” or "Eq. 1" not “eq 1” or any other way, and be sure to include units wherever appropriate. Units should not be italicized.
--   Pages 4-8 of the “[User’s Guide for the `amsmath` Package](https://texdoc.org/serve/amsldoc.pdf/0)"
+-   Pages 4-8 of the “[User’s Guide for the `amsmath` Package](https://texdoc.org/serve/amsldoc.pdf/0){target="_blank"}"

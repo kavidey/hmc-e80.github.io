@@ -14,6 +14,7 @@ Team Member Names:
 
 
 {{< pagebreak >}}
+
 ## Include Code Modifications to Implement New Printer Functionality
 
 Effort: 
@@ -27,6 +28,7 @@ Complete:
 - [ ] Loop period estimate is correct.
 
 {{< pagebreak >}}
+
 ## Graphs of Position Inferred from IMU
 
 Effort: 
@@ -40,6 +42,7 @@ Complete:
 - [ ] y coordinate vs. time remains within theoretical bounds.
 
 {{< pagebreak >}}
+
 ## Dive Activity Only: Pressure Calibration Curve
 
 Effort: 
@@ -52,6 +55,7 @@ Complete:
 - There are no complete requirements for this section.
 
 {{< pagebreak >}}
+
 ## Dive Activity Only: Control Effort and Trajectory from Deployment
 
 Effort: 
@@ -65,6 +69,7 @@ Complete:
 - [ ] `depth` tracks `depth_des`, `uV` decays as `depth` approaches `depth_des`, and system exhibits the second-order settling characteristic of P-control on depth in a robot.
 
 {{< pagebreak >}}
+
 ## Surface Activity Only: Calibrated and Uncalibrated Magnetometer Performance
 
 Effort: 
@@ -78,6 +83,7 @@ Complete:
 - There are no complete requirements for this section.
 
 {{< pagebreak >}}
+
 ## Surface Activity Only: GPS Points from Walking a Path
 
 4.2 Plot the logged x,y positions from the path you walked with your GPS
@@ -93,6 +99,7 @@ Complete:
 - There are no complete requirements for this section.
 
 {{< pagebreak >}}
+
 ## Surface Activity Only: Control Effort and Trajectory from Deployment
 
 Effort: 
