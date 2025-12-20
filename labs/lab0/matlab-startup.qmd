@@ -19,10 +19,10 @@ Also, there are lots of resources online for using MATLAB.
 
 At the end of this assignment you will submit pieces of information:
 
-1.  A screenshot showing you've completed the assigned sections of the [MATLAB On-ramp tutorial](#matlab-onramp).
+1.  A screenshot showing you've completed the assigned sections of the [MATLAB On-ramp tutorial](#matlab-onramp){target="_self"}.
 2.  A screenshot of your completed `debugme.m` script file.
-3.  A brief, 2-3 sentence reflection detailing something you learned from the [plotting question](#matlab-plotting-video).
-4.  A brief, 4-5 sentence reflection detailing something you learned from the [debugging practice](#practice-debugging-in-matlab).
+3.  A brief, 2-3 sentence reflection detailing something you learned from the [plotting question](#matlab-plotting-video){target="_self"}.
+4.  A brief, 4-5 sentence reflection detailing something you learned from the [debugging practice](#practice-debugging-in-matlab){target="_self"}.
 
 You should prepare these items in an MS Word document or Google Doc and then download it as a PDF to submit on Canvas.
 

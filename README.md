@@ -6,7 +6,7 @@
 # How to update the site
 
 - All the files for the website are in this directory.
-- Make any edits and then commit to the respository (see [Git Best Practices](#git-best-practices)).
+- Make any edits and then commit to the respository (see [Git Best Practices](#git-best-practices){target="_self"}).
 - To update the site, navigate to the `/.github/workflows/` subdirectory in the command line and then run `quarto publish`. (Note: You should be on the branch `main` when you do this.) This will render the site locally and then automatically push to the `gh-pages` branch and update the GitHub Pages website. The GitHub repository has already been configured to publish from the root of the `gh-pages` branch.
 
 For more detailed information, check out the instructions [here](https://quarto.org/docs/publishing/github-pages.html#publish-command).

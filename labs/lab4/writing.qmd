@@ -17,7 +17,7 @@ Prepare a 400-500 word introduction section based on the temperature sensors use
 Your writeup should introduce the topic of temperature measurement and describe the three different measurement devices discussed in Lab 4: thermistors, active linear temperature sensors, and thermocouples.
 The introduction should provide an overview and motivation of temperature sensing along with a description of desired properties of an effective temperature sensing device.
 It should also include background information on each of these sensors along with citations to appropriate sources in IEEE format as needed to back up any claims.
-See the [references section](#references) below for more information on how to correctly format the citations.
+See the [references section](#references){target="_self"} below for more information on how to correctly format the citations.
 
 If you were writing a full report (like you will in Lab 6), your introduction would also contain a paragraph at the end to explain the remaining content of the report as if you were writing it. 
 You do not need to include this paragraph for your writing assignment this week, but we've provided you with some sample text below that you can adapt when writing your Lab 6 technical memo.

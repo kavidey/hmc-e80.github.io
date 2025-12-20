@@ -11,7 +11,7 @@ Peer Review Worksheet [html](./peer-review-worksheet.qmd) [docx](./peer-review-w
 The purpose of peer review is to help you to get feedback on your writing.
 This page describes the process we will use in E80 for you to give and receive feedback on your final reports.
 First we start with instructions on how to give and receive good feedback.
-Then, you will complete the form included below under [Project Peer Review](#project-peer-review).
+Then, you will complete the form included below under [Project Peer Review](#project-peer-review){target="_self"}.
 
 ## On Giving Feedback
 

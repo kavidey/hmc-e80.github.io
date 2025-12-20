@@ -98,16 +98,16 @@ Team assignments can be found on the [People tab on Canvas]({{<var urls.canvas_r
 ### Graded Submissions Breakdown
 
 ::: {.center-table}
-| Item                                                              | Weight |            | 
-|-------------------------------------------------------------------|:------:|------------| 
-| [Lecture Quizzes](#lecture-quizzes)                               |   7%   | Individual |
-| [Surveys and Team Check-Ins](#surveys-and-team-check-ins)         |   6.5%   | Individual |
-| [Laboratory Submission Sheets](#laboratory-submission-sheets)     |   32%  | Team       |
-| [Laboratory Writing Assignments](#laboratory-writing-assignments) |   15%  | Individual |
-| [Technical Memorandum](#technical-memorandum)                     |   10%  | Individual |
-| [Final Poster](#final-poster)                         |   10%  | Team       |
-| [Final Report](#final-report)                                     |   15%  | Individual       |
-| [Participation](#participation)                                   |   4.5%   | Individual |
+| Item                                                                              | Weight |            | 
+|-----------------------------------------------------------------------------------|:------:|------------| 
+| [Lecture Quizzes](#lecture-quizzes){target="_self"}                               |   7%   | Individual |
+| [Surveys and Team Check-Ins](#surveys-and-team-check-ins){target="_self"}         |   6.5% | Individual |
+| [Laboratory Submission Sheets](#laboratory-submission-sheets){target="_self"}     |   32%  | Team       |
+| [Laboratory Writing Assignments](#laboratory-writing-assignments){target="_self"} |   15%  | Individual |
+| [Technical Memorandum](#technical-memorandum){target="_self"}                     |   10%  | Individual |
+| [Final Poster](#final-poster){target="_self"}                                     |   10%  | Team       |
+| [Final Report](#final-report){target="_self"}                                     |   15%  | Individual |
+| [Participation](#participation){target="_self"}                                   |   4.5% | Individual |
 :::
 
 ### Turn-In on Canvas
@@ -124,7 +124,7 @@ Effort specs describe **good-faith effort** whereas completion specs describe **
 In most situations, completing all the effort specs is equivalent to a passing grade on the assignment.
 The remaining sections of completion specs raise your grade from a passing grade to full credit.
 
-If the initial version of a submitted assignment does not meet specs, it may be revised according to the stipulations of the course [resubmissions policy](#resubmission-policy).
+If the initial version of a submitted assignment does not meet specs, it may be revised according to the stipulations of the course [resubmissions policy](#resubmission-policy){target="_self"}.
 
 ### Graded Submissions Details
 
