@@ -5,13 +5,13 @@ number-sections: true
 
 Team size: 4
 
-Submission Sheet: [html](./submission.qmd){target="_blank"} [docx](./submission.docx)
+Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
 
-Prelab Help Sheet: [html](./prelab.qmd){target="_blank"}
+Prelab Help Sheet: [html](./prelab.qmd)
 
-Writing Assignment: [html](./writing.qmd){target="_blank"}
+Writing Assignment: [html](./writing.qmd)
 
-Writing Template: [html](./writing-template.qmd){target="_blank"} [docx](./writing-template.docx)
+Writing Template: [html](./writing-template.qmd) [docx](./writing-template.docx)
 
 ## Introduction
 
@@ -28,13 +28,13 @@ After successful completion of this lab, you will be able to...
 
 Lab 1 is completed in teams of 4. 
 
-Be sure to read the [Lab Overview](../overview/index.qmd){target="_blank"} to learn about safety requirements, expensive equipment handling and other rules.  You must review all SAFETY QUESTION boxes below as part of pre-lab.  If you ever reach a safety question box and either can't answer it or feel unsure, grab an instructor.
+Be sure to read the [Lab Overview](../overview/index.qmd) to learn about safety requirements, expensive equipment handling and other rules.  You must review all SAFETY QUESTION boxes below as part of pre-lab.  If you ever reach a safety question box and either can't answer it or feel unsure, grab an instructor.
 
 At the end of the lab, you need to submit a completed submission sheet (see links above) on Canvas.  Specifications for each part of the lab are included on the submission sheet. Recall that **no late work is accepted** - we will grade whatever is submitted before the deadlines. Since multiple submissions are allowed, you may want to submit a less-than-perfect draft early as insurance against missing the deadline.
 
 ## Motherboard Assembly
 
-A motherboard has been designed to interface the major electrical components of your AUV. You will assemble it in this section. Familiarize yourself with the components on the motherboard by reading the [Introduction to the E80 Motherboard](https://drive.google.com/file/d/18bMajGNwH1K2yHB1dQLZRx5eqrYiNQWA/view?usp=sharing){target="_blank"}, and the [Motherboard Assembly Document](https://docs.google.com/document/d/1v1vE3GXXUw8o6T2IJJws_xr_b3ntKiPx/edit?usp=sharing&ouid=105511935419108795487&rtpof=true&sd=true){target="_blank"}.
+A motherboard has been designed to interface the major electrical components of your AUV. You will assemble it in this section. Familiarize yourself with the components on the motherboard by reading the [Introduction to the E80 Motherboard](https://drive.google.com/file/d/18bMajGNwH1K2yHB1dQLZRx5eqrYiNQWA/view?usp=sharing), and the [Motherboard Assembly Document](https://docs.google.com/document/d/1v1vE3GXXUw8o6T2IJJws_xr_b3ntKiPx/edit?usp=sharing&ouid=105511935419108795487&rtpof=true&sd=true).
 
 :::{.callout-warning}
 There are two ways that **you can damage your motherboard irreparably** during this process, and you should take precautions against each of them. 
@@ -48,25 +48,25 @@ There are two ways that **you can damage your motherboard irreparably** during t
 3. Take precautions to keep everything working before soldering
     i) Double check that you are using the correct header and try fitting all the pieces together before soldering. 
     ii) Have an instructor or proctor check your battery connector and power supply connector polarity.
-4. Follow the instructions in the [Motherboard Assembly Document](https://docs.google.com/document/d/1v1vE3GXXUw8o6T2IJJws_xr_b3ntKiPx/edit?usp=sharing&ouid=105511935419108795487&rtpof=true&sd=true){target="_blank"} to build your Motherboard.
-5. Cover the back of your motherboard with insulating foam sheet using these [instructions](https://drive.google.com/open?id=1x0CMBDFia2uY5qxPkWFfg_pN3FcR7Pth){target="_blank"} to prevent inadvertent short circuits when you set it down. 
+4. Follow the instructions in the [Motherboard Assembly Document](https://docs.google.com/document/d/1v1vE3GXXUw8o6T2IJJws_xr_b3ntKiPx/edit?usp=sharing&ouid=105511935419108795487&rtpof=true&sd=true) to build your Motherboard.
+5. Cover the back of your motherboard with insulating foam sheet using these [instructions](https://drive.google.com/open?id=1x0CMBDFia2uY5qxPkWFfg_pN3FcR7Pth) to prevent inadvertent short circuits when you set it down. 
 6. Find a sharpie and color the GND side of your P.S. screw black, so that you don't forget the polarity of the connector.
 
 :::{.callout-note collapse="true"}
 ## Additional Motherboard Reference Information
 
-* The schematic for the motherboard is [here](https://drive.google.com/file/d/1pk_mORYsxhedKjjqzhMrxj9H5ZVH3zqp/view?usp=sharing){target="_blank"}, 
-* The layout for the motherboard is [here](https://drive.google.com/file/d/1pmm8xwpyAHAL5YvwMIQma4W8DuV-MP31/view?usp=sharing){target="_blank"}. 
-* [KiCAD](https://www.kicad.org/) design files are  [here](https://drive.google.com/file/d/1pi9WNW7WoIx80xgb_0LWSUyA-LMfp94Z/view?usp=sharing){target="_blank"}.
+* The schematic for the motherboard is [here](https://drive.google.com/file/d/1pk_mORYsxhedKjjqzhMrxj9H5ZVH3zqp/view?usp=sharing), 
+* The layout for the motherboard is [here](https://drive.google.com/file/d/1pmm8xwpyAHAL5YvwMIQma4W8DuV-MP31/view?usp=sharing). 
+* [KiCAD](https://www.kicad.org/) design files are  [here](https://drive.google.com/file/d/1pi9WNW7WoIx80xgb_0LWSUyA-LMfp94Z/view?usp=sharing).
 
 
-You can find reference information for all of the E80 boards summarized on [this page](/reference/board){target="_blank"}
+You can find reference information for all of the E80 boards summarized on [this page](/reference/board)
 :::
 
 
 ## Motherboard Validation, IMU Calibration, and IMU Error Measurement
 
-Your motherboard has a circuit on it called an inertial measurement unit (IMU), specifically an [LSM303AGRTR](https://www.st.com/content/ccc/resource/technical/document/datasheet/74/c4/19/54/62/c5/46/13/DM00177685.pdf/files/DM00177685.pdf/jcr:content/translations/en.DM00177685.pdf){target="_blank"}, which allows you to measure acceleration and magnetic fields. This is a useful sensor that we will explore more later in the course. We are just getting started with the sensor in this section by  calibrating the output and measuring its noise statistics.  This sensor is also useful because you can only measure its output if your motherboard is working correctly. The tests in this section will ensure that your Teensy can listen to the IMU, write to the SD card, and drive the motors.
+Your motherboard has a circuit on it called an inertial measurement unit (IMU), specifically an [LSM303AGRTR](https://www.st.com/content/ccc/resource/technical/document/datasheet/74/c4/19/54/62/c5/46/13/DM00177685.pdf/files/DM00177685.pdf/jcr:content/translations/en.DM00177685.pdf), which allows you to measure acceleration and magnetic fields. This is a useful sensor that we will explore more later in the course. We are just getting started with the sensor in this section by  calibrating the output and measuring its noise statistics.  This sensor is also useful because you can only measure its output if your motherboard is working correctly. The tests in this section will ensure that your Teensy can listen to the IMU, write to the SD card, and drive the motors.
 
 First, test your motherboard:
 
@@ -81,7 +81,7 @@ First, test your motherboard:
     ii) Special programs are required to decode the binary data, and those programs also depend on having a matching INF file. We provide a MATLAB script for reading SD card data: [logreader.m](https://github.com/HMC-E80/E80/blob/main/MATLAB/logreader.m). 
     iii) These links provide [sample INF](../lab0/assets/INF004.TXT) and [sample BIN](../lab0/assets/LOG004.BIN) files so you can test the MATLAB scripts during prelab. The sample file is very noisy, so it can't be used to find answers to the questions later in this Section.
 8. Verify that you are saving the following data to your SD card: acceleration values from your accelerometer, magnetic field strengths from your magnetometer, roll, pitch and yaw angles calculated from your IMU measurements, and motor PWM values.
-9. Verify that your motherboard can drive motors by attaching motors to motor ports A, B and C, then modifying and running `E80_Lab_01.ino` (which you [set up in lab 0](https://hmc-e80.github.io/E80/labs/lab0/#arduino-practice){target="_blank"}) to drive each of them. If your motors are not ready, you can measure the voltages at screw terminals A, B and C to observe whether they are being correctly applied by your software.
+9. Verify that your motherboard can drive motors by attaching motors to motor ports A, B and C, then modifying and running `E80_Lab_01.ino` (which you [set up in lab 0](https://hmc-e80.github.io/E80/labs/lab0/#arduino-practice)) to drive each of them. If your motors are not ready, you can measure the voltages at screw terminals A, B and C to observe whether they are being correctly applied by your software.
 
 
 :::{.callout-warning}
@@ -127,7 +127,7 @@ Project box and penetrator bolt details
 
 These penetrators have six wires passing through them because your AUV will use three motors, which you must prepare. 
 
-1. You will need a total of 3 motors. If necessary, you can prep new motors as you did in E79, but your time will be very limited if you must build motors. Instructions can be found [here](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a){target="_blank"}.
+1. You will need a total of 3 motors. If necessary, you can prep new motors as you did in E79, but your time will be very limited if you must build motors. Instructions can be found [here](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a).
 2. If you have not done so during Lab 0, test your motors using a power supply to make sure they work by supplying 6VDC:
     i) If the current draw during this test is more than 500 mA, then the friction in your motor is likely to severely limit your top speed; consider debugging it.  
     ii) Selecting motors that have similar current draws may simplify your software because the motors will exert similar thrusts at the same level of applied PWM.

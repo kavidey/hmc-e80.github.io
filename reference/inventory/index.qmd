@@ -17,7 +17,7 @@ The table below is in units of Ohms.  Entries indicate we have resistors, blank 
 |      |         | 510    | 5.1k   |            |           |          |          | 
 |      |         |        |        |            |           | 9.1M     |          |
 
-These resistors are the ones stocked in the E80 parts boxes (according to the [E12 preferred numbers](https://en.wikipedia.org/wiki/E_series_of_preferred_numbers){target="_blank"}). Many other resistors are available in the analog lab closet.  Don't take resistors (or any other components) from E84 stock.
+These resistors are the ones stocked in the E80 parts boxes (according to the [E12 preferred numbers](https://en.wikipedia.org/wiki/E_series_of_preferred_numbers)). Many other resistors are available in the analog lab closet.  Don't take resistors (or any other components) from E84 stock.
 
 ### Capacitors
 

@@ -5,10 +5,10 @@ title: E80 Team Contract
 ## Team Contract Template
 
 ### Contract
-[View](./team-contract-template.html){target="_blank"} or [download](./team-contract-template.docx) the team contract template.
+[View](./team-contract-template.html) or [download](./team-contract-template.docx) the team contract template.
 
 ### Specs
-[View](./team-contract-specs.html){target="_blank"} or [download](./team-contract-specs.docx) the team contract specifications.
+[View](./team-contract-specs.html) or [download](./team-contract-specs.docx) the team contract specifications.
 
 ## Guidelines for Writing a Team Contract
 

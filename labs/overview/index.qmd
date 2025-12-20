@@ -19,14 +19,14 @@ A submission sheet is due at the end of each 4-hour lab period. The submission s
 
 | Week | Lab                                                                 | Notes about Friday     | 
 |------|---------------------------------------------------------------------|------------------------|
-| 1    | [Lab 0: Tutorial and Skill Review](/labs/lab0){target="_blank"}     | Kickoff lecture        | 
-| 2    | [Lab 1: Go Autonomous](/labs/lab1){target="_blank"}                 |                        |
-| 3    | [Lab 2: Basic Electrical Measurements](/labs/lab2){target="_blank"} |                        |
-| 4    | [Lab 3: Op Amps and Marine Sensors](/labs/lab3){target="_blank"}    |                        |
-| 5    | [Lab 4: Temperature Sensors](/labs/lab4){target="_blank"}           |                        |
-| 6    | Odd Numbered Teams: [Lab 5: Underwater Acoustics](/labs/lab5){target="_blank"} <br> Even Numbered Teams: [Lab 6: Fluid Mechanics](/labs/lab6){target="_blank"} |                         |
-| 7    | Odd Numbered Teams: [Lab 6: Fluid Mechanics](/labs/lab6){target="_blank"} <br> Even Numbered Teams: [Lab 5: Underwater Acoustics](/labs/lab5){target="_blank"} | Project kickoff lecture | 
-| 8    | [Project Proposal Week](/project/proposal){target="_blank"}         | Proposal and tech memo |
+| 1    | [Lab 0: Tutorial and Skill Review](/labs/lab0)     | Kickoff lecture        | 
+| 2    | [Lab 1: Go Autonomous](/labs/lab1)                 |                        |
+| 3    | [Lab 2: Basic Electrical Measurements](/labs/lab2) |                        |
+| 4    | [Lab 3: Op Amps and Marine Sensors](/labs/lab3)    |                        |
+| 5    | [Lab 4: Temperature Sensors](/labs/lab4)           |                        |
+| 6    | Odd Numbered Teams: [Lab 5: Underwater Acoustics](/labs/lab5) <br> Even Numbered Teams: [Lab 6: Fluid Mechanics](/labs/lab6) |                         |
+| 7    | Odd Numbered Teams: [Lab 6: Fluid Mechanics](/labs/lab6) <br> Even Numbered Teams: [Lab 5: Underwater Acoustics](/labs/lab5) | Project kickoff lecture | 
+| 8    | [Project Proposal Week](/project/proposal)         | Proposal and tech memo |
 | 9    | Spring Break                                                        |                        |
 
 ## General rules
@@ -64,7 +64,7 @@ In this class, this primarily applies to epoxies and CyanoAcrylate (aka CA, aka 
 - Wash hands after handling solder – solder is 40% lead.  Skin contact is harmless, but ingestion can occur with unwashed hands when eating, drinking, or smoking.
 
 ## Hardware checkout
-You will work with some expensive hardware in this class. Expensive hardware like motherboards and batteries must be explicitly checked out from a professor or proctor so that we can track where it is. If any hardware that you checked out breaks,  you will need to request a replacement from a professor. You make this request by filling out an [error report](https://drive.google.com/open?id=1FnHDzDSCuc3pAsEXzUg6BnTacfLF-ODs){target="_blank"} (paper copies will be in lab). This report needs to be well thought out; professors will reject reports that don't represent sufficient testing or thought. You will keep this hardware with you throughout the semester in your storage box. 
+You will work with some expensive hardware in this class. Expensive hardware like motherboards and batteries must be explicitly checked out from a professor or proctor so that we can track where it is. If any hardware that you checked out breaks,  you will need to request a replacement from a professor. You make this request by filling out an [error report](https://drive.google.com/open?id=1FnHDzDSCuc3pAsEXzUg6BnTacfLF-ODs) (paper copies will be in lab). This report needs to be well thought out; professors will reject reports that don't represent sufficient testing or thought. You will keep this hardware with you throughout the semester in your storage box. 
 
 ## Warning Callouts
 Labs will include warning callout boxes, an example of which is below, to indicate safety hazards.  All group members must understand the warning and associated safety precaution before lab.  Failing to carefully read warnings can damage equipment or harm lab users.  You should always feel empowered to stop work and grab an instructor if you find a warning that makes you unsure.

@@ -26,7 +26,7 @@ All schematics in this report should adhere the following specification:
 - [ ] Generally keep signal flow left-to-right
 - [ ] Generally keep high voltages at the top of the diagram and low voltages at the bottom.
 - [ ] Space out components well enough and zoom in close enough that annotations are easy to read.
-- [ ] Minimize unnecessary crossings, corners and jogs in the wires.  Use connect-by-name to reduce congestion among wires.  This [tutorial](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/reading-schematics){target="_blank"} has more information.
+- [ ] Minimize unnecessary crossings, corners and jogs in the wires.  Use connect-by-name to reduce congestion among wires.  This [tutorial](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/reading-schematics) has more information.
 
 All pictures of circuits in this report should adhere to the following specification:
 

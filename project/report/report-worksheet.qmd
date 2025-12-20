@@ -29,7 +29,7 @@ Consult with a professor or proctor if you have any questions.
 5. Deployment Details
 6. Conclusion
 
-See the [tech memo writing template](/labs/lab6/writing-template.qmd){target="_blank"} for a refresher on good topics sentences and equations.
+See the [tech memo writing template](/labs/lab6/writing-template.qmd) for a refresher on good topics sentences and equations.
 
 ## Template
 

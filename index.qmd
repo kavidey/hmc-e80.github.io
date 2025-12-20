@@ -64,7 +64,7 @@ Students may only work in the E80 labs when a professor, staff or a proctor open
 
 ## Digital Communication
 
-- [Github]({{<var github-url>}}): This is our Github repository, which lets you use Git to access E80 software. Git is a distributed version control system that allows you to copy source code and track changes to the code. [Lab 0](/labs/lab0){target="_blank"} will walk you through the steps to configure Git on your computer.
+- [Github]({{<var github-url>}}): This is our Github repository, which lets you use Git to access E80 software. Git is a distributed version control system that allows you to copy source code and track changes to the code. [Lab 0](/labs/lab0) will walk you through the steps to configure Git on your computer.
 - [Discord]({{<var urls.discord_invite>}}): This is an invite to our Discord server.  All digital communication and asynchronous help requests will go through Discord, so default to messaging there instead of emailing us.
 - [Canvas]({{<var urls.canvas_root>}}): This is our Canvas site. We will use Canvas to collect your assignments, receive your quiz responses and record your grades.
 - All other information for the course is distributed on this website.
@@ -163,7 +163,7 @@ The team contract exercise in week 0 is an exception, there should be one team c
 
 #### Technical Memorandum
 
-Each student will write an individual technical memorandum on material covered in Lab 6. See the [Lab 6](labs/lab6){target="_blank"} page for more information.  
+Each student will write an individual technical memorandum on material covered in Lab 6. See the [Lab 6](labs/lab6) page for more information.  
 
 ::: {.callout-warning}
 You must submit a tech memo to pass the class.
@@ -171,12 +171,12 @@ You must submit a tech memo to pass the class.
 
 #### Final Poster
 
-Each team will prepare a poster to be presented during the E80 poster session during Presentation days on {{<var dates.poster_session>}}. Guidelines for the poster along with a rubric will be posted later in the semester on the [Final Project Report and Poster page](/project/project/){target="_blank"}.
+Each team will prepare a poster to be presented during the E80 poster session during Presentation days on {{<var dates.poster_session>}}. Guidelines for the poster along with a rubric will be posted later in the semester on the [Final Project Report and Poster page](/project/report/).
 
 #### Final Report
 
 A final technical report detailing the results of the final AUV deployment will be submitted by each individual student.
-The report will be graded for both technical content and proper use of [technical English](https://www.mit.edu/course/21/21.guide/){target="_blank"}.
+The report will be graded for both technical content and proper use of [technical English](https://www.mit.edu/course/21/21.guide/).
 A rough draft of your final report is due at 11:59 PM on {{<var dates.final_draft>}}. The final draft is due at 11:59 PM on {{<var dates.final_final>}}. 
 The Final Report guidelines are found on the Final Project page.
 
@@ -300,7 +300,7 @@ It is an HONOR CODE VIOLATION to share these rubrics with other teams or with st
 
 ## Accessibility and Accommodations
 
-Harvey Mudd College strives to make all learning experiences as accessible as possible. If you anticipate or experience academic barriers based on your disability (including mental health, chronic or temporary medical conditions). If you have any questions, please contact the Office of Accessible Education at [access@g.hmc.edu](mailto:access@g.hmc.edu). Students from the other Claremont Colleges should contact their home college's disability officer. You also need to register with the [Office of Disability Resources](https://www.hmc.edu/student-life/disability-resources/){target="_blank"}. to establish reasonable accommodations.
+Harvey Mudd College strives to make all learning experiences as accessible as possible. If you anticipate or experience academic barriers based on your disability (including mental health, chronic or temporary medical conditions). If you have any questions, please contact the Office of Accessible Education at [access@g.hmc.edu](mailto:access@g.hmc.edu). Students from the other Claremont Colleges should contact their home college's disability officer. You also need to register with the [Office of Disability Resources](https://www.hmc.edu/student-life/disability-resources/). to establish reasonable accommodations.
 
 ## Academic Honesty/Plagiarism
 

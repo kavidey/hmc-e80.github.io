@@ -2,7 +2,7 @@
 title: Tutorials
 ---
 
-## [Designing an Offset Amplifier](./designing-an-offset-amplifier/){target="_blank"}
+## [Designing an Offset Amplifier](./designing-an-offset-amplifier/)
 
 ![](./designing-an-offset-amplifier/images/generic-offset-amplifier-schematic.png)
 

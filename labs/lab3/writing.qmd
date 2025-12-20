@@ -90,12 +90,12 @@ By the end of this writing assignment you will...
 ## Tools for Mechanical Drawings
 
 You may use whatever tool you are most comfortable with for preparing your mechanical drawings.
-[SolidWorks](http://www.solidworks.com){target="_blank"} is a good choice since you learn it in E4, but sometimes can be difficult to run on your personal computer.
-[Onshape](https://www.onshape.com){target="_blank"} is a popular alternative which runs in your browser and has free education accounts.
+[SolidWorks](http://www.solidworks.com) is a good choice since you learn it in E4, but sometimes can be difficult to run on your personal computer.
+[Onshape](https://www.onshape.com) is a popular alternative which runs in your browser and has free education accounts.
 
 If you'd like to use Onshape, first create an account.
 Then, you can create a new workspace and import the `.sldprt` files for the cuvette holder.
-Alternatively, you may directly make a copy of [this Onshape document](https://cad.onshape.com/documents/4b648f31b2d8954d7686e422/w/f1213c6513c0b4fa8d754f46/e/3acd2f1f4f0c2c48650767d5){target="_blank"}, which has the parts already imported and a drawing made to which you can directly add relevant dimensions for your figure.
+Alternatively, you may directly make a copy of [this Onshape document](https://cad.onshape.com/documents/4b648f31b2d8954d7686e422/w/f1213c6513c0b4fa8d754f46/e/3acd2f1f4f0c2c48650767d5), which has the parts already imported and a drawing made to which you can directly add relevant dimensions for your figure.
 
 
 The screenshots below in @fig-onshape-1 and @fig-onshape-2 show how to copy the workspace and add dimensions.

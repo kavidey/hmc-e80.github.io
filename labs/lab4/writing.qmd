@@ -86,9 +86,9 @@ Each reference in the bibliography should include:
 3. The title of the journal or book from which the reference is taken in italics.
 
 
-The short guide from IEEE available [here](./assets/IEEE%20Citation%20Guidelines.pdf){target="_blank"} has a list of helpful examples for you to follow (e.g., how to cite a datasheet).
+The short guide from IEEE available [here](./assets/IEEE%20Citation%20Guidelines.pdf) has a list of helpful examples for you to follow (e.g., how to cite a datasheet).
 
-While there are many tools like [Zotero](https://www.zotero.org){target="_blank"} or [Mendeley](https://www.mendeley.com){target="_blank"}, which can help you manage your research library and automatically generate citations, these are most useful once you are dealing with a large number of references.
+While there are many tools like [Zotero](https://www.zotero.org) or [Mendeley](https://www.mendeley.com), which can help you manage your research library and automatically generate citations, these are most useful once you are dealing with a large number of references.
 You are welcome to use these tools for this writeup if you wish, but it will likely take more time to set up and wrangle with the tool than it would to manually format the references yourself by hand.
 For this lab, we recommend that you write the references without the aid of a reference manager so that you can understand the main components of a reference.
 Whether you use a tool or not, you should always double check your citations to make sure they are complete and accurate.

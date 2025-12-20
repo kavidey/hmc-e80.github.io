@@ -5,11 +5,11 @@ number-sections: true
 
 Team size: 4
 
-Submission Sheet: [html](./submission.qmd){target="_blank"} [docx](./submission.docx)
+Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
 
 Prelab Help Sheet: None for this lab, but you've got this!  Review previous ones for ideas of how to prepare.
 
-Writing Assignment: [html](./writing.qmd){target="_blank"}
+Writing Assignment: [html](./writing.qmd)
 
 ## Introduction
 
@@ -23,11 +23,11 @@ After successful completion of this lab, you will be able to:
 - [ ] Use the gain-bandwidth product of an op-amp to predict the achievable maximum gain.
 - [ ] Describe the effect of multipath on the amplitudes of acoustic measurements.
 
-This is a rotation lab, so not all teams will be working on this lab in the same week.  Odd numbered teams (11, 23, 35, etc.) will do this lab in week 6, while Even numbered teams (12, 24, 36, etc.) work on [Lab 6](../lab6/index.qmd){target="_blank"}.  Even numbered teams  will do this lab in week 7, while Odd numbered teams work on lab 6.  Be sure to watch the correct videos, do the correct quiz, and put in prelab effort for the correct lab!
+This is a rotation lab, so not all teams will be working on this lab in the same week.  Odd numbered teams (11, 23, 35, etc.) will do this lab in week 6, while Even numbered teams (12, 24, 36, etc.) work on [Lab 6](../lab6/index.qmd).  Even numbered teams  will do this lab in week 7, while Odd numbered teams work on lab 6.  Be sure to watch the correct videos, do the correct quiz, and put in prelab effort for the correct lab!
 
 ## Introduction to the FFT
 
-The oscilloscope ( [Agilent/Keysight 2024A](http://literature.cdn.keysight.com/litweb/pdf/75015-97045.pdf){target="_blank"}, [spec sheet](http://literature.cdn.keysight.com/litweb/pdf/5990-6618EN.pdf){target="_blank"}) has a feature that allows it to display a live FFT of a signal on one of the channels.  In this section we're going to use that feature to study the basic behavior of the FFT and to examine the effect of windowing on real world data.  **The whole team should participate in this section, at minimum by watching.**  Much of this section can be predicted and analyzed very accurately in prelab with sample data generated in MATLAB.
+The oscilloscope ( [Agilent/Keysight 2024A](http://literature.cdn.keysight.com/litweb/pdf/75015-97045.pdf), [spec sheet](http://literature.cdn.keysight.com/litweb/pdf/5990-6618EN.pdf)) has a feature that allows it to display a live FFT of a signal on one of the channels.  In this section we're going to use that feature to study the basic behavior of the FFT and to examine the effect of windowing on real world data.  **The whole team should participate in this section, at minimum by watching.**  Much of this section can be predicted and analyzed very accurately in prelab with sample data generated in MATLAB.
 
 The following signals are used in this section:
 
@@ -55,13 +55,13 @@ Do the following:
 
 ## Circuit Interfaces to Microphones {#sec-interface}
 
-You will need to use microphones to pick up sounds in the tank. We will be using a waterproof electret microphone called the [CME-1538-100LB](http://www.cui.com/product/resource/cme-1538-100lb.pdf){target="_blank"}. 
+You will need to use microphones to pick up sounds in the tank. We will be using a waterproof electret microphone called the [CME-1538-100LB](http://www.cui.com/product/resource/cme-1538-100lb.pdf). 
 
 1. Build the reference circuit from the datasheet for your electret microphone.
 2. Verify that you can receive signals with your electret microphone by clapping near it.  You will need to set your scope to "Single" mode to capture your clap.
 3. Use the FFT functions to identify the frequencies in your hand clap signal.
 
-The electret microphone output is small (generally 10s of mV depending on the sound) and zero centered, so you will need to amplify the tank signals to see them your oscilloscope.  Designing an amplifier is trickier than you'd expect because of an op-amp parameter called the [Gain-Bandwidth product](https://en.wikipedia.org/wiki/Gain%E2%80%93bandwidth_product){target="_blank"}.
+The electret microphone output is small (generally 10s of mV depending on the sound) and zero centered, so you will need to amplify the tank signals to see them your oscilloscope.  Designing an amplifier is trickier than you'd expect because of an op-amp parameter called the [Gain-Bandwidth product](https://en.wikipedia.org/wiki/Gain%E2%80%93bandwidth_product).
 
 1. Build an amplifier with a gain of 100 by cascading two stages that each have a gain of 10.  Use dual-rail op-amps (like the TL081 or OP07).
 2. Calculate the bandwidth you expect out of each op-amp stage using the gain-bandwidth product of your op-amps.
@@ -116,18 +116,18 @@ We are using both benchtop electronics and water in this lab, and the two don't 
 :::
 
 :::{.callout-note}
-Though this section shows that it's possible to measure a robot's position using power decay from a beacon, it's much more common and reliable to measure a robot's position using the time-of-flight of an acoustic pulse.  See the time-of-flight [reference design](/reference/design/){target="_blank"} for more details on how to use time-of-flight measurements for sounding.
+Though this section shows that it's possible to measure a robot's position using power decay from a beacon, it's much more common and reliable to measure a robot's position using the time-of-flight of an acoustic pulse.  See the time-of-flight [reference design](/reference/design/) for more details on how to use time-of-flight measurements for sounding.
 :::
 
 ## Sampling Audio with a Teensy
 
-This section requires that you use the Teensy sampling rigs (shown in @fig-sampling-rig) that have been set up in the tank room. The rigs consist of an amplifier with an offset attached to an E80 motherboard that samples the amplifier output.  We provide software, [E80_Lab05_Teensy_Rig.m](https://github.com/HMC-E80/E80-SP2023/blob/main/MATLAB/E80_Lab_05_Teensy_Rig.m){target="_blank"} and [E80_Lab05_Teensy_Rig.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_05_Teensy_Rig/E80_Lab_05_Teensy_Rig.ino){target="_blank"} (which is already running on the rig), that allows you to adjust the sample rate of the Teensy, and we're going to use that power to explore how sample rate affects real world data samples. 
+This section requires that you use the Teensy sampling rigs (shown in @fig-sampling-rig) that have been set up in the tank room. The rigs consist of an amplifier with an offset attached to an E80 motherboard that samples the amplifier output.  We provide software, [E80_Lab05_Teensy_Rig.m](https://github.com/HMC-E80/E80-SP2023/blob/main/MATLAB/E80_Lab_05_Teensy_Rig.m) and [E80_Lab05_Teensy_Rig.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_05_Teensy_Rig/E80_Lab_05_Teensy_Rig.ino) (which is already running on the rig), that allows you to adjust the sample rate of the Teensy, and we're going to use that power to explore how sample rate affects real world data samples. 
 
 ![Teensy sampling rig](img/teensy_sampling_rig.png){#fig-sampling-rig}
 
 1. Connect a tank microphone to a Teensy sampling rig, 
 2. Connect the rig to your computer with a micro USB cable
-3. Use the [E80_Lab05_Teensy_Rig.m](https://github.com/HMC-E80/E80-SP2023/blob/main/MATLAB/E80_Lab_05_Teensy_Rig.m){target="_blank"} software to measure vectors of sample data with sample rates of 10 kS/s and 100 kS/s (kilosamples per second).
+3. Use the [E80_Lab05_Teensy_Rig.m](https://github.com/HMC-E80/E80-SP2023/blob/main/MATLAB/E80_Lab_05_Teensy_Rig.m) software to measure vectors of sample data with sample rates of 10 kS/s and 100 kS/s (kilosamples per second).
     1. Edit the Matlab script to set the COM port 
     2. Edit the Matlab script to set the sampling frequency
     3. Run the script

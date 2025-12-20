@@ -4,7 +4,7 @@ title: "Lab 0: Tutorial and Skills Review"
 
 Team size: 4
 
-Submission Sheet: Submit your [E72+E80 MATLAB Tutorial](./matlab-startup.qmd){target="_blank"} on the E80 Canvas page
+Submission Sheet: Submit your [E72+E80 MATLAB Tutorial](./matlab-startup.qmd) on the E80 Canvas page
 
 Pre-lab Help Sheet: No pre-lab required this week
 
@@ -105,15 +105,15 @@ Modified E79 ROV for use in E80.
 :::
 
 1. Obtain two additional 6.5'' PVC pieces to replace the 4.5'' ones. 
-2. Drill the mounting holes for your vertical motor. You will be mounting your AUV's motors in the same manner as the three motor assembly in [Practicum 1A Section 4.7](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a){target="_blank"}. Take into account the 2'' difference in length when positioning holes.
-3. Construct at least one additional motor from scratch. Reference [Practicum 1A Section 4.2](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a){target="_blank"} for assembly instructions.  Each team will be provided with 2 used motors, but needs to make a third, and may make more to have backups.
+2. Drill the mounting holes for your vertical motor. You will be mounting your AUV's motors in the same manner as the three motor assembly in [Practicum 1A Section 4.7](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a). Take into account the 2'' difference in length when positioning holes.
+3. Construct at least one additional motor from scratch. Reference [Practicum 1A Section 4.2](https://sites.google.com/g.hmc.edu/e79-practicum/module-1/practicum-1a) for assembly instructions.  Each team will be provided with 2 used motors, but needs to make a third, and may make more to have backups.
 4. Test that all three of your motors pull less than 500 mA. To do this, supply 6 V to the motor using a power supply.
 5. Mount the motors on the new frame.
 
 ## Battery
 
 Your AUV will need power, and we provide that with a battery pack. The battery pack used in E80 is a 3000 mAh to 3500 mAh, 40 C, 11.1 V LiPo battery pack. 
-To charge the batteries, we will use a [HiTec x1 Mini charger](https://drive.google.com/file/d/1q7Cchnw4c7wzFiuOYf5PHiICkSoq8qX5/view?usp=drive_link) or a [UP60AC multi charger](https://drive.google.com/file/d/1T9ghDlmI2UUg3yBbOCQxVdA6DsFghrLr/view?usp=drive_link){target="_blank"}. Here are some helpful [images](https://drive.google.com/open?id=1K1DSOdeqAjU_JU-sTOdiBUnwMmpwUTPP){target="_blank"} showing a correct charging setup. 
+To charge the batteries, we will use a [HiTec x1 Mini charger](https://drive.google.com/file/d/1q7Cchnw4c7wzFiuOYf5PHiICkSoq8qX5/view?usp=drive_link) or a [UP60AC multi charger](https://drive.google.com/file/d/1T9ghDlmI2UUg3yBbOCQxVdA6DsFghrLr/view?usp=drive_link). Here are some helpful [images](https://drive.google.com/open?id=1K1DSOdeqAjU_JU-sTOdiBUnwMmpwUTPP) showing a correct charging setup. 
 
 1. Read the manual on how to use the chargers. 
 2. Determine how many cells are in the battery pack, and the maximum, minimum and nominal voltage outputs of these battery packs. 
@@ -132,15 +132,15 @@ Never charge above 12.6 V or allow your battery to discharge below 11.1V.
 
 We do a lot of electronics prototyping in E80 because most experimental measurements are electrical.  A breadboard is a crucial tool for electronics prototyping. The videos below  explain how a breadboard works and how to use one.  Watch the first two videos and follow along with them.  Give the third one a try if you have time.
 
-1. [Simple LED Lesson](https://www.youtube.com/watch?v=wCJKMFGEuuI){target="_blank"}:
+1. [Simple LED Lesson](https://www.youtube.com/watch?v=wCJKMFGEuuI):
     The tutorial shows an LED circuit without a current limiting resistor, which can make the LED burn up.  Sometimes literally. So please place a resistor in series with your LED, and calculate an appropriate resistance value using this formula:
     
     $$R=\frac{(V_s-V_F)}{I_F}$$
 
-    where $V_S$ is the supply voltage, and $V_F$ and $I_F$ are the foward voltage and current of the diode respectively. $V_F$ and $I_F$ can be found on [LED datasheet](https://www.aopled.com/AOP_PDFs/L513SRD-C.pdf){target="_blank"}.
+    where $V_S$ is the supply voltage, and $V_F$ and $I_F$ are the foward voltage and current of the diode respectively. $V_F$ and $I_F$ can be found on [LED datasheet](https://www.aopled.com/AOP_PDFs/L513SRD-C.pdf).
 
-2. [Breadboard Internals](https://www.youtube.com/watch?v=S_a-qCy6Ekk){target="_blank"}.
-3. [How to build a 555 Timer circuit](https://www.youtube.com/watch?v=Vbz_MKT7KnI){target="_blank"}. As you watch the video and build the circuit, identify how each connection you make is represented in the circuit diagram linked [here](https://www.elprocus.com/blinking-led-using-555-timer-ic/){target="_blank"}. Here is a [video on how the 555 works.](https://www.youtube.com/watch?time_continue=385&v=i0SNb__dkYI&feature=emb_logo){target="_blank"} 
+2. [Breadboard Internals](https://www.youtube.com/watch?v=S_a-qCy6Ekk).
+3. [How to build a 555 Timer circuit](https://www.youtube.com/watch?v=Vbz_MKT7KnI). As you watch the video and build the circuit, identify how each connection you make is represented in the circuit diagram linked [here](https://www.elprocus.com/blinking-led-using-555-timer-ic/). Here is a [video on how the 555 works.](https://www.youtube.com/watch?v=i0SNb__dkYI) 
 
 :::{.callout-note}
 Note: one super tricky failure mode in breadboards is that internal connections of breadboards can break. You can always trace connectivity with a multimeter if you're stumped with a failing circuit.
@@ -148,14 +148,14 @@ Note: one super tricky failure mode in breadboards is that internal connections 
 
 ## Oscilloscope
 
-You will be using an oscilloscope for most E80 labs. If you need a refresher on how to use an oscilloscope, refer to [Practicum 2B](https://sites.google.com/g.hmc.edu/e79-practicum/module-2/practicum-2b){target="_blank"} from E79.
+You will be using an oscilloscope for most E80 labs. If you need a refresher on how to use an oscilloscope, refer to [Practicum 2B](https://sites.google.com/g.hmc.edu/e79-practicum/module-2/practicum-2b) from E79.
 
 
 ## Soldering
 
 You will need to solder printed circuit boards and wire connections in E80, so it's worthwhile to practice if you're rusty.  Your team also needs to solder pins onto a Teensy today and make sure the soldering job worked. 
 
-1. Review a helpful video on how to solder, found [here](https://www.youtube.com/watch?v=Qps9woUGkvI){target="_blank"}.
+1. Review a helpful video on how to solder, found [here](https://www.youtube.com/watch?v=Qps9woUGkvI).
 2. Find a practice solder board and solder a few joints.
 3. One team member should solder header pins to the Teensy. **Teensys are in limited supply**, so practice soldering before this step. Use the reference images below as a guide, and make sure your pins are oriented as indicated in the references before you solder. 
 
@@ -183,7 +183,7 @@ First, we need the Arduino integrated development environment (IDE). An integrat
 It also allows you to easily track the changes that you make to your code.
 While we won't be using all the features of git in E80, we will introduce you to the main features that will enable you to interact with the code base for your robot.
 
-Follow the [setup instructions](https://github.com/HMC-E80/E80?tab=readme-ov-file#how-to-use-this-repository){target="_blank"} in the README of the [E80 GitHub page](https://github.com/HMC-E80/E80-SP2023#git-setup){target="_blank"}.
+Follow the [setup instructions](https://github.com/HMC-E80/E80?tab=readme-ov-file#how-to-use-this-repository) in the README of the [E80 GitHub page](https://github.com/HMC-E80/E80-SP2023#git-setup).
 After completing these instructions you should have a folder on your computer with all the E80 starter source code for the semester and have the Arduino IDE set up to easily access and load the provided sketchbooks.
 
 ## Arduino Practice
@@ -194,13 +194,13 @@ Test your connection to the Teensy by compiling and uploading the RGB LED exampl
 
 1. Plug your Teensy into your laptop
 2. Open the RGB LED example by navigating to `File -> Examples -> 0.1 Basics -> Blink`. 
-3. Follow the instructions [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch){target="_blank"} to compile and upload to the Teensy
+3. Follow the instructions [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch) to compile and upload to the Teensy
 4. Change the Arduino IDE Sketchbook location to the E80 Gitlab folder, which you downloaded earlier in the section, by using `File->Preferences`. 
-5. Open [E80_Lab_01.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_01/E80_Lab_01.ino){target="_blank"}. 
-6. Confirm that you can compile and upload the starter code to your Teensy.  Since your Teensy is not plugged into your motherboard here, this code will do little.  It is fully tested in [Lab 1](/labs/lab1/){target="_blank"}.
+5. Open [E80_Lab_01.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_01/E80_Lab_01.ino). 
+6. Confirm that you can compile and upload the starter code to your Teensy.  Since your Teensy is not plugged into your motherboard here, this code will do little.  It is fully tested in [Lab 1](/labs/lab1/).
 
 :::{.callout-note}
-You must use a micro USB cable (see image [here](https://drive.google.com/file/d/0BwiB3SVueuOpd3VHSjZFczUwZ1E/view?usp=sharing&resourcekey=0-mdD6t8RsgB-2txW00XCDYw){target="_blank"}) to connect the Teensy to your computer before you can upload sketches.
+You must use a micro USB cable (see image [here](https://drive.google.com/file/d/0BwiB3SVueuOpd3VHSjZFczUwZ1E/view?usp=sharing&resourcekey=0-mdD6t8RsgB-2txW00XCDYw)) to connect the Teensy to your computer before you can upload sketches.
 :::
 
 :::{.callout-warning}
@@ -214,22 +214,22 @@ You will not have a Teensy for pre-labs, but downloading the necessary software 
 
 Then try these tutorials if you have time.
 
-1. [Blinking lights on the Arduino board](https://www.pjrc.com/teensy/tutorial.html){target="_blank"}
-2. [Hooking up an external LED](https://www.pjrc.com/teensy/tutorial2.html){target="_blank"}
+1. [Blinking lights on the Arduino board](https://www.pjrc.com/teensy/tutorial.html)
+2. [Hooking up an external LED](https://www.pjrc.com/teensy/tutorial2.html)
 
 
 ## MATLAB Access
 
-You will be using MATLAB to help analyze and interact with data throughout this course, so you need to install MATLAB.  You will first need to [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html){target="_blank"} and log in using your Mathworks account. If you do not have an account, create one using your `username@hmc.edu` credentials.
+You will be using MATLAB to help analyze and interact with data throughout this course, so you need to install MATLAB.  You will first need to [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html) and log in using your Mathworks account. If you do not have an account, create one using your `username@hmc.edu` credentials.
 
 Then, do the following to install MATLAB on your computer:
 
-1. [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html){target="_blank"}.
+1. [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html).
 2. Choose to download the installer and select your operating system.
 3. Run the installer and log into your Mathworks account again.
 4. Select “Individual” license and complete the installation process.
 
-It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com){target="_blank"}, but we discourage doing so in this course.
+It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com), but we discourage doing so in this course.
 
 ## Binary File Reading
 
@@ -245,8 +245,8 @@ Both the `inf` and `log` files are needed to import your data.
 
 Here is an example of the two files that would be found on an SD card after a run:
 
-- [inf004.txt](./assets/INF004.TXT)
-- [log004.bin](./assets/LOG004.BIN)
+- [inf004.txt](./assets/INF004.TXT){download="inf004.txt"}
+- [log004.bin](./assets/LOG004.BIN){download="log004.bin"}
 
 Use the provided MATLAB script, [logreader.m]({{< var github-url >}}/blob/main/MATLAB/logreader.m) (found under the `MATLAB` directory of the E80 repo you should have cloned), to read the data from the sample files.
 
@@ -269,5 +269,5 @@ Screenshot showing how to place files in Matlab current folder.
 
 ## MATLAB On-ramp
 
-If you have extra time during Lab 0 you may work on the MATLAB on-ramp tutorial.  You can find the assignment [here](./matlab-startup.qmd){target="_blank"}.
+If you have extra time during Lab 0 you may work on the MATLAB on-ramp tutorial.  You can find the assignment [here](./matlab-startup.qmd).
 
