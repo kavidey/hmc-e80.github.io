@@ -42,6 +42,7 @@ All pictures of circuits in this report should adhere to the following specifica
 - [ ] The circuit is neatly laid out so that readers can trace connections in the circuit.
 
 {{< pagebreak >}}
+
 ## Report on the Design and Characterization of a Non-Inverting Amplifier
 
 Effort: 
@@ -57,6 +58,7 @@ Complete:
 - [ ] Correctly, in 1-2 sentences, describes why the output signal in the 0 V offset trace does not fully obey the equation that describes non-inverting amplifier outputs.
 
 {{< pagebreak >}}
+
 ## Report on the Design and Characterization of an Offset Amplifier
 
 Effort:
@@ -73,6 +75,7 @@ Complete:
 - [ ] 1-2 sentences of discussion of why this design performs differently than a non-inverting amplifier for the same input.
 
 {{< pagebreak >}}
+
 ## Report on the Design and Characterization of a 555 Timer LED Driver
 
 Effort:
@@ -89,6 +92,7 @@ Complete:
 - [ ] Includes calculations showing how resistor was selected to limit current in IR1503.
 
 {{< pagebreak >}}
+
 ## Report on the Design and Characterization of a Transimpedance Amplifier
 
 Effort:
@@ -102,6 +106,7 @@ Complete:
 - [ ] Provides an oscilloscope trace of 555 timer output and transimpedance amplifier output when transimpedance photodiode is illuminated by the IR LED.
 
 {{< pagebreak >}}
+
 ## Report on the Design and Characterization of a Turbidity Meter
 
 Effort:

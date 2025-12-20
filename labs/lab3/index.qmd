@@ -5,13 +5,13 @@ number-sections: true
 
 Team Size: 2
 
-Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
+Submission Sheet: [html](./submission.qmd){target="_blank"} [docx](./submission.docx)
 
-Prelab Help Sheet: [html](./prelab.qmd)
+Prelab Help Sheet: [html](./prelab.qmd){target="_blank"}
 
-Writing Assignment: [html](./writing.qmd)
+Writing Assignment: [html](./writing.qmd){target="_blank"}
 
-Writing Template: [html](./writing-template.qmd) [docx](./writing-template.docx)
+Writing Template: [html](./writing-template.qmd){target="_blank"} [docx](./writing-template.docx)
 
 ## Introduction
 
@@ -29,20 +29,20 @@ After successful completion of this lab, you will be able to
 - [ ] Build and test a complex design by thoughtfully testing and assembling individual parts
 - [ ] Use linear regression to extract slope, offset, and appropriate error measures from data
 
-This lab will be carried out as sub-teams of two.  Policies for sub-teams are discussed in [lab 2](/labs/lab2/index.qmd).
+This lab will be carried out as sub-teams of two.  Policies for sub-teams are discussed in [lab 2](/labs/lab2/index.qmd){target="_blank"}.
 
 This lab asks you to prepare solutions and handle chemicals. Though we aren't working with anything hazardous (or which can't be flushed down the drain), be sure to observe good chemical hygiene practices and use gloves and goggles when handling chemicals or sensitive equipment. Always use gloves when handling any glassware that will go into the turbidity meter.
 
-There are a few resources used in this lab which must be shared. Please respect others and don’t abuse these resources. All the teams in lab are going to have to share a single turbidity meter and beaker of mystery solution. There will be three digital scales available. For Extra Credit 1, we have a limited supply of buffer solutions which must last for all our labs, so don't pour out more than you need to cover your pH probes and be sure to use the smaller set of beakers. 
+There are a few resources used in this lab that must be shared. Please respect others and don’t abuse these resources. All the teams in lab are going to have to share a single turbidity meter and beaker of mystery solution. There will be three digital scales available. For Extra Credit 1, we have a limited supply of buffer solutions that must last for all our labs, so don't pour out more than you need to cover your pH probes, and be sure to use the smaller set of beakers. 
 
 
 ## Op-Amp Familiarity and Offset Amplifier
 
-In this section, we are going to demonstrate an op-amp failing to work properly, then we will correct that failure by modifying the op-amp circuit.  The modified circuit will be an offset amplifier, which is one of the most common circuits in the final project.
+In this section, we are going to demonstrate an op-amp failing to work properly, and then we will correct that failure by modifying the op-amp circuit.  The modified circuit will be an offset amplifier, which is one of the most common circuits in the final project.
 
 Do the following:
 
-1. Use an [MCP601](http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf) to build a single-rail, non-inverting amplifier with a gain of two. Pay attention to the maximum allowed supply Voltage.  Use a 5 V supply Voltage.
+1. Use an [MCP601](http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf){target="_blank"} to build a single-rail, non-inverting amplifier with a gain of two. Pay attention to the maximum allowed supply Voltage.  Use a 5 V supply Voltage.
 2. Apply a 100 mV amplitude sine wave with a 1 V offset to the amplifier input and observe the output.  This output should match simple theoretical calculations well.
 3. Apply a 100 mV amplitude sine wave with a 0 V offset to the amplifier input and observe the output.  This output should have severe non-idealities related to the amplifier behavior.  Identify the non-idealities, and explain why they are present in the output.
 4. Design, build and test an offset amplifier that can take a 100mV amplitude sine wave with 0 V offset and produce an output with none of the non-idealities in step 3.  Use a 5 V supply Voltage and aim for a gain of negative two (an inverting gain) and an appropriate offset.
@@ -55,9 +55,9 @@ We are using the MCP601, MCP6002 and MCP6004 in this lab because they are single
 
 ## 555 Timer LED Driver {#sec-led}
 
-Turbidity is a measurement that depends on illuminating a water sample, then measuring the ratio of transmitted and 90° scattered light.  We are going to use an infrared light-emitting diode (IR LED) called the [IR1503](https://media.digikey.com/PDF/Data%20Sheets/Everlight%20PDFs/9-IR1503.pdf) to illuminate our sample, and we are going to blink it on and off using a circuit called a [555 timer](https://www.ti.com/lit/ds/symlink/se555.pdf?).  Because IR radiation is invisible to the human eye, we need a sensor to tell if our system is working, and the [OP950](http://datasheet.octopart.com/OP950-TT-datasheet-7617992.pdf) IR photodiode serves that job well.
+Turbidity is a measurement that depends on illuminating a water sample, then measuring the ratio of transmitted and 90° scattered light.  We are going to use an infrared light-emitting diode (IR LED) called the [IR1503](https://media.digikey.com/PDF/Data%20Sheets/Everlight%20PDFs/9-IR1503.pdf){target="_blank"} to illuminate our sample, and we are going to blink it on and off using a circuit called a [555 timer](https://www.ti.com/lit/ds/symlink/se555.pdf?){target="_blank"}.  Because IR radiation is invisible to the human eye, we need a sensor to tell if our system is working, and the [OP950](http://datasheet.octopart.com/OP950-TT-datasheet-7617992.pdf){target="_blank"} IR photodiode serves that job well.
 
-1. Build an astable 555 timer oscillator that has a frequency between 500 Hz and 1 kHz and a [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of approximately 60%. If you use reference designs from the datasheet, **omit RL** from any circuit you build.
+1. Build an astable 555 timer oscillator that has a frequency between 500 Hz and 1 kHz and a [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle){target="_blank"} of approximately 60%. If you use reference designs from the datasheet, **omit RL** from any circuit you build.
 2. Verify that your oscillator is working by measuring the oscillator output Voltage and the capacitor Voltage.
 3. Attach a series combination of a resistor and an IR1503 the output of the 555 timer.  Select the resistor value and diode orientation such that you will drive 20-40 mA through the diode when the output is high. Selecting this resistor will require approximating the diode's forward voltage (VF) at your desired current level, and information in the datasheet can help you figure out an appropriate VF.
 4. Measure the Voltage across the resistor in the resistor-IR1503 combination while the 555 timer is operating.  Check that this Voltage waveform implies that the correct current waveform is passing through the IR1503.
@@ -70,7 +70,7 @@ LEDs, like all diodes, have an exponential relationship between the voltage appl
 
 The OP950 has similar behavior, so hook it up in series with resistors when you're testing it on its own. However, we usually use OP950s in transimpedance amplifiers (see @sec-transimpedance), which protects them from careless overvoltage conditions. 
 
-[This reference](http://www.physics.unlv.edu/~bill/PHYS483/LED_PIN.pdf) provides background information on LEDs and photodiodes. 
+[This reference](http://www.physics.unlv.edu/~bill/PHYS483/LED_PIN.pdf){target="_blank"} provides background information on LEDs and photodiodes. 
 :::
 
 ## Transimpedance Amplifiers {#sec-transimpedance}
@@ -84,7 +84,7 @@ Schematic for a transimpedance amplifier
 :::
 
 1. Analyze the transimpedance amplifier circuit to determine a formula that relates the diode current, ID, the feedback resistance, RF, and the output voltage, VOUT.  Note that the diode acts like a current source pointing away from the op-amp when the photodiode is illuminated.
-2. Build a transimpedance amplifier using the [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) and an OP950.  Configure unused op-amps as unity gain buffers with their inputs and outputs grounded.
+2. Build a transimpedance amplifier using the [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060){target="_blank"} and an OP950.  Configure unused op-amps as unity gain buffers with their inputs and outputs grounded.
 3. Use your LED light source from @sec-led to test the transimpedance amplifier.  If you are seeing no signal, try flipping your OP950 around.  Adjust the feedback resistor so you are seeing a large output signal.
 4. Build and test a second copy of this op-amp circuit for use in your turbidity meter.
 
@@ -97,7 +97,7 @@ Note: Transimpedance amplifiers can be designed in many ways.  The design we are
 
 ## Turbidity Measurements
 
-Now it is time to assemble and use the turbidity meter. You will prepare solutions of known turbidity using the [TU-2016](https://drive.google.com/file/d/1aRRGL3DGFiiZZP9Hb7o4LIQauYPwHxP3/view?usp=sharing) calibrated laboratory turbidity meter, illuminate them with the LED from @sec-led, then measure the transmitted and 90° scattered light using the transimpedance amplifiers from @sec-transimpedance.  Arranging all of these elements -- the sample cuvette holding your solutions, the LEDs and the photodiodes -- requires a little bit of mechanical finesse, so we provide a 3D printed fixture ([instructions](https://drive.google.com/open?id=1-pEcuCK1zzoU1dhB6DvrvpxaZKwmPZqh), [Solidworks for base](https://drive.google.com/open?id=1peSZif9B1dCVGjBPbByFevaRjnXc4YCT), [Solidworks for cover](https://drive.google.com/open?id=1zrdfRXLA9rLq4WYW_jSm_Pb-nRgdP9Iq)) for holding the cuvette, LED and photodiodes.
+Now it is time to assemble and use the turbidity meter. You will prepare solutions of known turbidity using the [TU-2016](https://drive.google.com/file/d/1aRRGL3DGFiiZZP9Hb7o4LIQauYPwHxP3/view?usp=sharing){target="_blank"} calibrated laboratory turbidity meter, illuminate them with the LED from @sec-led, then measure the transmitted and 90° scattered light using the transimpedance amplifiers from @sec-transimpedance.  Arranging all of these elements -- the sample cuvette holding your solutions, the LEDs and the photodiodes -- requires a little bit of mechanical finesse, so we provide a 3D printed fixture ([instructions](https://drive.google.com/open?id=1-pEcuCK1zzoU1dhB6DvrvpxaZKwmPZqh){target="_blank"}, [Solidworks for base](https://drive.google.com/open?id=1peSZif9B1dCVGjBPbByFevaRjnXc4YCT){target="_blank"}, [Solidworks for cover](https://drive.google.com/open?id=1zrdfRXLA9rLq4WYW_jSm_Pb-nRgdP9Iq){target="_blank"}) for holding the cuvette, LED and photodiodes.
 
 :::{.callout-warning}
 You can Damage the Turbidity Meter
@@ -125,6 +125,6 @@ Modern electronic measurements of turbidity are measured by shining light throug
 
 Devices which measure only 90° scattering are called nephelometers, and devices which measure the ratio of the 90° signal to the transmitted signal are called turbidity meters or turbidimeters. The relative effectiveness of the two devices depends on exactly how many solids are in the water. 
 
-[This link](https://www.lakesuperiorstreams.org/understanding/param_turbidity.html) has some additional information about turbidity, including a picture of some suspensions of different turbidity for visual reference.
+[This link](https://www.lakesuperiorstreams.org/understanding/param_turbidity.html){target="_blank"} has some additional information about turbidity, including a picture of some suspensions of different turbidity for visual reference.
 :::
 
