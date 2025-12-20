@@ -4,7 +4,7 @@ title: "Lab 0: Tutorial and Skills Review"
 
 Team size: 4
 
-Submission Sheet: Submit your [E72+E80 MATLAB Tutorial](./matlab-startup.qmd) on the E80 Canvas page
+Submission Sheet: Submit your [E72+E80 MATLAB Tutorial](./matlab-startup.qmd){target="_blank"} on the E80 Canvas page
 
 Pre-lab Help Sheet: No pre-lab required this week
 
@@ -197,7 +197,7 @@ Test your connection to the Teensy by compiling and uploading the RGB LED exampl
 3. Follow the instructions [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch){target="_blank"} to compile and upload to the Teensy
 4. Change the Arduino IDE Sketchbook location to the E80 Gitlab folder, which you downloaded earlier in the section, by using `File->Preferences`. 
 5. Open [E80_Lab_01.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_01/E80_Lab_01.ino){target="_blank"}. 
-6. Confirm that you can compile and upload the starter code to your Teensy.  Since your Teensy is not plugged into your motherboard here, this code will do little.  It is fully tested in [Lab 1](/labs/lab1/).
+6. Confirm that you can compile and upload the starter code to your Teensy.  Since your Teensy is not plugged into your motherboard here, this code will do little.  It is fully tested in [Lab 1](/labs/lab1/){target="_blank"}.
 
 :::{.callout-note}
 You must use a micro USB cable (see image [here](https://drive.google.com/file/d/0BwiB3SVueuOpd3VHSjZFczUwZ1E/view?usp=sharing&resourcekey=0-mdD6t8RsgB-2txW00XCDYw){target="_blank"}) to connect the Teensy to your computer before you can upload sketches.
@@ -229,7 +229,7 @@ Then, do the following to install MATLAB on your computer:
 3. Run the installer and log into your Mathworks account again.
 4. Select “Individual” license and complete the installation process.
 
-It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com), but we discourage doing so in this course.
+It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com){target="_blank"}, but we discourage doing so in this course.
 
 ## Binary File Reading
 
@@ -269,5 +269,5 @@ Screenshot showing how to place files in Matlab current folder.
 
 ## MATLAB On-ramp
 
-If you have extra time during Lab 0 you may work on the MATLAB on-ramp tutorial.  You can find the assignment [here](./matlab-startup.qmd).
+If you have extra time during Lab 0 you may work on the MATLAB on-ramp tutorial.  You can find the assignment [here](./matlab-startup.qmd){target="_blank"}.
 

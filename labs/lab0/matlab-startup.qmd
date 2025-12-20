@@ -30,7 +30,7 @@ You should prepare these items in an MS Word document or Google Doc and then dow
 
 ### 1. Installing MATLAB on your personal computer
 
-There is a version of MATLAB that you can run in the cloud via a browser, but because we'll be using MATLAB a lot in this class, so we recommend that you install it on your personal computer. To do so, follow [these instructions](https://docs.google.com/document/d/1-dmjftyCPrAWVC4g5OvJ4mv9C1jUWgiwmJVQw4iSR5w/edit). Please install MATLAB R2023b or later.
+There is a version of MATLAB that you can run in the cloud via a browser, but because we'll be using MATLAB a lot in this class, so we recommend that you install it on your personal computer. To do so, follow [these instructions](https://docs.google.com/document/d/1-dmjftyCPrAWVC4g5OvJ4mv9C1jUWgiwmJVQw4iSR5w/edit){target="_blank"}. Please install MATLAB R2023b or later.
 
 **Important:** When you are installing MATLAB, you'll be asked what packages you want included. For E72, you need at minimum the following toolboxes:
 
@@ -41,7 +41,7 @@ There is a version of MATLAB that you can run in the cloud via a browser, but be
 
 If you've previously installed MATLAB, you can add the packages by going through the installation process again. To see what packages you have installed, type "ver" at the command window. You can also install packages within MATLAB by clicking on `Apps`, then `Get More Apps`, typing in the name of the toolbox in the search bar, and making sure `Toolboxes and Products` is checked under `Filter by Type` on the left side bar. If you get an error `Your administrator has restricted your download access...`, first try restarting MATLAB.
 
-There are lots of videos on MATLAB online. For example, if you want to know how to use `fsolve`, you can search "[MATLAB fsolve tutorial](https://www.youtube.com/results?search_query=matlab+fsolve+tutorial&search=Search)" on YouTube.
+There are lots of videos on MATLAB online. For example, if you want to know how to use `fsolve`, you can search "[MATLAB fsolve tutorial](https://www.youtube.com/results?search_query=matlab+fsolve+tutorial&search=Search){target="_blank"}" on YouTube.
 
 ### 2. MATLAB Onramp {#matlab-onramp}
 
