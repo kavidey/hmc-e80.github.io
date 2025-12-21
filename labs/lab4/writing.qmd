@@ -76,7 +76,7 @@ Providing appropriate references for your work is critical.
 There are a variety of different reference styles.
 You may be familiar with some popular ones from your humanities classes like MLA and APA.
 There are also many different scientific citation styles, each with their own pros and cons.
-In this lab, we will use IEEE citation style which is a concise and clear way of listing references.
+In this lab, we will use IEEE citation style, which includes a concise and clear way of listing references.
 
 In the IEEE style, references are listed in the bibliography in citation order and are indicated in the text with the corresponding reference number in square brackets (e.g., [2]).
 Each reference in the bibliography should include:

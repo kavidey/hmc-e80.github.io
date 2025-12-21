@@ -18,12 +18,12 @@ All schematics in this report should adhere the following specification:
 
 - [ ] Include the stimulus for the circuit on the left
 - [ ] Include power supply connections and bypass capacitors.
-- [ ] Annotate each node with a name, using the name Vin for the input voltage and Vout for the measured output voltage
+- [ ] Annotate each node with a name, using the name Vin for the input voltage and Vout for the measured output voltage.
 - [ ] Annotate each resistor and capacitor with a component value.
 - [ ] Use implicit connections to connect the power supplies.
 - [ ] Use the op-amp symbol to indicate operational amplifiers (instead of, e.g., a pinout diagram), but annotates that symbol with the chip used to make the op-amp.
 - [ ] Represent op-amp circuits in their typical configurations, so that they look similar to videos.  Don't use non-typical drawings that make one type of op-amp circuit look like another.  (e.g.: don't draw a non-inverting amplifier with feedback on the top of the op-amp; that's usually how inverting amplifiers are drawn.)
-- [ ] Generally keep signal flow left-to-right
+- [ ] Generally keep signal flow left-to-right.
 - [ ] Generally keep high voltages at the top of the diagram and low voltages at the bottom.
 - [ ] Space out components well enough and zoom in close enough that annotations are easy to read.
 - [ ] Minimize unnecessary crossings, corners and jogs in the wires.  Use connect-by-name to reduce congestion among wires.  This [tutorial](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/reading-schematics) has more information.
@@ -92,7 +92,8 @@ Complete:
 
 ## Report on Steinhart-Hart Fitting of Thermistor
 
-Provide a table of results that matches the form below.  Note the following: 
+Provide a table of results that matches the form below.  Note the following:
+
 - T is the temperature measured by the digital thermometer
 - R is the resistance measured by the multimeter.
 
@@ -122,6 +123,7 @@ Complete:
 ## Report on Measurements of Thermocouple
 
 Provide a table of results that matches the form below.  Note the following: 
+
 - TT is the temperature measured by the digital thermometer
 - TK is the temperature measured by the type-K thermocouple when the multimeter was in temperature mode.
 - V is the thermocouple Voltage when the multimeter was in Voltage mode.
