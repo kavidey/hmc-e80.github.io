@@ -195,7 +195,7 @@ Test your connection to the Teensy by compiling and uploading the RGB LED exampl
 1. Plug your Teensy into your laptop
 2. Open the RGB LED example by navigating to `File -> Examples -> 0.1 Basics -> Blink`. 
 3. Follow the instructions [here](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-uploading-a-sketch) to compile and upload to the Teensy
-4. Change the Arduino IDE Sketchbook location to the E80 Gitlab folder, which you downloaded earlier in the section, by using `File->Preferences`. 
+4. Change the Arduino IDE Sketchbook location to the E80 Github folder, which you downloaded earlier in the section, by using `File->Preferences`. 
 5. Open [E80_Lab_01.ino](https://github.com/HMC-E80/E80-SP2023/blob/main/E80_Lab_01/E80_Lab_01.ino). 
 6. Confirm that you can compile and upload the starter code to your Teensy.  Since your Teensy is not plugged into your motherboard here, this code will do little.  It is fully tested in [Lab 1](/labs/lab1/).
 

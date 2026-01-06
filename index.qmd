@@ -29,15 +29,19 @@ Put these crucial lab and project dates on your calendar!
 ::: {.callout-note title="Dana Point Launch Attendance"}
 **ALL STUDENTS ARE EXPECTED TO ATTEND THE SATURDAY LAUNCH**
 :::
-<!-- - Wednesday {{<var dates.present>}}, time TBD:   Project presentations for all groups during presentation days. -->
+
+<!-- If we switch back to presentations over posters uncomment this
+- Wednesday {{<var dates.present>}}, time TBD:   Project presentations for all
+  groups during presentation days. -->
 
 
 ## Faculty and Office Hours
-| Name                | Day                    | Hours                                          | Location                     |
-|---------------------|------------------------|------------------------------------------------|------------------------------|
-| Dre Helmns          | Monday<br>Tuesday	   | 9:00 am to 10:00 am<br>10:00 am to 11:00 am	| 3rd Floor, Sprague 		                   |
-| Josh Brake		  | Monday               |  3:00 pm to 4:30 pm | 3rd Floor, Sprague                          |
-| Qimin Yang          |	Monday<br>Tuesday	   | 2:30 pm to 3:30 pm<br>9:00 am to 10:00 am	    | 3rd Floor, Sprague  		                   |
+| Name                       | Day                          | Hours                                          | Location                        |
+|----------------------------|------------------------------|------------------------------------------------|---------------------------------|
+| Qimin Yang	             | Monday		            | 9:35 am to 10:50 am			     | Shan 3466		       |
+| Adyasha Mohanty            | Monday		            | 4:10 pm to 5:25 pm			     | Shan 3466		       |
+| Dre Helmns	             | Tuesday		            | 8:15 am to 9:30 am			     | Shan 3466		       |
+| Marissa Sinopoli           | Tuesday		            | 9:35 am to 10:50 am			     | Shan 3466		       |
 
 You may attend any office hours, not just your section professor's.
 
@@ -48,15 +52,19 @@ You may attend any office hours, not just your section professor's.
   Tuesday 1:15 p.m. to 5:15 p.m. in Parsons B171 &  B181 		({{<var people.section1>}})
 
 - <u>Lab Section 2</u>:\
- Wednesday 1:15 p.m. to 5:15 p.m. in Parsons B171 & B181 		({{<var people.section2>}})
+  Wednesday 8:15 a.m. to 12:15 p.m. in Parsons B171 & B181 		({{<var people.section2>}})
 
 - <u>Lab Section 3</u>:\
- Thursday 1:15 p.m. to 5:15 p.m. in Parsons B171 & B181		({{<var people.section3>}})
+  Wednesday 1:15 p.m. to 5:15 p.m. in Parsons B171 & B181		({{<var people.section3>}})
+
+- <u>Lab Section 4</u>:\
+ Thursday 1:15 p.m. to 5:15 p.m. in Parsons B171 & B181 		({{<var people.section4>}})
 
 - Writing and Reflection for all sections - Friday 1:15 p.m. - 3:15 p.m 
   - Section 1 - {{<var rooms.writing1>}}
   - Section 2 - {{<var rooms.writing2>}}
   - Section 3 - {{<var rooms.writing3>}}
+  - Section 4 - {{<var rooms.writing4>}}
 
 After spring break: There will be open lab hours in Parsons B171 & B181 during the normally scheduled lab times.
 

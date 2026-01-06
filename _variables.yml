@@ -7,37 +7,39 @@
 github-url: https://github.com/HMC-E80/E80
 
 dates:
-  kickoff: 2025-01-24
-  project_kickoff: 2025-02-28
-  phake1: 2025-04-15
-  phake2: 2025-04-16
-  phake3: 2025-04-17
-  dana: 2025-04-26
-  poster_session: 2025-05-07
-  poster_draft: 2025-05-02
-  final_draft: 2025-05-02
-  final_final: 2025-05-06
+  kickoff: 2026-01-23
+  project_kickoff: 2026-02-27
+  phake1: 2026-04-14
+  phake2: 2026-04-15
+  phake3: 2026-04-16
+  dana: 2026-04-25
+  poster_session: 2026-05-06
+  poster_draft: 2026-05-01
+  final_draft: 2026-05-01
+  final_final: 2026-05-08
 
 people:
-  purchasing: Prof. Brake
+  purchasing: Prof. Helmns
   dana_point_food: Lynn Kim
   section1: Prof. Helmns
-  section2: Prof. Yang
-  section3: Prof. Helmns
-  dev1: Prof. Brake
-  dev2: 
+  section2: Prof. Sinopoli
+  section3: Prof. Mohanty
+  section4: Prof. Yang
+  dev1:
+  dev2:
 
 rooms:
   kickoff: Shan 1430
-  project_kickoff: Shan 1430
+  project_kickoff: Galileo Hall
   writing1: Shan 2440
   writing2: Shan 2450
   writing3: Shan 2454
+  writing4: Shan 2460
 
 urls:
   final_presentation_schedule: 
-  canvas_root: https://harveymuddcollege.instructure.com/courses/2237
-  discord_invite: https://discord.gg/aUAEvN4zaD
-  kit_payment_form: https://docs.google.com/forms/d/e/1FAIpQLSfvv5hv1MgA3dtqpN5Jcj_RVcCJeqGzUUsM7q-XdCrRbWUUPA/viewform
-  kit_waiver_request: https://docs.google.com/forms/d/e/1FAIpQLSeUrlL34Co46oOuCqvBE8raIYIUWgpKgcfq5IsncQM-i7hOzA/viewform
-  course_calendar_gsheet: https://docs.google.com/spreadsheets/d/1Bb88_hHcKQATjJjF_wOn32IOzpAc4KP7kxuLZwmDm-M/edit?usp=drive_link 
+  canvas_root: harveymuddcollege.instructure.com/courses/3355
+  discord_invite: https://discord.gg/geNTzMtkCm
+  kit_payment_form: https://docs.google.com/forms/d/e/1FAIpQLSflclgbW_LMuXaBaYjI15fh4J-SpNz-LAovQaQ5eF1Qmifusw/viewform
+  kit_waiver_request: https://docs.google.com/forms/d/1LZtymCKRMMK_oShWn9YNp1WYIfRZpY7lbUFdcrGM1D8/viewform
+  course_calendar_gsheet: https://docs.google.com/spreadsheets/d/1o8-S6t9_KMy2JrlXk3lIXh6Wt-OUK5nmNuf5MjLShIc
