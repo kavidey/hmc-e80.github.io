@@ -220,14 +220,22 @@ Then try these tutorials if you have time.
 
 ## MATLAB Access
 
-You will be using MATLAB to help analyze and interact with data throughout this course, so you need to install MATLAB.  You will first need to [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html) and log in using your Mathworks account. If you do not have an account, create one using your `username@hmc.edu` credentials.
+You use MATLAB to help analyze and interact with data throughout this course, so you need to install MATLAB. You will first need to [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html) and log in using your Mathworks account. If you do not have an account, create one using your `username@hmc.edu` credentials.
 
 Then, do the following to install MATLAB on your computer:
 
 1. [Visit the MATLAB Portal](https://www.mathworks.com/academia/tah-portal/harvey-mudd-college-30622674.html).
 2. Choose to download the installer and select your operating system.
 3. Run the installer and log into your Mathworks account again.
-4. Select “Individual” license and complete the installation process.
+4. Select “Individual” license.
+5. On the product selection screen, select the following toolboxes (which you'll need for E72):
+
+    - Curve Fitting Toolbox
+    - Optimization Toolbox
+    - Signal Processing Toolbox
+    - Symbolic Math Toolbox
+
+6. Complete the installation.
 
 It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com), but we discourage doing so in this course.
 
