@@ -229,12 +229,10 @@ Then, do the following to install MATLAB on your computer:
 3. Run the installer and log into your Mathworks account again.
 4. Select “Individual” license.
 5. On the product selection screen, select the following toolboxes (which you'll need for E72):
-
     - Curve Fitting Toolbox
     - Optimization Toolbox
     - Signal Processing Toolbox
     - Symbolic Math Toolbox
-
 6. Complete the installation.
 
 It is also possible to use an online copy of MATLAB [here](https://matlab.mathworks.com), but we discourage doing so in this course.
