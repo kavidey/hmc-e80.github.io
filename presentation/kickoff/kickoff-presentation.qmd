@@ -62,14 +62,15 @@ Growth requires **good stress** and **progressive overload**.
 
 ## Teaching Team
 
-::: {layout="[[1,1,1], [1,1]]"}
+::: {layout="[[1,1,1], [1,1,1]]"}
 
+![Prof. Marissa Sinopoli](images/Sinopoli_Marissa.png){text-align=" width="150px"}
 
-![Prof. Josh Brake](images/brake.png){text-align=" width="150px"}
+![Prof. Adyasha Mohanty](images/Mohanty_Adyasha.png){width="150px"}
 
-![Prof. Dre Helmns](images/helmns.png){width="150px"}
+![Prof. Qimin Yang](images/Yang_Qimin.png){width="150px"}
 
-![Prof. Qimin Yang](images/yang.png){width="150px"}
+![Prof. Dre Helmns](images/Helmns_Dre.png){width="150px"}
 
 ![Lynn Kim](images/kim.png){width="150px"}
 
@@ -177,9 +178,10 @@ Fill out a survey to help you assess how your team is doing and if there are any
 | Day       | Lecture Quiz              | Submission Sheet     | Write Up     | Weekly Check In |
 |---------------|---------------|---------------|---------------|---------------|
 | Monday    | Noon (Canvas) |                      |              |                                 |
-| Tuesday   |                           | 5:15p (E80-1) |              |                                 |
-| Wednesday |                           | 5:15p (E80-2) |              |                                 |
-| Thursday  |                           | 5:15p (E80-3) |              |                                 |
+| Tuesday   |                           | 5:15p (E80-01) |              |                                 |
+| Wednesday |                           | 12:15p (E80-02) |              |                                 |
+|  |                           | 5:15p (E80-03) |              |                                 |
+| Thursday  |                           | 5:15p (E80-04) |              |                                 |
 | Friday    |                           |                      | 3:15p | 3:30p                    |
 
 ## Scheduling Activity
@@ -198,7 +200,7 @@ Every week you need to have the following time carved out.
 
 ::::: {.columns}
 ::: {.column width=70%}
-1. Schedule a time for you to meet as a team of 4 each week.
+1. Schedule a time for you to meet as a team of 4 (or 5) each week.
 2.  Create a shared file storage location (e.g., a shared Google Drive folder or Shared Drive).
 3.  Decide how you want to communicate this semester (e.g., email, text thread, Discord, Slack, etc.).
 4.  Block out time for all the activities on the previous slide on your calendar!
@@ -364,7 +366,7 @@ Your E80 board has a GPS, IMU, Tiny Computer, 5 amp Motor Driver, and you'll use
 :::
 ## Engineering Department Climate Survey
 
-Open your email and search for an email you received from Prof. Lape on Wednesday 1/22 with the subject line "Engineering Department Climate Survey".
+Open your email and search for an email you received from Prof. Harris on Wednesday 1/21 with the subject line "Engineering Department Climate Survey".
 
 <div style="float: left; margin-top: 0.25em">
 ::: {.timer #Timer3 seconds=600 starton=interaction}
@@ -373,4 +375,4 @@ Open your email and search for an email you received from Prof. Lape on Wednesda
 
 ## Snacks
 
-Join us for a social in the Hixon Courtyard by the Koi pond with snacks and mingle with your peers, the E80 teaching team, and some engineering juniors and seniors.
+Join us for a social in the Shakespeare Theatre (outside Shan) with snacks and mingle with your peers, E72 and E80 proctors, sophomore mentors, and the E72 and E80 teaching teams.
