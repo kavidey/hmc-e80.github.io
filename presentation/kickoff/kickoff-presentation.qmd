@@ -158,7 +158,7 @@ Watch lecture videos and take quiz each week. [Due each Monday at 12 pm (noon).]
 #### 2. Lab Submission Sheet
 
 ::: fragment
-Submit key deliverables collected in lab. [Due at the end of your lab section each week (5:15 pm).]{style="color:red"}
+Submit key deliverables collected in lab. [Due at the end of your lab section each week (12:15, 5:15 pm).]{style="color:red"}
 :::
 
 #### 3. Writing & Reflection Section
@@ -274,6 +274,46 @@ The resubmission policy limitations are described in detail on the syllabus.
   - One from a sub-team lab (Labs 2, 3, or 4) that will be completed **as an individual**. The updated grade will be applied only to the individual who resubmitted it (i.e., not to the other team member).
 :::
 
+## The point of going to college is to...
+
+::: incremental
+
+::: {.incremental}
+1.  Pursue specialized knowledge?
+2.  Hone marketable skills to land a high-paying job?
+3.  Be exposed to different ways of thinking?
+4.  Climb the class ladder and improve your life?
+5.  Experiment with who you want to be(come)?
+6.  Learn not to fear the unknown?
+7.  Build relationships and form a long-lasting network?
+8.  Try to make an impact in the world?
+:::
+
+**Does generative AI support you achieving any of these goals?**
+:::
+
+## AI Usage Policy
+
+In this course, we have two distinct AI policies...
+
+::: columns
+::: column
+**All Writing and Labs (0-7): **
+
+::: fragment
+-   [**AI Level 0: Not Allowed**]{style="color:red"}: The goal of this policy is to encourage you to develop your writing and laboratory skills. We believe that the use of generative AI tools will hinder your learning on these assignments.
+:::
+:::
+
+::: column
+**Project Code Development: **
+
+::: fragment
+-   [**AI Level ?: You Decide**]{style="color:orange"}: Soon your team will draft a contract. As part of that exercise you can discuss whether you collectively wish to use generative AI tools for code development during the project phase.
+:::
+:::
+:::
+
 # Team Formation
 
 ## Google Project Aristotle describes the attributes of a high-functioning team
@@ -364,14 +404,6 @@ Your E80 board has a GPS, IMU, Tiny Computer, 5 amp Motor Driver, and you'll use
 ::: {.center-x}
 ![](images/10B76783-D939-4B11-98E2-F4E71277490F_1_105_c.jpeg){width=800px}
 :::
-## Engineering Department Climate Survey
-
-Open your email and search for an email you received from Prof. Harris on Wednesday 1/21 with the subject line "Engineering Department Climate Survey".
-
-<div style="float: left; margin-top: 0.25em">
-::: {.timer #Timer3 seconds=600 starton=interaction}
-:::
-</div>
 
 ## Snacks
 
