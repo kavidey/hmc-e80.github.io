@@ -251,8 +251,8 @@ Both the `inf` and `log` files are needed to import your data.
 
 Here is an example of the two files that would be found on an SD card after a run:
 
-- [inf004.txt](./assets/INF004.TXT)
-- [log004.bin](./assets/LOG004.BIN)
+- [inf004.txt](./assets/INF004.TXT){download="INF004.TXT"}
+- [log004.bin](./assets/LOG004.BIN){download="LOG004.BIN"}
 
 Use the provided MATLAB script, [logreader.m]({{< var github-url >}}/blob/main/MATLAB/logreader.m) (found under the `MATLAB` directory of the E80 repo you should have cloned), to read the data from the sample files.
 
