@@ -42,6 +42,23 @@ In this course you will learn how to...
 
 Our goal is to take you from Students → Engineers
 
+## Teaching Team
+
+::: {layout="[[1,1,1], [1,1,1]]"}
+
+![Prof. Marissa Sinopoli](images/Sinopoli_Marissa.png){text-align=" width="150px"}
+
+![Prof. Adyasha Mohanty](images/Mohanty_Adyasha.png){width="150px"}
+
+![Prof. Qimin Yang](images/Yang_Qimin.png){width="150px"}
+
+![Prof. Dre Helmns](images/Helmns_Dre.png){width="150px"}
+
+![Lynn Kim](images/kim.png){width="150px"}
+
+![Xavier Walter](images/walter.png){width="150px"}
+:::
+
 ## Course Philosophy
 
 Growth requires **good stress** and **progressive overload**.
@@ -58,23 +75,6 @@ Growth requires **good stress** and **progressive overload**.
 ![](images/weightlifting.png){fig-align="center" width="100%"}
 :::
 :::
-:::
-
-## Teaching Team
-
-::: {layout="[[1,1,1], [1,1,1]]"}
-
-![Prof. Marissa Sinopoli](images/Sinopoli_Marissa.png){text-align=" width="150px"}
-
-![Prof. Adyasha Mohanty](images/Mohanty_Adyasha.png){width="150px"}
-
-![Prof. Qimin Yang](images/Yang_Qimin.png){width="150px"}
-
-![Prof. Dre Helmns](images/Helmns_Dre.png){width="150px"}
-
-![Lynn Kim](images/kim.png){width="150px"}
-
-![Xavier Walter](images/walter.png){width="150px"}
 :::
 
 ## Course Overview
