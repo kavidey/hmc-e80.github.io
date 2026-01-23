@@ -11,6 +11,7 @@ format:
 
 - [ ] Mission statement present.
 - [ ] Logistics includes communication medium and agreed upon norms.
+- [ ] Decide on an AI Policy for code development in the project phase
 - [ ] Group data storage system created (e.g., shared Drive or shared folder on Google Drive).
 - [ ] DOCX version of team contract uploaded into shared drive for group editing.
 - [ ] Objectives present for team.
