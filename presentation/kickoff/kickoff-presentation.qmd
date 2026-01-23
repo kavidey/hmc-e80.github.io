@@ -170,7 +170,7 @@ Bring deliverables from lab each week. Write a small section of a technical memo
 #### 4. Weekly Team Check In
 
 ::: fragment
-Fill out a survey to help you assess how your team is doing and if there are any issues developing. [We will give you time to complete this at the beginning of the Writing & Reflection Section on Friday. Due Friday at 3:30 pm.]{style="color:red"}
+Fill out a survey to help you assess how your team is doing and if there are any issues developing. [We will remind you to complete this at the end of the Writing & Reflection Section on Friday. Due Friday at 3:30 pm.]{style="color:red"}
 :::
 
 ## Weekly Schedule {.smaller font-size="12"}
@@ -334,10 +334,10 @@ In this course, we have two distinct AI policies...
 
 ## Team Formation Refresh
 
--   Psychological Safety: creating an environment where team members are comfortable taking risks and speaking up.
 -   Team Norms: A set of agreements about how the team will operate.
+-   Feedback Goals: Constructive, specific, actionable. From a place of goodwill to help each other learn and grow.
 
-"I’m giving you these comments because I have very high expectations and I’m confident you can reach them." - advice on feedback from Adam Grant
+<!-- "I’m giving you these comments because I have very high expectations and I’m confident you can reach them." - advice on feedback from Adam Grant -->
 
 ## Team Contract Activity {.smaller}
 
