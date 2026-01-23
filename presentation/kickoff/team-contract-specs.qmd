@@ -21,7 +21,7 @@ format:
 - [ ] Logistics and organization section clearly outlines communication and collaboration methods and expectations.
 - [ ] Strengths and weaknesses are included for each team member.
 - [ ] Team objectives are clear, specific, and include metrics to assess how the team is performing.
-- [ ] Team norms explain what they will do to create a high-functioning team, how they will know when things are going
+- [ ] Team norms explain what they will do to create a high-functioning team, how they will know when things are going well, and what to do if things are not going well.
 - [ ] All team members have signed the form.
  
 
