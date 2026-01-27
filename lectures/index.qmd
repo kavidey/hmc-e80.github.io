@@ -20,36 +20,36 @@ Quizzes are due at noon (12 p.m.) on Mondays on Canvas during the first half of 
 
 # Week 2: Statistics for Experiments
 
-- [Basic Statistics for Experiments Videos](https://www.youtube.com/watch?v=ywIUp9uNmY8&list=PLDA3QBjykWVxlOIHkdFEiuaXp-02mt8VI)
-- [Basic Statistics for Experiments Slides](/lectures/SLIDES_20180718_01_IntroAndBasics.pdf)
-- [Basics Statistics Example Spreadsheet](https://docs.google.com/spreadsheets/d/1vX6A31pxA10KfnWXvVotVhlXlFhyXyB6btyzb5Xk4xo/edit?usp=sharing)
-- [Basics Statistics Example MATLAB](https://drive.google.com/open?id=1g59Dyz9PjarGOT66BUw4t11QvD0FXfd_)
-- [All Statistics Summary Document](https://drive.google.com/open?id=1vHS10FuGOs_IwQG8Uzs9UoeD4REUTOl4)
-- [Student's t Values Table](https://drive.google.com/open?id=1dIRZvSaYBFEqbXAem_nys0N5lmKA2c1V)
+- [ ] [Basic Statistics for Experiments Videos](https://www.youtube.com/watch?v=ywIUp9uNmY8&list=PLDA3QBjykWVxlOIHkdFEiuaXp-02mt8VI)
+- [ ] [Basic Statistics for Experiments Slides](/lectures/SLIDES_20180718_01_IntroAndBasics.pdf)
+- [ ] [Basics Statistics Example Spreadsheet](https://docs.google.com/spreadsheets/d/1vX6A31pxA10KfnWXvVotVhlXlFhyXyB6btyzb5Xk4xo/edit?usp=sharing)
+- [ ] [Basics Statistics Example MATLAB](https://drive.google.com/open?id=1g59Dyz9PjarGOT66BUw4t11QvD0FXfd_)
+- [ ] [All Statistics Summary Document](https://drive.google.com/open?id=1vHS10FuGOs_IwQG8Uzs9UoeD4REUTOl4)
+- [ ] [Student's t Values Table](https://drive.google.com/open?id=1dIRZvSaYBFEqbXAem_nys0N5lmKA2c1V)
 
 # Week 3: Basics of Electrical Measurements
-- [Basics of Electrical Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVyDDmjCt-UFhZb8Ok0Ajfby)
-- [Basics of Electrical Measurements Slides](https://drive.google.com/file/d/1-4SoZdgNXmHkrtf45DcGWNuDbROOCEW9/view?usp=sharing)
-- [Error Propagation Video](https://www.youtube.com/watch?v=DiOs64kzSQw)
-- [Error Propagation Slides](/lectures/SLIDES_20180718_01_ErrorPropagation.pdf)
-- [Additional Information on Calculating Error in Multimeter Measurements](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/)
-- [Auntie Spark's Guide to breadboards](/lectures/AuntieSparksGuideToBreadboarding.pdf)
-- We also recommend watching videos 1 & 2 of next week's op-amp videos.
+- [ ] [Basics of Electrical Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVyDDmjCt-UFhZb8Ok0Ajfby)
+- [ ] [Basics of Electrical Measurements Slides](https://drive.google.com/file/d/1-4SoZdgNXmHkrtf45DcGWNuDbROOCEW9/view?usp=sharing)
+- [ ] [Error Propagation Video](https://www.youtube.com/watch?v=DiOs64kzSQw)
+- [ ] [Error Propagation Slides](/lectures/SLIDES_20180718_01_ErrorPropagation.pdf)
+- [ ] [Additional Information on Calculating Error in Multimeter Measurements](https://www.designworldonline.com/how-to-determine-digital-multimeter-accuracy/)
+- [ ] [Auntie Spark's Guide to breadboards](/lectures/AuntieSparksGuideToBreadboarding.pdf)
+- [ ] We also recommend watching videos 1 & 2 of next week's op-amp videos.
 
 # Week 4: Operational Amplifiers
-- [Operational Amplifiers Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVwctzkMzqvbLcZr3iyS85Hu)
-- [Operational Amplifiers Slides](https://drive.google.com/drive/folders/1j97hAUQ1RnWEw6dwOQ7hg6TDK5-3Y0pe?usp=sharing)
-- [Linear Regression Videos](https://www.youtube.com/watch?v=HsZhQyhg0tk&list=PLDA3QBjykWVxfuWGJPkS_O1xrhW9txOKt&index=1)
-- [Linear Regression Slides](/lectures/SLIDES_20180720_01_Linear_Regression.pdf)
-- [Linear Regression Example Spreadsheet](https://drive.google.com/open?id=1DUaiPw9Wgt_O8O7Mq5RMC3HpRIXVWgbr)
-- [Linear Regression Example MATLAB](https://drive.google.com/open?id=1eOS0lIQpyriTde-x_eN0lET-ya3I51Si)
-- [Additional Information on Op Amp impedance](https://www.electronics-notes.com/articles/analogue_circuits/operational-amplifier-op-amp/input-impedance.php)
+- [ ] [Operational Amplifiers Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVwctzkMzqvbLcZr3iyS85Hu)
+- [ ] [Operational Amplifiers Slides](https://drive.google.com/drive/folders/1j97hAUQ1RnWEw6dwOQ7hg6TDK5-3Y0pe?usp=sharing)
+- [ ] [Linear Regression Videos](https://www.youtube.com/watch?v=HsZhQyhg0tk&list=PLDA3QBjykWVxfuWGJPkS_O1xrhW9txOKt&index=1)
+- [ ] [Linear Regression Slides](/lectures/SLIDES_20180720_01_Linear_Regression.pdf)
+- [ ] [Linear Regression Example Spreadsheet](https://drive.google.com/open?id=1DUaiPw9Wgt_O8O7Mq5RMC3HpRIXVWgbr)
+- [ ] [Linear Regression Example MATLAB](https://drive.google.com/open?id=1eOS0lIQpyriTde-x_eN0lET-ya3I51Si)
+- [ ] [Additional Information on Op Amp impedance](https://www.electronics-notes.com/articles/analogue_circuits/operational-amplifier-op-amp/input-impedance.php)
 
 # Week 5: Temperature Measurements
-- [Temperature Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVycTireTaEG8Fim4GnFEBpz)
-- [Temperature Measurements Slides](https://drive.google.com/drive/folders/1xC09jM35sX2pIvMsqE0E8lO8F7CKePlt?usp=sharing)
-- [Nonlinear Regresssion Video](https://www.youtube.com/watch?v=aE4W-JYnGgQ)
-- [Steinhart-hart-fitting.m](https://drive.google.com/open?id=19N-lH7GH1XP0PHImxZM9N5_MRfb8FWuX)
+- [ ] [Temperature Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVycTireTaEG8Fim4GnFEBpz)
+- [ ] [Temperature Measurements Slides](https://drive.google.com/drive/folders/1xC09jM35sX2pIvMsqE0E8lO8F7CKePlt?usp=sharing)
+- [ ] [Nonlinear Regresssion Video](https://www.youtube.com/watch?v=aE4W-JYnGgQ)
+- [ ] [Steinhart-hart-fitting.m](https://drive.google.com/open?id=19N-lH7GH1XP0PHImxZM9N5_MRfb8FWuX)
 
 # Week 6: Rotation Week 1
 | Odd Teams, e.g.: 21 | Even Teams, e.g.: 22 |
@@ -70,13 +70,13 @@ Quizzes are due at noon (12 p.m.) on Mondays on Canvas during the first half of 
 - [Proposal Specifications](/project/proposal/submission.qmd)
 
 # Project Jump Start: Autonomous Navigation
-- [Autonomous Navigation](https://www.youtube.com/playlist?list=PLDA3QBjykWVw9UDHYpLBnloHrAwpZyTbb)
-- [Autonomous Navigation Slides](https://drive.google.com/drive/folders/1yCA0z3uEAt4LO61vuYCOluFFPgQTbqYP?usp=sharing)
-- [Statistics of Integrals and Derivatives Video 1](https://www.youtube.com/watch?v=_0AcGK7asfM)
-- [Statistics of Integrals and Derivatives Video 2](https://www.youtube.com/watch?v=ej9O5ncO1iw)
-- [Statistics of Integrals and Derivatives Slides](/lectures/SLIDES_20190117_01_TimeSeriesErrors.pdf)
-- [Statistics of Integrals and Derivatives Accelerometer MATLAB Example](https://drive.google.com/open?id=1-jiIeGnTGc0ZuzfWS1xRK-mnt1NesF_Q)
-- [Statistics of Integrals and Derivatives Numerical Derivation Statistics MATLAB Demo.](https://drive.google.com/open?id=1uA-uhLO4cLXOAFCiALvTtgRjT2nDUVXY)
+- [ ] [Autonomous Navigation](https://www.youtube.com/playlist?list=PLDA3QBjykWVw9UDHYpLBnloHrAwpZyTbb)
+- [ ] [Autonomous Navigation Slides](https://drive.google.com/drive/folders/1yCA0z3uEAt4LO61vuYCOluFFPgQTbqYP?usp=sharing)
+- [ ] [Statistics of Integrals and Derivatives Video 1](https://www.youtube.com/watch?v=_0AcGK7asfM)
+- [ ] [Statistics of Integrals and Derivatives Video 2](https://www.youtube.com/watch?v=ej9O5ncO1iw)
+- [ ] [Statistics of Integrals and Derivatives Slides](/lectures/SLIDES_20190117_01_TimeSeriesErrors.pdf)
+- [ ] [Statistics of Integrals and Derivatives Accelerometer MATLAB Example](https://drive.google.com/open?id=1-jiIeGnTGc0ZuzfWS1xRK-mnt1NesF_Q)
+- [ ] [Statistics of Integrals and Derivatives Numerical Derivation Statistics MATLAB Demo.](https://drive.google.com/open?id=1uA-uhLO4cLXOAFCiALvTtgRjT2nDUVXY)
 
 # Supplementary Information
 We have also included slides from topics covered in previous versions of E80 for additional reading if you are interested:
