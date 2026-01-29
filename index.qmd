@@ -38,10 +38,10 @@ Put these crucial lab and project dates on your calendar!
 ## Faculty and Office Hours
 | Name                       | Day                          | Hours                                          | Location                        |
 |----------------------------|------------------------------|------------------------------------------------|---------------------------------|
-| Qimin Yang	             | Monday		            | 9:35 am to 10:50 am			     | Shan 3466		       |
-| Adyasha Mohanty            | Monday		            | 4:10 pm to 5:25 pm			     | Shan 3466		       |
-| Dre Helmns	             | Tuesday		            | 8:15 am to 9:30 am			     | Shan 3466		       |
-| Marissa Sinopoli           | Tuesday		            | 9:35 am to 10:50 am			     | Shan 3466		       |
+| Marissa Sinopoli           | Monday		                  | 8:15 am to 9:30 am			                       | Shan 3461			                 |
+| Qimin Yang	               | Monday		                    | 9:35 am to 10:50 am			                       | Shan 3461			                 |
+| Adyasha Mohanty            | Monday		                    | 4:10 pm to 5:25 pm			                       | Shan 3465			                 |
+| Dre Helmns	               | Tuesday		                  | 8:15 am to 9:30 am			                       | Shan 3481			                 |
 
 You may attend any office hours, not just your section professor's.
 
