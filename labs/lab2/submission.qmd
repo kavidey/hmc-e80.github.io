@@ -47,7 +47,7 @@ Complete Specification:
 
 ## Fill in this table of properties for voltage dividers
 
-Fill in only one of the "Measured Output Voltage" columns for each measurement, whichever is appropriate to the instrument that you are using to measure.  If you are using the "Measured Output Voltage (Vpp)" column, then also convert that measured voltage to an RMS value in the "Converted Output Voltage (Vrms)" column.
+Fill in the "Measured Output Voltage" column for each measurement, ensuring that you are reporting consistently in RMS values.
 
 Several column names have been abbreviated to make that table easier to fit on one page:
 

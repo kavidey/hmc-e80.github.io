@@ -137,12 +137,16 @@ You will be asked to measure the output Voltage with the devices in the "Measure
 - "Teensy" refers to making an analog measurement with your Teensy. You made similar measurements in @sec-teensy-analog.  You made some calculations of the uncertainty of the Teensy, which arises from the size of the Teensy unit, in @sec-teensy-analog, and you can find information about Teensy input impedance in the videos. This information is also included in Section 4.8.2 of the [datasheet for the microcontroller on the Teensy board](./doc/IMXRT1060CEC_rev4.pdf).
 - Though this is not in the "Measure With" column, you will also need to find the output impedance and amplitude uncertainty of your signal generator.  If you are using the scope-integrated WaveGen output, then you can infer the output impedance and find the uncertainty in the oscilloscope manual.  If you are, unusually, using a stand-alone function generators (an [HP33120A](./doc/33120A-Function_Arbitrary-Waveform%20Generator.pdf)), you can find these values in the datasheet.
 
-Do the following
+Do the following:
 
-1. For the circuit shown in @fig-divider, and for each of the values of Z1 and Z2 and the measuring instruments in @tbl-experiment, calculate the expected output voltages with confidence intervals accounting for uncertainty in both components and instruments. Assume the resistors are 5% resistors. Be sure to include the effects of instrument loading in your calculations. Note that these analytical calculations can be made during prelab.  
-2. Build several copies of the circuit in @fig-divider, one for each pair of Z1/Z2 values in @tbl-experiment.  These can all be built simultaneously on the same breadboard if you lay it out carefully.  Please trim your resistor leads so that they lie flat on the breadboard.
-3. Measure and record the value of each component used in your construction, then recalculate the output voltages using your measured component values. 
-4. Drive the circuits using a signal generator and measure the output voltage with each of the instruments in the table. 
+1. For the circuit shown in @fig-divider, and for each of the values of Z1 and Z2 and the measuring instruments in @tbl-experiment, calculate the expected output RMS voltages with confidence intervals accounting for uncertainty in both components and instruments. Note that these analytical calculations can be made during prelab.
+    a. Assume the resistors are 5% resistors.
+    b. Be sure to include the effects of instrument loading in your calculations.
+        i. You may neglect parallel capacitance for all devices except for the Teensy. The motherboard resistance and parallel capacitance are $R_{MTB}=1000\,\ohm$ and $C_{MTB}=100\,\mathrm{pF}$.
+        ii. The Teensy is in 10 bit mode. Note that ADLPC=0, ADHSC=1. Note that there is a $2^N$ (not a $2*N$) in the computation of the least significant bit.
+2. Measure and record the value of each resistor you will use in your circuit, and verify that the values fall in the expected range.
+3. Build several copies of the circuit in @fig-divider, one for each pair of Z1/Z2 values in @tbl-experiment. These can all be built simultaneously on the same breadboard if you lay it out carefully. Please trim your resistor leads so that they lie flat on the breadboard.
+4. Drive the circuits using a signal generator and measure the output voltage with each of the instruments in the table. When measuring using the oscilloscope, it may help to use the measurement setting called DC RMS - Full Screen.
 5. Check whether or not the measured voltages lie within the predicted confidence intervals. Recall that you have two sets of predicted voltages, one based on nominal component values and one based on measured component values, so there are two sets of confidence intervals to check against.  Also look at the percent error between the predictions and the measurements.
 
 :::{.callout-note}
