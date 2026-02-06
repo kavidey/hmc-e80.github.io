@@ -113,6 +113,7 @@ Effort:
 
 - [ ] Provides a picture of the prepared solutions in cuvettes.  Picture is annotated to indicate turbidity of each cuvette.
 - [ ] Provides a picture of the assembled turbidity meter.
+- [ ] Provides a screenshot of your code or spreadsheet to plot transmission vs turbidity measures, the line of best fit, and the functional and observational bounds.
 
 Complete: 
 
@@ -120,6 +121,6 @@ Complete:
   - The traces are gathered while a solution of middling turbidity is in the turbidity meter, so both 90° and transmission outputs are visible. 
   - The first set of traces are gathered under normal lighting conditions.
   - The second set of traces are gathered under shadowed lighting conditions.
-- [ ] Plot of Vpp,90/Vpp,Transmission vs. Turbidity values annotated with uncertainty measures.
+- [ ] Plots a ratio of $V_\mathrm{pp,90}/V_\mathrm{pp,transmission}$ vs. Turbidity values with the line of best fit and functional and observational bounds.
 - [ ] Plotted turbidity data shows a linear relationship so measured Voltages can be used to predict turbidity.
 - [ ] 2-3 sentences explaining why we use a switching LED, why we measure peak-peak Voltages in the transimpedance outputs, and why those decisions are related to ambient light.

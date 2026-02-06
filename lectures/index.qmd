@@ -48,7 +48,7 @@ Quizzes are due at noon (12 p.m.) on Mondays on Canvas during the first half of 
 # Week 5: Temperature Measurements
 - [ ] [Temperature Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVycTireTaEG8Fim4GnFEBpz)
 - [ ] [Temperature Measurements Slides](https://drive.google.com/drive/folders/1xC09jM35sX2pIvMsqE0E8lO8F7CKePlt?usp=sharing)
-- [ ] [Nonlinear Regresssion Video](https://www.youtube.com/watch?v=aE4W-JYnGgQ)
+- [ ] [Nonlinear Regression Video](https://www.youtube.com/watch?v=aE4W-JYnGgQ)
 - [ ] [Steinhart-hart-fitting.m](https://drive.google.com/open?id=19N-lH7GH1XP0PHImxZM9N5_MRfb8FWuX)
 
 # Week 6: Rotation Week 1
@@ -84,7 +84,7 @@ We have also included slides from topics covered in previous versions of E80 for
 - [Fourier Series](https://drive.google.com/open?id=13HKwMvY7HrnMlP7yxZ-RZcRPDnSwaXov)
 - [DFTs and FFTs](https://drive.google.com/open?id=1e0OLo6uCw93evjV2mPyVCebRI_B46eTQ)
 - [Sampling, Aliasing, Folding](https://drive.google.com/open?id=1_lF1ZG382AHKLyA6_Bf0VBN1UHlD-eh_)
-- [ Dynamic Modeling](https://drive.google.com/open?id=1HM1sUSPzXYWta1Jq0z2ShTsH48vl-295), [[Wang Thesis](https://drive.google.com/open?id=1LOth9W0bl4DNe2W_82wve_ImHHN_F4E2)], [[LabVIEW Model](https://drive.google.com/open?id=1fRpKLNxEBib_75muxPtMDq93WI87ORbK)]
+- [Dynamic Modeling](https://drive.google.com/open?id=1HM1sUSPzXYWta1Jq0z2ShTsH48vl-295), [[Wang Thesis](https://drive.google.com/open?id=1LOth9W0bl4DNe2W_82wve_ImHHN_F4E2)], [[LabVIEW Model](https://drive.google.com/open?id=1fRpKLNxEBib_75muxPtMDq93WI87ORbK)]
 - [Introduction to E80 Robot Software](https://drive.google.com/open?id=1iZiWU3SrHjz8JaDDIr9f0q_rbZuiqgIt)
 - [Electrical and Mechanical Modifications for the Project](https://drive.google.com/open?id=15Fxa2cCJTmTctiDUJQCwhMFjNa4Zfk8-)
 

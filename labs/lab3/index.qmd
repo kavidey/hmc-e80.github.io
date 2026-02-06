@@ -40,6 +40,15 @@ There are a few resources used in this lab that must be shared. Please respect o
 
 In this section, we are going to demonstrate an op-amp failing to work properly, and then we will correct that failure by modifying the op-amp circuit.  The modified circuit will be an offset amplifier, which is one of the most common circuits in the final project.
 
+:::{.callout-note collapse="true"}
+## Clean Breadboarding Tips
+
+If you would like efficient help in debugging your circuits, it's important to have a neat and organized breadboard.  Here are some tips for keeping your breadboard neat and organized:
+
+- Use color-coded wires to indicate different types of connections. Red wires are typically used for positive power supply connections, black wires are typically used for ground connections, and other colors are typically used for signal and jumping connections.
+- Use short wires whenever possible to reduce clutter and make it easier to trace connections. Wires should not cross each other unnecessarily, and they should not have unnecessary bends or loops.
+:::
+
 Do the following:
 
 1. Use an [MCP601](http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf) to build a single-rail, non-inverting amplifier with a gain of two. Pay attention to the maximum allowed supply Voltage.  Use a 5 V supply Voltage.
@@ -57,7 +66,7 @@ We are using the MCP601, MCP6002 and MCP6004 in this lab because they are single
 
 Turbidity is a measurement that depends on illuminating a water sample, then measuring the ratio of transmitted and 90° scattered light.  We are going to use an infrared light-emitting diode (IR LED) called the [IR1503](https://media.digikey.com/PDF/Data%20Sheets/Everlight%20PDFs/9-IR1503.pdf) to illuminate our sample, and we are going to blink it on and off using a circuit called a [555 timer](https://www.ti.com/lit/ds/symlink/se555.pdf?).  Because IR radiation is invisible to the human eye, we need a sensor to tell if our system is working, and the [OP950](http://datasheet.octopart.com/OP950-TT-datasheet-7617992.pdf) IR photodiode serves that job well.
 
-1. Build an astable 555 timer oscillator that has a frequency between 500 Hz and 1 kHz and a [duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of approximately 60%. If you use reference designs from the datasheet, **omit RL** from any circuit you build.
+1. Build an **astable** 555 timer oscillator that has a frequency between 500 Hz and 1 kHz and an [output waveform duty cycle](https://en.wikipedia.org/wiki/Duty_cycle) of approximately 60%. If you use reference designs from the datasheet, **omit RL** from any circuit you build.
 2. Verify that your oscillator is working by measuring the oscillator output Voltage and the capacitor Voltage.
 3. Attach a series combination of a resistor and an IR1503 the output of the 555 timer.  Select the resistor value and diode orientation such that you will drive 20-40 mA through the diode when the output is high. Selecting this resistor will require approximating the diode's forward voltage (VF) at your desired current level, and information in the datasheet can help you figure out an appropriate VF.
 4. Measure the Voltage across the resistor in the resistor-IR1503 combination while the 555 timer is operating.  Check that this Voltage waveform implies that the correct current waveform is passing through the IR1503.
@@ -84,7 +93,7 @@ Schematic for a transimpedance amplifier
 :::
 
 1. Analyze the transimpedance amplifier circuit to determine a formula that relates the diode current, ID, the feedback resistance, RF, and the output voltage, VOUT.  Note that the diode acts like a current source pointing away from the op-amp when the photodiode is illuminated.
-2. Build a transimpedance amplifier using the [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) and an OP950.  Configure unused op-amps as unity gain buffers with their inputs and outputs grounded.
+2. Build a transimpedance amplifier using the [MCP6004](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) and an OP950. The MCP6004 contains four op-amps, which is useful for space-saving. Configure unused op-amps on your MCP6004 as unity gain buffers with their inputs and outputs grounded.
 3. Use your LED light source from @sec-led to test the transimpedance amplifier.  If you are seeing no signal, try flipping your OP950 around.  Adjust the feedback resistor so you are seeing a large output signal.
 4. Build and test a second copy of this op-amp circuit for use in your turbidity meter.
 
