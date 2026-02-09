@@ -15,7 +15,7 @@ Writing Template: [html](./writing-template.qmd) [docx](./writing-template.docx)
 
 ## Introduction
 
-In this lab you will use operational amplifiers to build a turbidity meter, a sensor that measures the relative clarity of water. Turbidity is an interesting and useful measurement in oceanography, so this turbidity meter could be a stepping stone towards your final project. Further, the op-amp techniques that you use to construct this turbidity meter will be useful in any final project you select; the ability to buffer, shift and scale Voltages and currents is essential to many instruments.  Extra credit sections offer the opportunity to explore  other interesting marine sensors, and those sensors are also excellent candidates for final project sensors.
+In this lab you will use operational amplifiers to build a turbidity meter, a sensor that measures the relative clarity of water. Turbidity is an interesting and useful measurement in oceanography, so this turbidity meter could be a stepping stone towards your final project. Further, the op-amp techniques that you use to construct this turbidity meter will be useful in any final project you select; the ability to buffer, shift and scale Voltages and currents is essential to many instruments.  
 
 After successful completion of this lab, you will be able to 
 
@@ -33,7 +33,7 @@ This lab will be carried out as sub-teams of two.  Policies for sub-teams are di
 
 This lab asks you to prepare solutions and handle chemicals. Though we aren't working with anything hazardous (or which can't be flushed down the drain), be sure to observe good chemical hygiene practices and use gloves and goggles when handling chemicals or sensitive equipment. Always use gloves when handling any glassware that will go into the turbidity meter.
 
-There are a few resources used in this lab that must be shared. Please respect others and don’t abuse these resources. All the teams in lab are going to have to share a single turbidity meter and beaker of mystery solution. There will be three digital scales available. For Extra Credit 1, we have a limited supply of buffer solutions that must last for all our labs, so don't pour out more than you need to cover your pH probes, and be sure to use the smaller set of beakers. 
+There are a few resources used in this lab that must be shared. Please respect others and don’t abuse these resources. All the teams in lab are going to have to share a single turbidity meter and beaker of mystery solution. There will be three digital scales available. 
 
 
 ## Op-Amp Familiarity and Offset Amplifier
