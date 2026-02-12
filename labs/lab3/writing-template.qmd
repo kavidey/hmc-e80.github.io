@@ -1,6 +1,6 @@
 ---
 title: "Lab 3 Writing Template"
-subtitle: Mechanical Drawings and Electrical Schematics
+subtitle: Electrical Schematics and Equations
 format:
   html: default
   docx: default
