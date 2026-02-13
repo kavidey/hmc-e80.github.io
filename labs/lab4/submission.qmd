@@ -52,7 +52,7 @@ Complete:
   - VOP is predicted output voltage
   - VOM is measured output voltage 
   - V ERR is error between voltage prediction and measurement
-  - P$_{est}$ is the estimated pressure based on the measured output voltage
+  - P$_\mathrm{est}$ is the estimated pressure based on the measured output voltage
 - [ ] Predicted and measured voltages are consistent with equations.
 - [ ] Estimated pressures are reasonable.
 - [ ] Predicted and measured voltage at 0 m depth is close to 1.1 V or 2.2 V.
@@ -61,9 +61,9 @@ Complete:
 - [ ] 2-3 sentences on possible sources of error between VOP and VOM.
 
 | Depth (cm) | VOP (V) | VOM (V) | V ERR (%) | P$_\mathrm{est}$ (kPa) |
-| -----------|---------|---------|-----------|-----------------|
-|   0        |         |         |           |                 |
-|   ...      |         |         |           |                 |
+| -----------|---------|---------|-----------|------------------------|
+|   0        |         |         |           |                        |
+|   ...      |         |         |           |                        |
 
 {{< pagebreak >}}
 
