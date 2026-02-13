@@ -8,7 +8,7 @@ format:
 
 Name:
 
-## Electrical Schematic
+## Electrical Schematics
 
 ::: {#fig-inv-op-amp-schematic}
 ![](./img/invertingoffsetamp.png)
@@ -21,7 +21,7 @@ Insert the schematic for your inverting offset amplifier circuit here. Don't for
 Text and equations to explain function and design of the circuit.
 The text and equations should address, highlight, and include:
 
--   What circuit does
+-   What the circuit does
 -   How the circuit works
 -   Choice of components and values
 
@@ -36,7 +36,7 @@ Insert the schematic for your 555 timer circuit here. Don't forget your figure c
 Text and equations to explain function and design of the circuit.
 The text and equations should address, highlight, and include:
 
--   What circuit does
+-   What the circuit does
 -   How the circuit works
 -   Choice of components and values
 
@@ -51,6 +51,6 @@ Insert the schematic for your transimpedance amplifier here. Don't forget your f
 Text and equations to explain function and design of the circuit.
 The text and equations should address, highlight, and include:
 
--   What circuit does
+-   What the circuit does
 -   How the circuit works
 -   Choice of components and values

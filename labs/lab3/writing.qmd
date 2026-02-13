@@ -21,7 +21,7 @@ These are detailed in the lab submission sheet and the specs below.
 
 For this assignment, draw schematics for the inverting offset amplifier, the 555 timer circuit, and the transimpedance amplifier you built in Lab 3. After each schematic, include a 100-150 word section of text to describe its design and operation.
 
-You must also include the equations you used to calculate all specified resistance values in your text. Reference them properly as “Equation 1” or "Eq. 1" not “eq 1” or any other way, and be sure to include units wherever appropriate. Units should not be italicized.
+You must also include the equations you used to calculate all specified resistance values in your text. Reference them properly as “Equation 1” or "Eq. 1" (not “eq 1” or any other way), and be sure to include units wherever appropriate. Units should not be italicized.
 
 Ensure your schematics and equations follow all the proper conventions as detailed in the specs below and in the lab manual.
 
@@ -56,18 +56,18 @@ By the end of this writing assignment you will...
 - [ ] All lines connecting elements are straight lines wherever possible (i.e., no curved lines)
 - [ ] All junctions indicated with a solid circle at the intersection point
 - [ ] No 4-way wire junctions
-- [ ] Use line weights and fonts that are clearly visible.
-- [ ] Reference designators and the values for parts are placed nearby the parts.
+- [ ] Use line weights and fonts that are clearly visible
+- [ ] Reference designators and the values for parts are placed nearby the parts
 - [ ] Draw pins according to function (i.e., not just according to the physical layout of the pins on the chip.)
 - [ ] All pins labeled with number
 - [ ] All pins labeled with name/description of function
-- [ ] Decoupling capacitors are placed nearby the part that they accompany.
+- [ ] Decoupling capacitors are placed nearby the part that they accompany
 - [ ] If needed, notes are legible and well-placed
 
 #### Equations
 
 -   [ ] Contain a label that numbers each equation 
--   [ ] Each equation is referenced in the text
+-   [ ] Each equation is referenced properly (“Equation 1” or "Eq. 1," not “eq 1” or any other way) in the text
 -   [ ] Variables of the equations are described in the text and match those used in circuit schematics
 -   [ ] Refer to appropriate op amp background covered in lectures where appropriate, don’t reinvent every wheel
 
