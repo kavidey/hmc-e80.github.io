@@ -60,7 +60,7 @@ Complete:
 - [ ] A plot of depth vs voltage is provided. The data points match the points in the table below.  Appropriate regressions and measures of uncertainty are plotted.
 - [ ] 2-3 sentences on possible sources of error between VOP and VOM.
 
-| Depth (cm) | VOP (V) | VOM (V) | V ERR (%) | P$_{est}$ (kPa) |
+| Depth (cm) | VOP (V) | VOM (V) | V ERR (%) | P$_\mathrm{est}$ (kPa) |
 | -----------|---------|---------|-----------|-----------------|
 |   0        |         |         |           |                 |
 |   ...      |         |         |           |                 |
