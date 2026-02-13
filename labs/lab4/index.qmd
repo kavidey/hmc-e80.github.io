@@ -52,7 +52,9 @@ E79 and E80 both rely on the same pressure sensor, the [MPX5700](./assets/MPX570
 3. If using an inverting amplifier configuration, the input impedance falls to $R_i$. A unity gain buffer may be useful.
 4. Build the op-amp circuit and test it with a function generator to convince yourself it is working.
 5. Build an MPX5700 on your breadboard, and test that it works using a multimeter and a water column in a graduated cylinder.  Section 7 in these [instructions from E79](https://sites.google.com/g.hmc.edu/e79-practicum/module-2/practicum-2d) might help.
-6. Connect your MPX5700 to your op-amp circuit and test the assembled pressure sensor using a water column in a graduated cylinder.  Record a depth vs. Voltage calibration curve, and include regression lines and appropriate measures of uncertainty.
+6. Connect your MPX5700 to your op-amp circuit and test the assembled pressure sensor using a water column in a graduated cylinder.
+7. In a table, record values of depth, predicted voltage, measured voltage, percent error between the predicted and measured voltages, and estimated pressure.
+8. Plot a depth vs. voltage calibration curve, and include regression lines and appropriate measures of uncertainty.
 
 :::{.callout-tip}
 The MPX5700 is sensitive to supply Voltage, which can mess up your measurements.  Set your power supply to exactly 5 V and verify its value with a multimeter.
@@ -91,7 +93,7 @@ $$ 1/T = A_1 + B_1 \ln R + C_1 \ln^2 R + D_1 \ln^3 R $$ {#eq-steinhart-hart}
 
 1. Use the multimeter to measure the resistance of a thermistor at room temperature.  While still measuring the resistance, hold the thermistor tightly with your fingers and verify that the multimeter reading changes.
 2. Obtain a digital thermometer to use for "ground truth" temperature measurements.
-3. Prepare a set of eight different temperature baths between 0 °C and 80 °C.  You will only have access to a few insulated beakers to prepare these baths, so you may need to prepare them in batches or wait for the first baths you made to cool a bit in order to get extra data points.
+3. Prepare a set of six different temperature baths between 0 °C and 80 °C.  You will only have access to a few insulated beakers to prepare these baths, so you may need to prepare them in batches or wait for the first baths you made to cool a bit in order to get extra data points.
 4. Use the multimeter and the digital thermometer to measure the temperatures of your baths and the resistance of the thermistor when it is submerged in each bath.
 5. Use fitting techniques to extract the Steinhart-Hart coefficients for your thermistor. Don't forget about the Steinhart-Hart fitting example on the lectures page. 
 6. Plot the data points (R V T), and the non-linear Steinhart-Hart fit (See code under **non-linear fit** and **non-linear residuals**).
@@ -103,7 +105,7 @@ In this section we will give thermocouples the same attention we've just given t
 
 1. Obtain a type-K thermocouple from the instructors.  Be sure to return it at the end of lab!
 2. Obtain a digital thermometer to use for "ground truth" temperature measurements.
-3. Prepare a set of five different temperature baths between 0 °C and 80 °C.  As in section @sec-therm, you may be limited by the number of insulated beakers available, so you can prepare the baths in batches or wait for them to cool down between measurements.
+3. Prepare a set of six different temperature baths between 0 °C and 80 °C.  As in section @sec-therm, you may be limited by the number of insulated beakers available, so you can prepare the baths in batches or wait for them to cool down between measurements.
 4. Plug the type-K thermocouple into the multimeter and test out the multimeter's temperature mode.
 5. Submerge the digital thermometer and the type-K thermocouple in a bath simultaneously.  Then measure the following and repeat the process for each bath. 
    1. Measure the bath temperature using the digital thermometer 

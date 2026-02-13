@@ -41,27 +41,29 @@ Effort:
 
 - [ ] Provides a picture of the pressure sensor interface circuit, including the pressure sensor
 - [ ] Provides a schematic of the pressure sensor interface circuit, including the pressure sensor
-- [ ] Equation relating depth to pressure sensor output Voltage is included.
-- [ ] Equation relating op-amp input Voltage to op-amp output Voltage is included.  May be incorrect if it looks like a good faith effort.
+- [ ] Equation relating depth to pressure sensor output voltage is included.
+- [ ] Equation relating op-amp input voltage to op-amp output voltage is included.  May be incorrect if it looks like a good faith effort.
 
 Complete:
 
 - [ ] Equation relating op-amp input to op-amp output is correct.
-- [ ] Equations are combined into an overall equation relating depth and op-amp output Voltage.
+- [ ] Equations are combined into an overall equation relating depth and op-amp output voltage.
 - [ ] Provides a table of results that matches the form below with at least five data points.  Note the following: 
-  - VOP is predicted output Voltage
-  - VOM is measured output Voltage 
-  - ERR is error between prediction and measurement
-- [ ] A graph of a calibration curve between pressure and depth is provided.  The data points match the points in the table below.  Appropriate regressions and measures of uncertainty are plotted.
-- [ ] Predicted and measured Voltages are consistent with equations.
-- [ ] Predicted and measured Voltage at 0 m depth is close to 1.1 V or 2.2 V.
-- [ ] Predicted and measured Voltage at 40 cm depth is close to 1.1 V or 2.2 V (whichever is farthest from the 0 m measurement)
-- [ ] 2-3 sentences on possible sources of uncertainty
+  - VOP is predicted output voltage
+  - VOM is measured output voltage 
+  - V ERR is error between voltage prediction and measurement
+  - P$_{est}$ is the estimated pressure based on the measured output voltage
+- [ ] Predicted and measured voltages are consistent with equations.
+- [ ] Estimated pressures are reasonable.
+- [ ] Predicted and measured voltage at 0 m depth is close to 1.1 V or 2.2 V.
+- [ ] Predicted and measured voltage at 40 cm depth is close to 1.1 V or 2.2 V (whichever is farthest from the 0 m measurement).
+- [ ] A plot of depth vs voltage is provided. The data points match the points in the table below.  Appropriate regressions and measures of uncertainty are plotted.
+- [ ] 2-3 sentences on possible sources of error between VOP and VOM.
 
-| Depth (cm) | VOP (V) | VOM (V) | ERR (%) | 
-| -----------|---------|---------|---------|
-|   0        |         |         |         |
-|   ...      |         |         |         |
+| Depth (cm) | VOP (V) | VOM (V) | V ERR (%) | P$_{est}$ (kPa) |
+| -----------|---------|---------|-----------|-----------------|
+|   0        |         |         |           |                 |
+|   ...      |         |         |           |                 |
 
 {{< pagebreak >}}
 
@@ -71,22 +73,22 @@ Effort:
 
 - [ ] Provides a picture of the thermistor interface circuit, including the thermistor divider.
 - [ ] Provides a schematic of the thermistor interface circuit, including the thermistor divider.
-- [ ] Equation relating op-amp input Voltage to op-amp output Voltage is included.  May be incorrect if it looks like a good faith effort.
+- [ ] Equation relating op-amp input voltage to op-amp output voltage is included.  May be incorrect if it looks like a good faith effort.
 
 Complete:
 
 - [ ] Equation relating op-amp input to op-amp output is correct.
 - [ ] Predicted and measured resistance values are reported for 0 °C and 20 °C temperatures.
 - [ ] Predicted and measured output voltages are reported for 0 °C and 20 °C temperatures.
-- [ ] Predicted Voltages and measured voltages are consistent with equations.
-- [ ] Predicted and measured Voltage at 0 °C is close to 0.3 V or 3.0 V.
-- [ ] Predicted and measured Voltage at 20 °C is close to 0.3V or 3.0 V (whichever is farthest from the 0 °C measurement).
-- [ ] 2-3 sentences on possible sources of uncertainty
+- [ ] Predicted voltages and measured voltages are consistent with equations.
+- [ ] Predicted and measured voltage at 0 °C is close to 0.3 V or 3.0 V.
+- [ ] Predicted and measured voltage at 20 °C is close to 0.3V or 3.0 V (whichever is farthest from the 0 °C measurement).
+- [ ] 2-3 sentences on possible sources of error between VOP and VOM.
 
 | Temp (C)   |  RP ($\Omega$) | VOP (V) | VOM (V) | ERR (%) | 
-| -----------|---------|---------|---------|---------|
-|   0        |         |         |         |         |
-|   ...      |         |         |         |         |
+| -----------|----------------|---------|---------|---------|
+|   0        |                |         |         |         |
+|   ...      |                |         |         |         |
 
 {{< pagebreak >}}
 
@@ -94,23 +96,22 @@ Complete:
 
 Provide a table of results that matches the form below.  Note the following:
 
-- T is the temperature measured by the digital thermometer
+- T is the temperature measured by the digital thermometer.
 - R is the resistance measured by the multimeter.
-
-Also provide extracted Steinhart-Hart coefficients with uncertainty and two graphs.  One graph overlays R-T data and the Non-linear Steinhart-Hart fit.  The other provides residuals from the Steinhart-Hart fit.
 
 Effort:
 
-- [ ] At least four of table rows are filled in.
+- [ ] At least four of the table rows are filled in.
+- [ ] Includes code showing how to calculate Steinhart-Hart coefficients.
+- [ ] Reports Steinhart-Hart coefficients with 95% confidence intervals.
 - [ ] Provides graph of T vs. R data.
-- [ ] 2-3 sentences on possible sources of uncertainty
+- [ ] 2-3 sentences on possible sources of uncertainty.
 
 Complete: 
 
-- [ ] All table rows are filled in.
-- [ ] Includes code showing how to calculate Steinhart-Hart coefficients.
-- [ ] Includes a plot of T vs. R that shows measured points with uncertainty and fit based on extracted Steinhart-Hart coefficients.
-- [ ] Include plot of residuals from Steinhart-Hart fit.
+- [ ] All six table rows are filled in.
+- [ ] Includes a plot of T vs. R that shows measured points, the fit based on extracted Steinhart-Hart coefficients, and functional and observational bounds.
+- [ ] Includes a plot of residuals from Steinhart-Hart fit.
 
 | T (°C) | R (k$\Omega$) |
 |--------|---------------|
@@ -125,21 +126,22 @@ Complete:
 Provide a table of results that matches the form below.  Note the following: 
 
 - TT is the temperature measured by the digital thermometer
-- TK is the temperature measured by the type-K thermocouple when the multimeter was in temperature mode.
-- V is the thermocouple Voltage when the multimeter was in Voltage mode.
-- CJC is the cold junction compensation Voltage.
-- TD is the temperature decoded from the Voltage in Thermocouple mode. 
+- TK is the temperature measured by the type-K thermocouple when the multimeter was in temperature mode
+- V is the thermocouple voltage when the multimeter was in Voltage mode
+- CJC is the cold junction compensation voltage
+- TD is the temperature decoded from the voltage in Thermocouple mode
 
 Effort:
 
-- [ ] At least two of table rows are filled in.
+- [ ] At least four of the table rows are filled in.
 - [ ] CJC column has at least a reasonable guess.
-- [ ] 2-3 sentences on possible sources of uncertainty
 
 Complete: 
 
-- [ ] All table rows are filled in.
-- [ ] CJC column and decoded temperature are correct for measured Voltages.
+- [ ] All six table rows are filled in.
+- [ ] CJC column and decoded temperature are correct for measured voltages.
+- [ ] 2-3 sentences on possible sources of discrepancy between TT and TK.
+
 
 | TT (°C) | TK (°C) | V (mV) | CJC (mV) | TD (°C) |
 |---------|---------|--------|----------|---------|
