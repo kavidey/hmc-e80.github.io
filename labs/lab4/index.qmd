@@ -96,7 +96,7 @@ $$ 1/T = A_1 + B_1 \ln R + C_1 \ln^2 R + D_1 \ln^3 R $$ {#eq-steinhart-hart}
 3. Prepare a set of six different temperature baths between 0 °C and 80 °C.  You will only have access to a few insulated beakers to prepare these baths, so you may need to prepare them in batches or wait for the first baths you made to cool a bit in order to get extra data points.
 4. Use the multimeter and the digital thermometer to measure the temperatures of your baths and the resistance of the thermistor when it is submerged in each bath.
 5. Use fitting techniques to extract the Steinhart-Hart coefficients for your thermistor. Don't forget about the Steinhart-Hart fitting example on the lectures page. 
-6. Plot the data points (R V T), and the non-linear Steinhart-Hart fit (See code under **non-linear fit** and **non-linear residuals**).
+6. Plot the data points (T vs. R), and the non-linear Steinhart-Hart fit (See code under **non-linear fit** and **non-linear residuals**).
 7. Plot the residuals of your fit.
 
 ## Measure and Decode Thermocouple Voltage vs. Temperature
