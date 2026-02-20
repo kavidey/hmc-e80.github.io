@@ -80,7 +80,7 @@ You can amplify the voltage out of these probes using an MCP601 configured as a 
 
 ## Thermocouple Interface Circuit
 
-Thermocouples generate very small voltages, so the Voltages must be amplified to be read by the Teensy. The easiest way to do the amplification is with an instrumentation amplifier. The one we have available is the Analog Devices AD623ANZ (data sheet [here](./assets/AD623.pdf)).
+Thermocouples generate very small voltages, so the Voltages must be amplified to be read by the Teensy. The easiest way to do the amplification is with an instrumentation amplifier. The one we have available is the Analog Devices AD623ANZ (data sheet [here](./assets/ad623.pdf)).
 
 Pay special attention to the AD623 voltage supply range. It can operate with a dual rail supply Voltage of ±2.5 V to ±6 V, or it can operate with a single rail supply voltage from 0V to 5-12V. If you exceed the voltage supply range, you will destroy the chip. The op-amp standard of ±15 V will destroy it immediately. Don't be tempted. 
 
