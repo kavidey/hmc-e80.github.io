@@ -31,10 +31,10 @@ Complete:
 
 This section calls for eight total graphs:
 
-* Measured and Simulated Drag force vs. Reynolds number for Nose 1, 2, and 3
-* Measured and Simulated Coefficient of Drag vs. Reynolds number for Nose 1, 2, and 3
-* Simulated velocity profile of Nose 1, 2, and 3
-* Simulated pressure contour plot of profile of Nose 1, 2, and 3
+* &#8291;(1) Measured and Simulated Drag force vs. Reynolds number for Nose 1, 2, and 3
+* &#8291;(1) Measured and Simulated Coefficient of Drag vs. Reynolds number for Nose 1, 2, and 3
+* &#8291;(3) Simulated velocity profile of Nose 1, 2, and 3
+* &#8291;(3) Simulated pressure contour plot of profile of Nose 1, 2, and 3
 
 Effort:
 
