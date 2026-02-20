@@ -44,6 +44,7 @@ Quizzes are due at noon (12 p.m.) on Mondays on Canvas during the first half of 
 - [ ] [Linear Regression Example Spreadsheet](https://drive.google.com/open?id=1DUaiPw9Wgt_O8O7Mq5RMC3HpRIXVWgbr)
 - [ ] [Linear Regression Example MATLAB](https://drive.google.com/open?id=1eOS0lIQpyriTde-x_eN0lET-ya3I51Si)
 - [ ] [Additional Information on Op Amp impedance](https://www.electronics-notes.com/articles/analogue_circuits/operational-amplifier-op-amp/input-impedance.php)
+- [ ] [Optional: How to Design an Offset Amplifier](https://hmc-e80.github.io/reference/tutorials/designing-an-offset-amplifier/)
 
 # Week 5: Temperature Measurements
 - [ ] [Temperature Measurements Videos](https://www.youtube.com/playlist?list=PLDA3QBjykWVycTireTaEG8Fim4GnFEBpz)
