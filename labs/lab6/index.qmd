@@ -59,8 +59,7 @@ Safety Tips for the Wind Tunnel
 * Airfoil and angle of attack definitions (click [here](http://www.esru.strath.ac.uk/EandE/Web_sites/11-12/MORE/hydrofoil/img/1.jpg))
 * NASA Wing geometry definitions (click [here](https://www.grc.nasa.gov/www/k-12/airplane/geom.html)) 
 * NASA Reynolds Number guide (click [here](https://www.grc.nasa.gov/www/BGH/reynolds.html))
-* Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (105 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing)). Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
-* Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1llecHQqT-IsAfxxNEL-jZWsQFFYYczDG?usp=sharing)) Each slide on the PowerPoint contains a video!  Make sure that you press play on each video!
+* Grandma Spark's step-by-step video guides to using COMSOL to model 1) a cylinder and 2) a NACA 0009 airfoil in laminar flow (large PowerPoint files, click [here](https://drive.google.com/drive/folders/1IjhRmhfASkhUQR6hsvC33TpsU9c2r1SW?usp=drive_link)). Each slide on the PowerPoints contains a video!  Make sure that you press play on each video!
 * COMSOL video tutorials for beginners (click [here](https://www.comsol.com/video/how-set-up-run-simulation-comsol-multiphysics))
 * How to use COMSOL 3D geometry tools (click [here](https://www.youtube.com/watch?v=1AggdrJzHyg))
 * How to form unions in COMSOL (click [here](https://www.youtube.com/watch?v=Q7fOawr58H0))
@@ -172,7 +171,7 @@ Mounting the scaled model of the robot in the test chamber.
 
 In this section we will perform fluid dynamics simulations of the same objects that are tested in the wind tunnel. This will offer us a chance to compare simulation and reality. We will also use similitude to compare our wind tunnel results against a simulation of a full-sized robot traveling in water.
 
-Make sure to download and watch Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (106 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1e_maE5dcjPOEUGKOjZue8UUbkSufHgzy/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true)).  Each slide on the PowerPoint contains a video. Make sure that you press play on each video.  The guide has specific instructions for creating some of the trickier plots below: the velocity profile and the filled pressure contour plot.
+Make sure to download and watch Grandma Spark's step-by-step video guide to using COMSOL to model a cylinder in laminar flow (106 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1IjhRmhfASkhUQR6hsvC33TpsU9c2r1SW?usp=drive_link)).  Each slide on the PowerPoint contains a video. Make sure that you press play on each video.  The guide has specific instructions for creating some of the trickier plots below: the velocity profile and the filled pressure contour plot.
 
 First, carry out simulations for each of the nose cones used in the wind tunnel. 
 
@@ -212,7 +211,7 @@ Import settings for importing robot model to COMSOL
 
 In this section you will use CFD to simulate wings so that you can explore the effect of wing shape and angle of attack on lift and drag.
 
-For parts 2 and 3 of this section, please make sure to watch  Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://docs.google.com/presentation/d/1KFulcloNJmJO0Bwzbz9RL0ppA24EBcsr/edit?usp=sharing&ouid=100121681850908143159&rtpof=true&sd=true)). Each slide on the PowerPoint contains a video. Make sure that you press play on each video.
+For parts 2 and 3 of this section, please make sure to watch  Grandma Spark's step-by-step video guide to using COMSOL to model a NACA 0009 airfoil in laminar flow (164 MB PowerPoint File, click [here](https://drive.google.com/drive/folders/1IjhRmhfASkhUQR6hsvC33TpsU9c2r1SW?usp=drive_link)). Each slide on the PowerPoint contains a video. Make sure that you press play on each video.
 
 1. Construct two wings in COMSOL. 
    1. a "Flat Plate Wing" that COULD be tested in the wind tunnel using the dimensions in @fig-plate-wing. Note that the wind tunnel test section is 1 ft x 1 ft x 2 ft. 
