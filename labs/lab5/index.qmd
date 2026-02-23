@@ -9,8 +9,6 @@ Submission Sheet: [html](./submission.qmd) [docx](./submission.docx)
 
 Prelab Help Sheet: None for this lab, but you've got this!  Review previous ones for ideas of how to prepare.
 
-Writing Assignment: [html](./writing.qmd)
-
 ## Introduction
 
 In this lab you will work as a team of four to use acoustic measurements to find the position of your robot in the test tank.  The acoustic measurements will depend on listening to beacons at fixed locations in the tank, and guessing your position relative to them.  Because there will be many beacon signals in the tank at once, you will need to use Fourier analysis to understand the behavior of the signals. The purpose of this lab is to demonstrate the power of underwater acoustic measurements and to force you to wrangle early and often with Fourier analysis.
