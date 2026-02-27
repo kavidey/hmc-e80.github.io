@@ -70,14 +70,17 @@ In this course you will learn how to...
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
+| Lab Writing Assignment Resubmits | 5:00 pm on Friday, 3/6             | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
+| Individual Lab Resubmits (2-4)   | End of lab section in week of 3/9  | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/13                               | Team                  |
+| Team Lab Resubmits (1, 5, 6)     | End of lab section in week of 3/9  | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
+| Project Proposal                 | 3:15 pm on Friday, 3/13            | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
+| Lab 6 Technical Memorandum       | 5:00 pm on Friday, 3/13            | Individual            |
++----------------------------------+------------------------------------+-----------------------+
+
 
 ## Activity: Think, Pair, Share Reflection
 
@@ -111,19 +114,19 @@ To get you up to speed up on these common elements, we'll have a more structured
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
 | Week | Activity                                  | Deliverable                                                                                                           |
 +======+===========================================+=======================================================================================================================+
-| 1    | Project Jump Start                        | A graded Submission Sheet due at the end of your section.                                                             |
+| 10   | Project Jump Start                        | A graded Submission Sheet due at the end of your section.                                                             |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 2    | Breadboard Demo                           | Demo of breadboarded circuits to a professor (highly recommended, but not required).                                  |
+| 11   | Breadboard Demo                           | Demo of breadboarded circuits to a professor (highly recommended, but not required).                                  |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 3    | Soldered Protoboard Demo                  | Demo of soldered circuits to a professor (highly recommended, but not required).                                      |
+| 12   | Soldered Protoboard Demo                  | Demo of soldered circuits to a professor (highly recommended, but not required).                                      |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 4    | Integrated Robot Deployment               | None, though deployment during your section at Phake Lake is the first chance to get data for your report.            |
+| 13   | Integrated Robot Deployment               | None, though deployment during your section at Phake Lake is the first chance to get data for your report.            |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 5    | Rebuild and Final Deployment              | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report.        |
+| 14   | Rebuild and Final Deployment              | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report.        |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 6    | Analyze Data & Final Report Conferences   | Rough draft of report due on Tuesday at noon. Individual conferences with professors.                                 |
+| 15   | Analyze Data & Final Report Conferences   | Rough draft of report due on Tuesday at noon. Individual conferences with professors.                                 |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 7    | Individual Final Report & Team Poster     | \- Poster due by noon (12 pm) on Friday, May 1. Poster session on Wednesday, May 6 during Presentation Days at 4 pm.  |
+| 16   | Individual Final Report & Team Poster     | \- Poster due by noon (12 pm) on Friday, May 1. Poster session on Wednesday, May 6 during Presentation Days at 4 pm.  |
 |      |                                           | <br>\- Final report due Friday, May 8 at 11:59 pm.                                                                    |
 +------+-------------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
 :::
@@ -392,11 +395,13 @@ For each desired quantity, list out any ways that you can think of to measure th
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
+| Lab Writing Assignment Resubmits | 5:00 pm on Friday, 3/6             | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
+| Individual Lab Resubmits (2-4)   | End of lab section in week of 3/9  | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/13                               | Team                  |
+| Team Lab Resubmits (1, 5, 6)     | End of lab section in week of 3/9  | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
+| Project Proposal                 | 3:15 pm on Friday, 3/13            | Team                  |
++----------------------------------+------------------------------------+-----------------------+
+| Lab 6 Technical Memorandum       | 5:00 pm on Friday, 3/13            | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
