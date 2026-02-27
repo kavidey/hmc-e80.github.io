@@ -156,17 +156,19 @@ To get you up to speed up on these common elements, we'll have a more structured
 You must collect data from your deployments for your final report.
 
 ::: fragment
-**Week 4: Bernard Field Station (BFS)**
+**Week 13: Bernard Field Station (BFS)**
 
 -   First chance to get field data which is required in the final report.
 -   Need a deployment plan and launch checklist.
 :::
 
 ::: fragment
-**Week 5: Dana Point**
+**Week 14: Dana Point**
 
 -   Bus leaves from Mudd at 6:30 am on 4/25/26 and returns \~4:00 pm. Be there!
 :::
+
+We will be hosting an optional service project on Fridays, 4/3 and 4/10, from 11:00 am - 3:00 pm (including lunch) to repair the docks (and boats) at pHake Lake. Let Prof. Helmns know if you want to participate!
 
 # Project Launch
 
@@ -176,7 +178,7 @@ You must collect data from your deployments for your final report.
 -   The deployment must end at a place where the robot can be recovered.
 -   Sensor package
     -   Deployed on or from your AUV
-    -   Must use at least three sensors with at least two unique electrical interfaces.
+    -   Must use at least three sensors with at least two unique electrical interfaces (e.g., voltage-to-voltage, resistance-to-voltage, current-to-voltage, etc.).
     -   The IMU, GPS, and motor current sensors don't count toward your three sensors.
 
 ## What we give you to start from
@@ -198,10 +200,11 @@ Kayaks are also available to accompany your robot out into the center of the har
 ## Resources: Support
 
 -   Full teaching team in lab hours
+    -   Starting Friday, March 13, the weekly writing section will become lab hours
 -   Profs and proctors in office hours
 
 +-------------------------------------------------+
-| ![](img/e80-2026-teachingteam.png){width="400"} |
+| ![](img/e80-2026-teachingteam.png){width="600"} |
 +-------------------------------------------------+
 
 ## Resources: Stuff
@@ -210,6 +213,7 @@ Kayaks are also available to accompany your robot out into the center of the har
     -   The E80 main PCBs and protoboards
     -   E80 frames, boxes and penetrator bolts
 -   Stuff outside lab: \$50 budget per team as long as you follow purchasing instructions
+    -   This \$50 budget must include tax, shipping, and tariff fees
 
 ## Resources: Strict Purchasing Protocol
 
