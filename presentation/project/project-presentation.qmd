@@ -52,17 +52,17 @@ In this course you will learn how to...
 +---------------+---------------------------------------------------------+
 | Week          | Activity                                                |
 +===============+=========================================================+
-| Monday 2/24   | -   Week 1 of Lab 5/6 Rotation                          |
+| Monday 2/23   | -   Week 1 of Lab 5/6 Rotation                          |
 |               | -   Project kickoff presentation today!                 |
 +---------------+---------------------------------------------------------+
-| Monday 3/3    | -   Week 2 of Lab 5/6 Rotation                          |
+| Monday 3/2    | -   Week 2 of Lab 5/6 Rotation                          |
 |               | -   Writing section focused on rough draft of tech memo |
 +---------------+---------------------------------------------------------+
-| Monday 3/10   | -   Project proposal                                    |
+| Monday 3/9    | -   Project proposal                                    |
 |               | -   Tech memo due                                       |
 |               | -   Resubmits                                           |
 +---------------+---------------------------------------------------------+
-| Monday 3/17   | Spring Break                                            |
+| Monday 3/16   | Spring Break                                            |
 +---------------+---------------------------------------------------------+
 
 ## Deliverables for the Next Few Weeks
@@ -70,13 +70,13 @@ In this course you will learn how to...
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
+| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
+| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/14                               | Team                  |
+| Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9 | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+
 
 ## Activity: Think, Pair, Share Reflection
