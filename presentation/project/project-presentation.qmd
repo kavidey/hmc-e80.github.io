@@ -108,24 +108,24 @@ To get you up to speed up on these common elements, we'll have a more structured
 ## Project Timeline and Deliverables
 
 ::: r-fit-text
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| Week      | Activity                                | Deliverable                                                                                                           |
-+===========+=========================================+=======================================================================================================================+
-| 1         | Project Jump Start                      | A graded Submission Sheet due at the end of your section.                                                             |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 2         | Breadboard Demo                         | Demo of breadboarded circuits to a professor. (Highly recommended, but not required).                                 |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 3         | Soldered Protoboard Demo                | Demo of soldered circuits to a professor. (Highly recommended, but not required).                                     |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 4         | Integrated Robot Deployment             | None, though deployment during your section at Phake Lake is the first chance to get data for your report.         |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 5         | Rebuild and Final Deployment            | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report.    |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 6         | Analyze Data & Final Report Conferences | Rough draft of report due on Tuesday at noon. Individual conferences with professors.                                 |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
-| 7         | Individual Final Report & Team Poster   | Poster due by 3:30 pm on Friday, May 1. Poster session on Wednesday, May 6 during Presentation Days at 4 pm. Final report due Friday May 8 at 11:59 pm                                                                                  
-                |
-+-----------+-----------------------------------------+-----------------------------------------------------------------------------------------------------------------------+
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| Week      | Activity                                | Deliverable                                                                                                             |
++===========+=========================================+=========================================================================================================================+
+| 1         | Project Jump Start                      | A graded Submission Sheet due at the end of your section.                                                               |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 2         | Breadboard Demo                         | Demo of breadboarded circuits to a professor. (Highly recommended, but not required).                                   |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 3         | Soldered Protoboard Demo                | Demo of soldered circuits to a professor. (Highly recommended, but not required).                                       |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 4         | Integrated Robot Deployment             | None, though deployment during your section at Phake Lake is the first chance to get data for your report.           |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 5         | Rebuild and Final Deployment            | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report.      |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 6         | Analyze Data & Final Report Conferences | Rough draft of report due on Tuesday at noon. Individual conferences with professors.                                   |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+| 7         | Individual Final Report & Team Poster   | -   Poster due by noon (12 pm) on Friday, May 1. Poster session on Wednesday, May 6 during Presentation Days at 4 pm. |
+|           |                                         | -   Final report due Friday, May 8 at 11:59 pm                                                                          |
++-----------+-----------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 :::
 
 ## Final Report and Poster
@@ -289,9 +289,9 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 
 ## Experimental Design Considerations
 
-+-----------------------------+
-| ![](img/study-purpose.png) |
-+-----------------------------+
++-----------------------------------------+
+| ![](img/study-purpose.png){width="500"} |
++-----------------------------------------+
 
 -   **Purpose:** What are the scientific and/or engineering goals of your E80 project? What are the social and/or environmental impacts of this choice?
 -   **Electronics Elements:** Audio, Digital interfaces, Communication, Telemetry
