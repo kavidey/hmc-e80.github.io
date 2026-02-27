@@ -293,7 +293,7 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 | ![](img/study-purpose.png) |
 +-----------------------------+
 
--   **Impact:** What are the scientific and/or engineering goals of your E80 project?
+-   **Purpose:** What are the scientific and/or engineering goals of your E80 project? What are the social and/or environmental impacts of this choice?
 -   **Electronics Elements:** Audio, Digital interfaces, Communication, Telemetry
 -   **Software Elements:** Time of flight, Advanced navigation, Diving
 -   **Mechanical Elements:** Shape, Sensor placement, Winch, Diving, Tethers
@@ -314,7 +314,15 @@ Recall the steps of the Engineering Design Process.
 
 ![](img/diverging-converging-thought-processes.png)
 
-## Round 1: What do you want to measure?
+## Round 1: What do you care about?
+
+“We don’t know how to measure what we care about, so we care about what we measure” - Richard A. Tapia
+
+-   Review the Project Impact pre-reading
+-   Reflect individually on your project’s purpose - what do you want to study and why?
+-   Come together as a team and share your reflections
+
+## Round 2: What do you want to measure?
 
 -   What do you want your robot to measure?
 -   Broadly in two categories: scientific and engineering relationships
@@ -331,14 +339,14 @@ Recall the steps of the Engineering Design Process.
 
 ## “Yes, and” wild stories
 
-## Round 2: Give feedback on delightful ideas
+## Round 3: Give feedback on delightful ideas
 
 -   Split your team in half. Half move to the big sticky on the right, half move to the big sticky to the left.
 -   Use the dots to vote for the idea(s) you find most delightful or fascinating (do NOT consider feasibility at this point).
     -   You get 3 votes each
     -   You may vote for the same idea more than once.
 
-## Round 3: How do you want to measure it?
+## Round 4: How do you want to measure it?
 
 -   Review the feedback you got from your classmates’ dot votes.
 -   Select 3 ideas that you wish to explore further.
@@ -353,7 +361,7 @@ Recall the steps of the Engineering Design Process.
 | ![](img/example-axes.png)    | ![](img/example-plot.png){width="540"} |
 +------------------------------+----------------------------------------+
 
-## Round 3: How do you want to measure it?
+## Round 4: How do you want to measure it?
 
 -   What are your...
     -   Independent variable(s): e.g., $t$, $x$, $y$
@@ -363,7 +371,7 @@ Recall the steps of the Engineering Design Process.
     -   Expected ranges
     -   Resolution required (e.g., sampling frequency in time/space, sensitivity)
 
-## Round 4: What instrumentation will you use?
+## Round 5: What instrumentation will you use?
 
 For each desired quantity, list out any ways that you can think of to measure that quantity.
 
