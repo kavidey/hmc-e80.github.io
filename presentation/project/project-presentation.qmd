@@ -375,11 +375,11 @@ For each desired quantity, list out any ways that you can think of to measure th
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
+| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
+| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/14                               | Team                  |
+| Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9 | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+
