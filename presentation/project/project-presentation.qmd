@@ -76,7 +76,7 @@ In this course you will learn how to...
 +----------------------------------+------------------------------------+-----------------------+
 | Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/9 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+
 
 ## Activity: Think, Pair, Share Reflection
