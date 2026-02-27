@@ -66,7 +66,7 @@ Quizzes are due at noon (12 p.m.) on Mondays on Canvas during the first half of 
 
 # Project Kickoff Meeting
 - [Project Kickoff Slides](/presentation/project/project-presentation.qmd)
-- [Abstract Writing Assignment](/presentation/project/abstract-writing-assignment.qmd)
+- [Project Kickoff Impact Activity](https://drive.google.com/file/d/1ErDOQa1G0jWToTDMFAPffEo4iYMdDgv0/view?usp=drive_link)
 - [Proposal Template](/project/proposal/template.qmd)
 - [Proposal Specifications](/project/proposal/submission.qmd)
 

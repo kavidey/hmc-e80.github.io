@@ -52,17 +52,17 @@ In this course you will learn how to...
 +---------------+---------------------------------------------------------+
 | Week          | Activity                                                |
 +===============+=========================================================+
-| Monday 2/24   | -   Week 1 of Lab 5/6 Rotation                          |
+| Monday 2/23   | -   Week 1 of Lab 5/6 Rotation                          |
 |               | -   Project kickoff presentation today!                 |
 +---------------+---------------------------------------------------------+
-| Monday 3/3    | -   Week 2 of Lab 5/6 Rotation                          |
+| Monday 3/2    | -   Week 2 of Lab 5/6 Rotation                          |
 |               | -   Writing section focused on rough draft of tech memo |
 +---------------+---------------------------------------------------------+
-| Monday 3/10   | -   Project proposal                                    |
+| Monday 3/9    | -   Project proposal                                    |
 |               | -   Tech memo due                                       |
 |               | -   Resubmits                                           |
 +---------------+---------------------------------------------------------+
-| Monday 3/17   | Spring Break                                            |
+| Monday 3/16   | Spring Break                                            |
 +---------------+---------------------------------------------------------+
 
 ## Deliverables for the Next Few Weeks
@@ -70,13 +70,13 @@ In this course you will learn how to...
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
+| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
+| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/14                               | Team                  |
+| Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+
 
 ## Activity: Think, Pair, Share Reflection
@@ -90,9 +90,9 @@ In this course you will learn how to...
 :::
 
 ::: {.column width="50%"}
-![](img/survey-qr-code.png)
+![](img/survey-qr-code-2026.png)
 
-<https://tally.so/r/n06DPj>
+<https://tally.so/r/dWYY0N>
 :::
 :::::
 
@@ -162,7 +162,7 @@ You must collect data from your deployments for your final report.
 ::: fragment
 **Week 5: Dana Point**
 
--   Bus leaves from Mudd at 6:30 am on 4/20/24 and returns \~4:00 pm. Be there!
+-   Bus leaves from Mudd at 6:30 am on 4/25/26 and returns \~4:00 pm. Be there!
 :::
 
 # Project Launch
@@ -192,12 +192,10 @@ Some key pieces:
 
 Kayaks are also available to accompany your robot out into the center of the harbor.
 
-## Resources: Staff Time
+## Resources: Support
 
--   Profs in lab hours
--   Profs in office hours
--   Engineering assistant hours
--   Proctor hours
+-   Full teaching team in lab hours
+-   Profs and proctors in office hours
 
 ## Resources: Stuff
 
@@ -212,7 +210,7 @@ Kayaks are also available to accompany your robot out into the center of the har
 -   Each team has only one designated buyer, all purchases from that one person
 -   Submit engineering purchase request form
     -   Include team number
-    -   Specify Prof. Brake as approver
+    -   Specify Prof. Helmns as approver
     -   Specify purchase is for E80
 -   We almost never agree to rush shipping … plan around 5-7 days lead time.
 
@@ -289,15 +287,20 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 
 [MUST BE IN STOCK!]{style="color:red"}
 
-## Design Elements to Consider
+## Experimental Design Considerations
+
++-----------------------------------------+
+| ![](img/study-purpose.png){width="200"} |
++-----------------------------------------+
+
+-   **Purpose:** What are the scientific and/or engineering goals of your E80 project? What are the social and/or environmental impacts of this choice?
+-   **Electronics Elements:** Audio, Digital interfaces, Communication, Telemetry
+-   **Software Elements:** Time of flight, Advanced navigation, Diving
+-   **Mechanical Elements:** Shape, Sensor placement, Winch, Diving, Tethers
 
 +----------------------+--------------------------------------+
 | ![](img/robot-1.png) | ![](img/robot-2.png){width="162"}    |
 +----------------------+--------------------------------------+
-
--   **Electronics:** Audio, Digital interfaces, Communication, Telemetry
--   **Software:** Time of flight, Advanced navigation, Diving
--   **Mechanical:** Shape, Sensor placement, Winch, Diving, Tethers
 
 # Final Project Design Exercise
 
@@ -311,7 +314,18 @@ Recall the steps of the Engineering Design Process.
 
 ![](img/diverging-converging-thought-processes.png)
 
-## Round 1: What do you want to measure?
+## Round 1: What do you care about?
+
+“We don’t know how to measure what we care about, so we care about what we measure” - Richard A. Tapia
+
+-   Review the [Project Impact pre-reading](https://drive.google.com/file/d/1ErDOQa1G0jWToTDMFAPffEo4iYMdDgv0/view?usp=drive_link)
+-   Reflect individually on your project’s purpose - what would you like to study and why?
+-   Come together as a team and share your reflections
+-   Choose one of your ideas to discuss in more depth
+    -   What are the potential social impacts of proceeding with this project?
+    -   What are the potential environmental impacts of proceeding with this project?
+
+## Round 2: What do you want to measure?
 
 -   What do you want your robot to measure?
 -   Broadly in two categories: scientific and engineering relationships
@@ -326,16 +340,14 @@ Recall the steps of the Engineering Design Process.
 -   Focus on quantity over quality—we’re going for as many ideas here as possible.
 -   Feasibility doesn’t matter (yet)!
 
-## “Yes, and” wild stories
-
-## Round 2: Give feedback on delightful ideas
+## Round 3: Give feedback on delightful ideas
 
 -   Split your team in half. Half move to the big sticky on the right, half move to the big sticky to the left.
 -   Use the dots to vote for the idea(s) you find most delightful or fascinating (do NOT consider feasibility at this point).
     -   You get 3 votes each
     -   You may vote for the same idea more than once.
 
-## Round 3: How do you want to measure it?
+## Round 4: How do you want to measure it?
 
 -   Review the feedback you got from your classmates’ dot votes.
 -   Select 3 ideas that you wish to explore further.
@@ -350,7 +362,7 @@ Recall the steps of the Engineering Design Process.
 | ![](img/example-axes.png)    | ![](img/example-plot.png){width="540"} |
 +------------------------------+----------------------------------------+
 
-## Round 3: How do you want to measure it?
+## Round 4: How do you want to measure it?
 
 -   What are your...
     -   Independent variable(s): e.g., $t$, $x$, $y$
@@ -360,7 +372,7 @@ Recall the steps of the Engineering Design Process.
     -   Expected ranges
     -   Resolution required (e.g., sampling frequency in time/space, sensitivity)
 
-## Round 4: What instrumentation will you use?
+## Round 5: What instrumentation will you use?
 
 For each desired quantity, list out any ways that you can think of to measure that quantity.
 
@@ -372,11 +384,11 @@ For each desired quantity, list out any ways that you can think of to measure th
 +----------------------------------+------------------------------------+-----------------------+
 | Deliverable                      | Due Date                           | Notes                 |
 +==================================+====================================+=======================+
-| Lab Writing Assignment Resubmits | 3/7                                | Individual            |
+| Lab Writing Assignment Resubmits | 3/6                                | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab 6 Technical Memorandum       | 3/14                               | Individual            |
+| Lab 6 Technical Memorandum       | 3/13                               | Individual            |
 +----------------------------------+------------------------------------+-----------------------+
-| Project Proposal                 | 3/14                               | Team                  |
+| Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/10 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+

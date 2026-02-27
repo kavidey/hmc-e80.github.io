@@ -14,7 +14,7 @@ Team Member Names:
 
 {{< pagebreak >}}
 
-## Measured Calibration Curve for Wind Tunnel Fan Speed vs. Air Velocity
+## Measured Calibration Curve for Wind Tunnel Air Velocity [m/s] vs. Fan Speed [RPM] 
 
 Effort:
 
