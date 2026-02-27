@@ -293,7 +293,7 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 ## Experimental Design Considerations
 
 +-----------------------------------------+
-| ![](img/study-purpose.png){width="500"} |
+| ![](img/study-purpose.png){width="200"} |
 +-----------------------------------------+
 
 -   **Purpose:** What are the scientific and/or engineering goals of your E80 project? What are the social and/or environmental impacts of this choice?
@@ -302,7 +302,7 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 -   **Mechanical Elements:** Shape, Sensor placement, Winch, Diving, Tethers
 
 +----------------------+--------------------------------------+
-| ![](img/robot-1.png) | ![](img/robot-2.png){width="162"}    |
+| ![](img/robot-1.png) | ![](img/robot-2.png){width="200"}    |
 +----------------------+--------------------------------------+
 
 # Final Project Design Exercise
