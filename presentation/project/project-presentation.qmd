@@ -162,7 +162,7 @@ You must collect data from your deployments for your final report.
 ::: fragment
 **Week 5: Dana Point**
 
--   Bus leaves from Mudd at 6:30 am on 4/20/24 and returns \~4:00 pm. Be there!
+-   Bus leaves from Mudd at 6:30 am on 4/25/26 and returns \~4:00 pm. Be there!
 :::
 
 # Project Launch
@@ -192,12 +192,10 @@ Some key pieces:
 
 Kayaks are also available to accompany your robot out into the center of the harbor.
 
-## Resources: Staff Time
+## Resources: Support
 
--   Profs in lab hours
--   Profs in office hours
--   Engineering assistant hours
--   Proctor hours
+-   Full teaching team in lab hours
+-   Profs and proctors in office hours
 
 ## Resources: Stuff
 
@@ -212,7 +210,7 @@ Kayaks are also available to accompany your robot out into the center of the har
 -   Each team has only one designated buyer, all purchases from that one person
 -   Submit engineering purchase request form
     -   Include team number
-    -   Specify Prof. Brake as approver
+    -   Specify Prof. Helmns as approver
     -   Specify purchase is for E80
 -   We almost never agree to rush shipping … plan around 5-7 days lead time.
 
