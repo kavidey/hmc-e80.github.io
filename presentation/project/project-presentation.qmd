@@ -287,15 +287,20 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 
 [MUST BE IN STOCK!]{style="color:red"}
 
-## Design Elements to Consider
+## Experimental Design Considerations
+
++-----------------------------+
+| ![](img/study-purpose.png) |
++-----------------------------+
+
+-   **Impact:** What are the scientific and/or engineering goals of your E80 project?
+-   **Electronics Elements:** Audio, Digital interfaces, Communication, Telemetry
+-   **Software Elements:** Time of flight, Advanced navigation, Diving
+-   **Mechanical Elements:** Shape, Sensor placement, Winch, Diving, Tethers
 
 +----------------------+--------------------------------------+
 | ![](img/robot-1.png) | ![](img/robot-2.png){width="162"}    |
 +----------------------+--------------------------------------+
-
--   **Electronics:** Audio, Digital interfaces, Communication, Telemetry
--   **Software:** Time of flight, Advanced navigation, Diving
--   **Mechanical:** Shape, Sensor placement, Winch, Diving, Tethers
 
 # Final Project Design Exercise
 
