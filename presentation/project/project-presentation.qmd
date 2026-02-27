@@ -197,6 +197,10 @@ Kayaks are also available to accompany your robot out into the center of the har
 -   Full teaching team in lab hours
 -   Profs and proctors in office hours
 
++-------------------------------------------------+
+| ![](img/e80-2026-teachingteam.png){width="400"} |
++-------------------------------------------------+
+
 ## Resources: Stuff
 
 -   Anything in lab – sign out expensive stuff & submit error reports for anything that breaks.
@@ -223,6 +227,10 @@ Kayaks are also available to accompany your robot out into the center of the har
 
 -   Make sure you consider package type! Buy adapter boards for surface mounted (SMT) parts.
 -   Make sure that you only buy parts that are in stock.
+
++-------------------------------------+
+| ![](img/smt-board.png){width="400"} |
++-------------------------------------+
 
 ## Resources: Our Waterproof Boxes
 
