@@ -388,5 +388,5 @@ For each desired quantity, list out any ways that you can think of to measure th
 +----------------------------------+------------------------------------+-----------------------+
 | Project Proposal                 | 3/13                               | Team                  |
 +----------------------------------+------------------------------------+-----------------------+
-| Lab Resubmits                    | End of lab section in week of 3/9 | Individual/Team       |
+| Lab Resubmits                    | End of lab section in week of 3/9  | Individual/Team       |
 +----------------------------------+------------------------------------+-----------------------+
