@@ -319,8 +319,11 @@ Recall the steps of the Engineering Design Process.
 “We don’t know how to measure what we care about, so we care about what we measure” - Richard A. Tapia
 
 -   Review the Project Impact pre-reading
--   Reflect individually on your project’s purpose - what do you want to study and why?
+-   Reflect individually on your project’s purpose - what would you like to study and why?
 -   Come together as a team and share your reflections
+-   Choose one of your ideas to discuss in more depth
+    -   What are the potential social impacts of proceeding with this project?
+    -   What are the potential environmental impacts of proceeding with this project?
 
 ## Round 2: What do you want to measure?
 
@@ -336,8 +339,6 @@ Recall the steps of the Engineering Design Process.
 -   Write down any quantities that you think would be interesting to measure with/on your robot.
 -   Focus on quantity over quality—we’re going for as many ideas here as possible.
 -   Feasibility doesn’t matter (yet)!
-
-## “Yes, and” wild stories
 
 ## Round 3: Give feedback on delightful ideas
 
