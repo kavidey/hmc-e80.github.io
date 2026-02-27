@@ -299,7 +299,7 @@ Protoboard connects to the motherboard with a right angle header and mounts abov
 -   **Mechanical Elements:** Shape, Sensor placement, Winch, Diving, Tethers
 
 +----------------------+--------------------------------------+
-| ![](img/robot-1.png) | ![](img/robot-2.png){width="200"}    |
+| ![](img/robot-1.png) | ![](img/robot-2.png){width="162"}    |
 +----------------------+--------------------------------------+
 
 # Final Project Design Exercise
