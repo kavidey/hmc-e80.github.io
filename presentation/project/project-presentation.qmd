@@ -318,7 +318,7 @@ Recall the steps of the Engineering Design Process.
 
 “We don’t know how to measure what we care about, so we care about what we measure” - Richard A. Tapia
 
--   Review the Project Impact pre-reading
+-   Review the [Project Impact pre-reading](https://drive.google.com/file/d/1ErDOQa1G0jWToTDMFAPffEo4iYMdDgv0/view?usp=drive_link)
 -   Reflect individually on your project’s purpose - what would you like to study and why?
 -   Come together as a team and share your reflections
 -   Choose one of your ideas to discuss in more depth
