@@ -13,8 +13,9 @@ Professor:
 
 Proposal:
 
-- [ ] Has a justifiable scientific goal
-- [ ] The specified sensors will help achieve that scientific goal
+- [ ] Project has a justifiable scientific or engineering goal
+- [ ] Comments on social and/or environmental impact(s) of project
+- [ ] The specified sensors will help achieve project goal
 - [ ] Some sense of whether signals are big or small. Are the measurements feasible?
 - [ ] List exceptional or difficult design features of their robot
 - [ ] Have considered whether specific launch times are beneficial to them. Make requests for specific times if need be. (Don’t forget that human activity is much lower in the morning.)
