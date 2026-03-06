@@ -32,7 +32,7 @@ Be sure to include the following sections:
 -   A Conclusion section which summarizes the important takeaways, sources of error, lessons learned, and describes areas for future work.
 -   References in [IEEE format](./assets/IEEE%20Citation%20Guidelines.pdf)
 
-You have leeway in the organization of this memo, and the scientific standard of Abstract, Introduction, Background & Methods, Results & Discussion, and Conclusion may or may not serve you well depending on your approach. Be sure to carefully select the appropriate topics to discuss so that your report fits in the page limit; the report won't have room to include every piece of data asked for in the submission sheet.
+Be sure to carefully select the appropriate topics to discuss so that your report fits in the page limit; the report won't have room to include every piece of data asked for in the submission sheet. We recommend you focus on a) nose cone drag, b) robot drag, OR c) wing lift, not all three.
 
 ## Learning Objectives
 
