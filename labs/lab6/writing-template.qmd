@@ -26,7 +26,7 @@ There are a variety of ways that you can organize your tech memo.
 The list of sections below is a suggested place to start, but you should feel free to modify it to best fit your rhetorical purpose.
 Consult with a professor or proctor if you have any questions.
 
-1. Abstract
+1. Abstract (see instructions below)
 2. Introduction
 3. Methods
 4. Results
@@ -151,10 +151,18 @@ Text to explain equation.
 
 #### Abstract
 
-- Replace with paragraph 1 topic sentence
-- Replace with paragraph 2 topic sentence
-- Replace with paragraph 3 topic sentence
-- ...
+General formula for abstracts, 1 sentence each for the following items:
+
+- What did you do? 
+- How did you do it?
+- What is your most meaningful, quantitative result?
+- Why did you do it / what does that result mean?
+
+Don’t put in too much stuff! It’s not an introduction. Be sure to follow the scientific writing conventions of an abstract carefully:
+
+- Don’t summarize more of your work than necessary.
+- Do include quantitative results.
+- Keep it short.
 
 #### Introduction
 
