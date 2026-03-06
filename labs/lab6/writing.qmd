@@ -16,17 +16,19 @@ Note that there are also fewer specific guidelines for this report. When in ques
 
 ## Statement of Work
 
-Write a full technical memorandum (report) about Lab 6 that describes the experiments you undertook, your analysis, and your results. This memo may be up to 5 pages long.
+Write a full technical memorandum (report) about Lab 6 that describes the experiments you undertook, your analysis, and your results. This memo may be up to 5 pages long including references.
 
 Be sure to include the following sections:
 
+-   An abstract that concisely summarizes your main takeaway
 -   An introduction that motivates the work and provides appropriate references
--   A section describing the analytical models that you will use to check your data
--   A description of the experimental methods you use
--   A section reporting your experimental data in figures and tables as appropriate
--   A conclusion which describes the important quantitative takeaways and describes areas for future work.
+-   A methods section describing: 
+    -   relevant analytical models and their equations
+    -   the experimental and computational methods you use
+-   A results and discussion section reporting your experimental and computational data in captioned figures and tables as appropriate, that also highlights key features of the figure or table in the body text, and describes the important quantitative takeaways
+-   A conclusion which summarizes the important takeaways, sources of error, lessons learned, and describes areas for future work.
 
-You have leeway in the organization of this memo, and the scientific standard of Introduction, Background, Methods, Results, Conclusion may or may not serve you well depending on your approach. Be sure to carefully select the appropriate topics to discuss so that your report fits in the page limit; the report won't have room to include every piece of data asked for in the submission sheet.
+You have leeway in the organization of this memo, and the scientific standard of Abstract, Introduction, Background & Methods, Results & Discussion, and Conclusion may or may not serve you well depending on your approach. Be sure to carefully select the appropriate topics to discuss so that your report fits in the page limit; the report won't have room to include every piece of data asked for in the submission sheet.
 
 ## Learning Objectives
 
