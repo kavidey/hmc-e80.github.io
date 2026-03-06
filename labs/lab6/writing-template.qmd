@@ -28,8 +28,8 @@ Consult with a professor or proctor if you have any questions.
 
 1. Abstract (see instructions below)
 2. Introduction
-3. Methods
-4. Results
+3. Methods and Analysis
+4. Results and Discussion
 5. Conclusion
 6. References
 
@@ -171,14 +171,14 @@ Don’t put in too much stuff! It’s not an introduction. Be sure to follow the
 - Replace with paragraph 3 topic sentence
 - ...
 
-#### Methods
+#### Methods and Analysis
 
 - Replace with paragraph 1 topic sentence
 - Replace with paragraph 2 topic sentence
 - Replace with paragraph 3 topic sentence
 - ...
 
-#### Results
+#### Results and Discussion
 
 - Replace with paragraph 1 topic sentence
 - Replace with paragraph 2 topic sentence
