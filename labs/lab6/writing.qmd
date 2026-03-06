@@ -22,11 +22,15 @@ Be sure to include the following sections:
 
 -   An abstract that concisely summarizes your main takeaway
 -   An introduction that motivates the work and provides appropriate references
--   A methods section describing: 
-    -   relevant analytical models and their equations
+-   A methods and analysis section describing: 
     -   the experimental and computational methods you use
--   A results and discussion section reporting your experimental and computational data in captioned figures and tables as appropriate, that also highlights key features of the figure or table in the body text, and describes the important quantitative takeaways
+    -   relevant analytical models and their equations
+-   A results and discussion section that:
+    -   reports your experimental and computational data in captioned figures and tables (as appropriate)
+    -   highlights key features of the figure or table in the body text
+    -   describes the important quantitative takeaways
 -   A conclusion which summarizes the important takeaways, sources of error, lessons learned, and describes areas for future work.
+-   References in IEEE format
 
 You have leeway in the organization of this memo, and the scientific standard of Abstract, Introduction, Background & Methods, Results & Discussion, and Conclusion may or may not serve you well depending on your approach. Be sure to carefully select the appropriate topics to discuss so that your report fits in the page limit; the report won't have room to include every piece of data asked for in the submission sheet.
 
