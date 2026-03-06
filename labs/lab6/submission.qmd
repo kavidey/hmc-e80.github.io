@@ -73,7 +73,7 @@ Complete:
 
 {{< pagebreak >}}
 
-## Plots of Lift and Drag for Flat Plate and NACA Airfoils at Different Angles of Attack
+## Plots of Lift for Flat Plate and NACA Airfoils at Different Angles of Attack
 
 This section calls for four total graphs.
 
