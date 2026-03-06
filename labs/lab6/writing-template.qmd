@@ -1,6 +1,6 @@
 ---
 title: "Lab 6 Writing Template"
-subtitle: Introductions
+subtitle: Outline
 format:
   html: default
   docx: default
