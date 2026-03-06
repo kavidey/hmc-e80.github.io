@@ -13,6 +13,7 @@ This writing template is designed to help you plan your Tech Memo for Lab 6.
 At the completion of this worksheet you should have:
 
 - [ ] An outline of the sections you plan to include
+- [ ] An abstract that concisely summarizes the main takeaway
 - [ ] A topic sentence for each paragraph of your memo
 - [ ] Sketches or preliminary drafts of each figure
 - [ ] Formatted versions of each equation you plan to include
@@ -35,7 +36,7 @@ Consult with a professor or proctor if you have any questions.
 
 ## Technical Tune-up
 
-In this section we'll talk about how to do two more things you'll need to do in your tech memo and we haven't yet covered in detail: topic sentences and equations.
+In this section we'll clarify our expectations about two things you'll need to include in your tech memo: topic sentences and equations.
 
 ### Topic Sentences
 
