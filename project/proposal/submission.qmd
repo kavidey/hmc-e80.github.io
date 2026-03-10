@@ -38,8 +38,8 @@ Budget:
 Mechanical Drawing:
 
 - [ ] Mass calculated
-- [ ] Center of gravity calculated (especially if they have a winch)
-- [ ] Center of buoyancy calculated
+- [ ] Approximate center of mass calculated (especially if they have a winch)
+- [ ] Approximate center of buoyancy calculated
 - [ ] Ballasting calculations? (if applicable)
 - [ ] Will it float? (Or not float if that’s the desired behavior)
 - [ ] Low profile against wind? (unless designed for high wind drag)
