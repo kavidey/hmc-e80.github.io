@@ -105,7 +105,7 @@ Your mechanical drawings should allow a professor to evaluate important design d
 * Indicate sensor locations.
 * Indicate penetrator locations and note the number of wires passing through each penetrator.
 * Sketch the wiring harness and how it's fastened to the robot.
-* Include approximate calculations of mass, center of gravity, buoyancy, center of pressure, and (if necessary) ballast.
+* Include approximate calculations of mass, center of gravity, buoyancy, center of buoyancy, and (if necessary) ballast.
 * If you're doing something bold, calculate the required torque for your motors. Motor datasheets can help.
 * Include a brief paragraph summarizing major design decisions. e.g.: "It's flat and wide because we wanted a raft."
 
