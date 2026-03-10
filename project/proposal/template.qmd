@@ -24,7 +24,7 @@ Write your description here.
 
 Describe any unusual features of the drawing and any calculations for unusual mechanical features.
 
-Include mass, center of mass, buoyancy, center of buoyancy and (if necessary) ballast calculations
+Include approximate mass, center of mass, buoyancy, center of buoyancy and (if necessary) ballast calculations
 
 ## Electrical Schematics
 
