@@ -51,7 +51,7 @@ Though E80 doesn't require you to do a lot of software modification, it's a good
     4. Clone your new repository [using Github Desktop web integration](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop) or [typical clone commands](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
     5. Populate your new repository with all of your E80 code by copying and pasting it from your E80 repository folder to your new repository folder.
     6. Commit and push your copied and pasted code to the new repository.
-    7. (Git savvy students will note that there are slicker ways to track both the E80 repository and your team's work, for instance by forking the E80 repository. We're doing this because it's easy and we expect to push few software updates.)
+    7. (Git savvy students will note that there are slicker ways to track both the E80 repository and your team's work, for instance by forking the E80 repository. We're doing this because it's easy and we expect to push few software updates. For more Git support, see the [GitHub Desktop documentation](https://docs.github.com/en/desktop))
 4. All other team members should clone the new repository (see links above).
 5. All team members should tell Arduino to look for sketches in the new repository by editing `Settings -> Sketchbook Location`.
 
@@ -259,7 +259,7 @@ Add a Proportional surface control system to your robot by modifying the `Surfac
 
 1. Confirm that you can compile and upload the starter code to your Teensy before you make any changes.
 2. Calculate the desired yaw angle using the `atan2` function. i.e. `yaw_des = atan2(y_des - y, x_des - x)`. In this case, `(x_des, y_des)` is the desired position of the robot.
-3. Calculate the error, `yaw_error`, as the difference between `yaw_des` and `yaw`. (Which you just calculated based on `state.heading` above).
+3. Calculate the error, `yaw_error`, as the difference between `yaw_des` and `yaw` (which you just calculated based on `state.heading` above). Since you're subtracting angles, use `angleDiff()`, a function we wrote at the top of `SurfaceControl.cpp`.
 4. Set the control effort, `u`, to be a product of the control gain, `Kp`, and the error, `yaw_error`.
 5. Set the right and left motor thruster values (`uR` and `uL`) to be the `avgPower + u` and `avgPower - u` respectively. 
 6. Modify `SurfaceControl.h` to set `avgPower` to be 50 by default. This can be modified later if you want your robot to have faster or slower forward motion.
