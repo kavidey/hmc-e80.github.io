@@ -23,7 +23,7 @@ Though this week's activity looks like a lab. there are several crucial differen
 
 In this lab, every team is going to do some activities to learn about your robot software, then test out using IMU data to dead reckon a course, which is an echo of the work that you did in lab 1.  After that, your team will select one of the following activities to pursue during this lab, each of which are designed to help prepare you for different types of projects:
 
-- **Diving Activity**: In this activity you will build a pressure sensor and a P control loop for robot depth.  You will test your loop in the tank.  Pick this if you plan to have your robot dive or use a depth-controlled winch.  It is possible that there will be a queue for the tank if many students in your section are doing the diving activity.  Feel free to start on your robot [build](/labs/build) while you are waiting.
+- **Diving Activity**: In this activity you will build a pressure sensor and a P control loop for robot depth.  You will test your loop in the tank.  Pick this if you plan to have your robot dive or use a depth-controlled winch.  It is possible that there will be a queue for the tank if many students in your section are doing the diving activity.  Feel free to start on your robot [build](/project/build) while you are waiting.
 - **Surface Navigation Activity**: In this activity you will use GPS and your magnetometer to control the bearing of your robot, and you will test that navigation system by walking around with your robot outside of Parsons.  Pick this if you plan to do surface navigation, if you intend to have your robot keep station (stay still), or if you plan to do a hybrid diving/surface navigation scheme.
 
 After successful completion of this lab, you will be able to:
