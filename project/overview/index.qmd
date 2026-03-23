@@ -23,13 +23,13 @@ This project is structured as a set of cumulative deliverables which will help y
 
 | Week | Activity                                         | Deliverable                                                                  |
 |------|--------------------------------------------------|------------------------------------------------------------------------------|
-|  1   | [Navigation Jump Start](/project/navigation)     | A graded [Submission Sheet](/project/navigation/submission.qmd). Submit on Canvas at end of your section |
-|  2   | [Breadboard Demo](/project/build)                | An ungraded, but highly recommended, demo of breadboarded circuits to a prof | 
-|  3   | [Soldered Protoboard Demo](/project/build)       | An ungraded, but highly recommended, demo of soldered circuits to a prof     | 
-|  4   | [Deploy Integrated Robot](/project/field)        | None, though deployment during your section at Phake Lake is the first chance to get data for your report.   | 
-|  5   | [Rebuild and Final Deployment](/project/field)   | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report. | 
-|  6   | [Analyze Data](/project/report)                  | Rough draft of your report. Submit on Canvas on Friday.                      |
-|  7   | [Final Poster and Report](/project/report) | Upload Poster file and report to Canvas by 11:59PM the night before presenting. |
+|  10  | [Project Jump Start](/project/navigation)        | A graded [Submission Sheet](/project/navigation/submission.qmd). Submit on Canvas at end of your section |
+|  11  | [Breadboard Demo](/project/build)                | An ungraded, but highly recommended, demo of breadboarded circuits to a prof | 
+|  12  | [Soldered Protoboard Demo](/project/build)       | An ungraded, but highly recommended, demo of soldered circuits to a prof     | 
+|  13  | [Integrated Robot Deployment](/project/field)    | None, though deployment during your section at Phake Lake is the first chance to get data for your report.   | 
+|  14  | [Rebuild and Final Deployment](/project/field)   | None, though deployment *on Saturday* at Dana Point is the second and last chance to get data for your report. | 
+|  15  | [Analyze Data](/project/report)                  | Rough draft of your report. Submit on Canvas on Friday.                      |
+|  16  | [Final Poster and Report](/project/report)       | Poster due by noon (12 pm) on Friday, May 1. Poster session on Wednesday, May 6 during Presentation Days at 4 pm. Final report due Friday, May 8 at 11:59 pm. |
 
 
 

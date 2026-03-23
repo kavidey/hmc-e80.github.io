@@ -1,6 +1,6 @@
 ---
 title: "Lab 2 Writing Template"
-subtitle: Methods, Results, Equations, and Tables
+subtitle: Methods, Results, and Tables
 format:
   html: default
   docx: default

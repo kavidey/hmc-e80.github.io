@@ -51,7 +51,7 @@ Trace 4
 
 The manual also requests one Matlab plot of FFT magnitude for signal 3 with Hanning window
 
-These traces and plots should be included in this section with a specific organization.  They should be displayed as five side-by-side pairs of figures, each with ~1 sentence commenting on the differences between the left and the right figure.  The commentary should specifically relate the changes to FFT theory.  The pairs are:
+These traces and plots should be included in this section with a specific organization.  They should be displayed as side-by-side pairs of figures, each with ~1 sentence commenting on the differences between the left and the right figure.  The commentary should specifically relate the changes to FFT theory.  The pairs are:
 
 - [ ] Trace 1 vs. Trace 2
 - [ ] Trace 1 vs. Trace 3

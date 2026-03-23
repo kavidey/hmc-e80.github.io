@@ -1,6 +1,6 @@
 ---
 title: "Lab 6 Writing Template"
-subtitle: Introductions
+subtitle: Outline
 format:
   html: default
   docx: default
@@ -13,6 +13,7 @@ This writing template is designed to help you plan your Tech Memo for Lab 6.
 At the completion of this worksheet you should have:
 
 - [ ] An outline of the sections you plan to include
+- [ ] An abstract that concisely summarizes the main takeaway
 - [ ] A topic sentence for each paragraph of your memo
 - [ ] Sketches or preliminary drafts of each figure
 - [ ] Formatted versions of each equation you plan to include
@@ -26,16 +27,16 @@ There are a variety of ways that you can organize your tech memo.
 The list of sections below is a suggested place to start, but you should feel free to modify it to best fit your rhetorical purpose.
 Consult with a professor or proctor if you have any questions.
 
-1. Abstract
+1. Abstract (see instructions below)
 2. Introduction
-3. Methods
-4. Results
+3. Methods and Analysis
+4. Results and Discussion
 5. Conclusion
 6. References
 
 ## Technical Tune-up
 
-In this section we'll talk about how to do two more things you'll need to do in your tech memo and we haven't yet covered in detail: topic sentences and equations.
+In this section we'll clarify our expectations about two things you'll need to include in your tech memo: topic sentences and equations.
 
 ### Topic Sentences
 
@@ -151,10 +152,18 @@ Text to explain equation.
 
 #### Abstract
 
-- Replace with paragraph 1 topic sentence
-- Replace with paragraph 2 topic sentence
-- Replace with paragraph 3 topic sentence
-- ...
+General formula for abstracts, 1 sentence each for the following items:
+
+- What did you do? 
+- How did you do it?
+- What is your most meaningful, quantitative result?
+- Why did you do it / what does that result mean?
+
+Don’t put in too much stuff! It’s not an introduction. Be sure to follow the scientific writing conventions of an abstract carefully:
+
+- Don’t summarize more of your work than necessary.
+- Do include quantitative results.
+- Keep it short.
 
 #### Introduction
 
@@ -163,14 +172,14 @@ Text to explain equation.
 - Replace with paragraph 3 topic sentence
 - ...
 
-#### Methods
+#### Methods and Analysis
 
 - Replace with paragraph 1 topic sentence
 - Replace with paragraph 2 topic sentence
 - Replace with paragraph 3 topic sentence
 - ...
 
-#### Results
+#### Results and Discussion
 
 - Replace with paragraph 1 topic sentence
 - Replace with paragraph 2 topic sentence
