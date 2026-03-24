@@ -135,7 +135,7 @@ Add a Proportional depth control system to your robot by modifying the `DepthCon
 1. Assign the desired depth to a variable named `depth_des`. The desired depth can be found in the `wayPoints` array at the index `currentWayPoint` (i.e.: at `wayPoints[currentWayPoint]`).
 2. Assign the current depth to a variable `depth`. The current dept can be found in the `state.z` variable. 
 3. Calculate the error, `depth_error`, as the difference between `depth_des` and `depth`. Pay attention to the order you subtract `depth_des` and `depth`, because a sign error here can make your P control push _away_ from the desired waypoint.
-4. Set the vertical motor control effort, `uV`, to be the product of the control gain, `Kp`, and the error, `depth_error`. The default value of Kp is 0, so you need to change it in `DepthControl.h`.  `Kp=80` is usually pretty good, but tune it up or down if your motor is too weak or too strong.
+4. Set the vertical motor control effort, `uV`, to be the product of the control gain, `Kp`, and the error, `depth_error`. The default value of Kp is 0, so you need to change it in `DepthControl.h`.  We recommend a Kp value somewhere between 100 - 1000, tuned based on how weak or strong your motor is.
 5. Bound the vertical control effort between -200 and 200.  These are empirical values that work well for most situations.  Depending on your motor, you may need to go beyond these limits.  You can go up to a maximum of +/- 250.
 
 :::{.callout-tip}
