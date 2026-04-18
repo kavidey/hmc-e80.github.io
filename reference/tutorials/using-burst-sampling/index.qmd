@@ -1,0 +1,117 @@
+---
+title: How to use the Burst ADC Sampler
+format: html
+author: Kavi Dey
+---
+
+This tutorial will describe how to increase the sampling rate of the Teensy. This is necessary for time of fight sonar and can help with any sensor which relies on high frequency signals.
+
+## Sampling with the Teensy
+In lab 2, you measured the sampling rate of the Teensy at around 200 kHz. The provided ADCSampler saves the voltage on each pin *once per loop*, at a rate of 10 Hz. This is not fast enough for some sensors (such as time of flight sonar), so we also provide a burst sampler that saves a sequence of samples each loop at a much higher frequency.
+
+In addition to the `LOG#.bin` and `INF#.txt` files saved on the SD card, using the burst sampler creates a `datalog#` storing all of the burst samples.
+
+## Adding the Burst ADC Sampler to your Robot Code
+
+The [BurstADCSampler](https://github.com/HMC-E80/E80/blob/main/libraries/main/BurstADCSampler.cpp) library is provided in our default Github package.  Invoking `BurstADCSampler` by calling `burst_adc.sampler()` in the main `Default_Robot.ino` will cause the ADC to rapidly sample data.  You need to disable analog read averaging to use the `BurstADCSampler`, and you do that by adding the following line to your `Default_Robot.ino` setup function:
+
+```{c}
+// Create the burst sampler where all the other sensors are created
+BurstADCSampler burst_sampler;
+
+...
+
+void setup() {
+    // required when using burst sampling
+    analogReadAveraging(0);
+
+    ... SETUP CODE
+
+    // Initialize the sampler where all other sensors are initialized
+    burst_sampler.init()
+
+    ... REST OF SETUP CODE
+}
+```
+
+You also need to add a section to the loop function that calls the burst sampler:
+
+```{c}
+void loop() {
+    ... LOOP CODE
+
+    // Add code to burst sample each loop, or when a condition is met
+    if (currentTime - burst_sampler.lastExecutionTime > LOOP_PERIOD) {
+        burst_sampler.lastExecutionTime = currentTime;
+        burst_sampler.sample();
+    }
+
+    ... REST OF LOOP CODE
+}
+```
+
+By default the burst sampler saves the same 9 analog inputs as the normal ADC sampler at a sample rate of roughly 7.5 kHz. If you need a faster sampling rate you can reduce the number of pins it measures for a linear increase in sample rate by editing `NUM_BURST_PINS` and `pinMap` in `BurstADCSampler.h`. Make sure to measure the true sampling frequency using a known signal as you did in lab 2.
+
+You can also edit the number of samples it saves each time, by changing `NUM_SAMPLES`. You may want to decrease how often `sample()` is called if you are saving a lot of data each time (eg you may only need sonar measurements when you get to your desired position).
+
+## Processing Burst ADC Sampler Data
+
+Every time `burst_sampler.sample()` is called, it adds `NUM_SAMPLES + 1` rows to the `datalog#` file. The first row of each sample is a list of timestamps, measured in microseconds. The following rows are the voltages on each pin from `pinMap` in teensy units.
+
+The following code shows how to load and process a single file from the burst sampler. You may want to combine the this with `logreader.m` so you can analyze this data with your other sensors.
+
+```{matlab}
+%% LOAD DATA
+rows_per_sample = 3 % 1 row for time + 2 rows for 2 pins
+
+T = readtable("datalog0"); % name of file
+data = table2array(T);
+
+% number of samples saved in file
+num_samples = length(data)/rows_per_sample;
+
+teensy_conversion = 3.3/2^10;
+
+%% PLOT SINGLE sample
+sample_to_plot = 10 % change this to make sure your data was saved correctly
+vin = data(sample_to_plot*rows_per_sample+2, :) * teensy_conversion;
+vout = data(sample_to_plot*rows_per_sample+3, :) * teensy_conversion;
+samp_time = data(i*rows_per_sample+1, :) * 1e-6;
+
+plot(samp_time, vin, samp_time, vout)
+%% CALCULATE SENSOR VALUE FOR ALL SAMPLES
+time = []; % time when each sample was started
+sensor = []; % output measurement of the sensor at time
+
+for i = 0:(num_samples-1)
+    % add to array of sample times
+    time = [time data(i*rows_per_sample+1, 1) * 1e-6]; %Fix Time 
+
+    % calculate the time of each measurement in this sample
+    samp_time = data(i*rows_per_sample+1, :) * 1e-6;
+    
+    % convert teensy units to volts
+    % ADD MORE ROWS HERE IF YOU MEASURE MORE PINS
+    vin = data(i*rows_per_sample+2, :) * teensy_conversion;
+    vout = data(i*rows_per_sample+3, :) * teensy_conversion;
+
+    % use vin and vout to calculate a single number that represents
+    % what the sensor measured at this point
+    sensor_value = ... 
+
+    % for sensors like salinity and turbidity,
+    % you may find it helpful to take a fourier transform of your signal and compare the amplitude of the largest (fundamental) harmonic
+    % fs = 1/samp_time(2) - samp_time(1);
+    % N = length(vin);
+    % f0 = fs/N;
+    % X_in = fft(vin)/N;
+    % X_out = fft(vout)/N;
+    % true_vin = max(X);
+    % true_vout = max(X2);
+
+    % add calculated sensor value to array of sensor measurements
+    sensor = [sensor calculated_sensor_value];
+end
+
+% PLOT OR ANALYZE THE CALCULATED SENSOR DATA
+```

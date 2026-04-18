@@ -7,3 +7,7 @@ title: Tutorials
 ![](./designing-an-offset-amplifier/images/generic-offset-amplifier-schematic.png)
 
 This tutorial describes how to design, build, and simulate an offset amplifier.
+
+## [Using the Burst ADC Sampler](./using-burst-sampling/)
+
+This tutorial describes how to add the BurstADCSampler to your robot code for faster sampling and process the output in matlab.

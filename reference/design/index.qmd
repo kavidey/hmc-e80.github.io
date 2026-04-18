@@ -117,16 +117,7 @@ These recommendations are combined in the figure below:
 
 ![Acoustic time-of-flight receive circuit.](img/tof_rx.png){#fig-tof-rx}
 
-**For software**, you will need to increase the sampling rate of the Teensy.  You can do so using the [BurstADCSampler](https://github.com/HMC-E80/E80/blob/main/libraries/main/BurstADCSampler.cpp) library provided in our default Github package.  Invoking `BurstADCSampler` by calling `burst_adc.sampler()` in the main `Default_Robot.ino` will cause the ADC to rapidly sample data (at about 7.4 kHz) and save that burst data to a separate file.  You need to disable analog read averaging to use the `BurstADCSampler`, and you do that by adding the following line to your `Default_Robot.ino` setup function:
-
-```
-void setup() {
-    analogReadAveraging(0);
-    ... 
-    EXISTING SETUP CODE 
-    ...
-}
-```
+**For software**, you will need to increase the sampling rate of the Teensy.  You can do so following the [`BurstADCSampler` Tutorial](../tutorials/using-burst-sampling/).
 
 If you are trying to drive your speaker pin directly instead of using a 555 timer, you will need to use the Teensy's `analogWrite` functionality.  Do so by editing `Pinouts.h` to set `SPEAKER_PIN` to your speaker output pin number. Then add the lines below to your setup function, and trigger a write by running `analogWrite(SPEAKER_PIN, 0)` in `Default_Robot.ino`.
 
